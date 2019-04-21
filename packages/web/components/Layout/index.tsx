@@ -16,11 +16,14 @@ const Layout: React.FC<Props> = ({ children }) => {
           </Link>
         </Grid>
       </Grid>
-      <Grid item xs={12} sm={10} md={6}>
+      <Grid item xs={12} sm={10} md={7}>
         <Navbar />
       </Grid>
-      <Grid item xs={12}>
-        <Grid container justify="center">
+      <Grid item xs={12} sm={10} md={7}>
+        <Grid
+          container
+          justify="center"
+          style={{ paddingTop: "30px" }}>
           {children}
         </Grid>
       </Grid>

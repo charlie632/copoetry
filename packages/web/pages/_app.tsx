@@ -18,7 +18,8 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 const themeStyled = {
-  main: "mediumseagreen"
+  main: "#000",
+  background: "#fff"
 };
 class MyApp extends App {
   componentDidMount() {

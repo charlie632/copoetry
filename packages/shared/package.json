@@ -1,0 +1,8 @@
+{
+  "name": "shared",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

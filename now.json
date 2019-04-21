@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "copoetry",
+  "builds": [
+    {
+      "src": "./packages/web/package.json",
+      "use": "@now/next",
+      "config": { "maxLambdaSize": "10mb" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "^(.*)$",
+      "dest": "packages/web$1"
+    }
+  ]
+}

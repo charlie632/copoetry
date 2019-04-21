@@ -4,21 +4,33 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "start": "next start",
+    "now-build": "next build",
+    "now-start": "next start",
     "type-check": "tsc"
   },
   "dependencies": {
     "@material-ui/core": "4.0.0-alpha.8",
     "@material-ui/styles": "4.0.0-alpha.8",
+    "@zeit/next-typescript": "^1.1.1",
+    "@zeit/webpack-asset-relocator-loader": "^0.4.1",
     "firebase": "^5.10.0",
+    "next": "^8.1.0",
+    "next-compose-plugins": "^2.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-spring": "^8.0.19",
     "remcalc": "^1.0.10",
+    "shared": "1.0.0",
     "styled-components": "^4.2.0",
     "styled-theming": "^2.2.0"
   },
   "devDependencies": {
+    "@types/next": "^8.0.3",
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
     "@types/styled-components": "^4.1.14",
     "@types/styled-jsx": "^2.2.8",
-    "babel-plugin-styled-components": "^1.10.0"
+    "babel-plugin-styled-components": "^1.10.0",
+    "typescript": "^3.4.4"
   }
 }
