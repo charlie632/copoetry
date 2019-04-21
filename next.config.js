@@ -40,9 +40,3 @@ module.exports = withAssetRelocator(
     target: "serverless"
   })
 );
-// module.exports = withPlugins([
-//   [withTypescript],
-//   {
-//     target: "serverless"
-//   }
-// ]);

@@ -20,10 +20,7 @@ const Layout: React.FC<Props> = ({ children }) => {
         <Navbar />
       </Grid>
       <Grid item xs={12} sm={10} md={7}>
-        <Grid
-          container
-          justify="center"
-          style={{ paddingTop: "30px" }}>
+        <Grid container justify="center">
           {children}
         </Grid>
       </Grid>
