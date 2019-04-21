@@ -2347,20 +2347,20 @@ function (_Document) {
         dir: "ltr",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9__["createElement"](next_document__WEBPACK_IMPORTED_MODULE_10__["Head"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 39
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9__["createElement"]("meta", {
         charSet: "utf-8",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 40
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9__["createElement"]("meta", {
@@ -2368,7 +2368,7 @@ function (_Document) {
         content: "minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 42
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9__["createElement"]("meta", {
@@ -2376,33 +2376,33 @@ function (_Document) {
         content: _src_theme__WEBPACK_IMPORTED_MODULE_13__["default"].palette.primary.main,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 47
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9__["createElement"]("link", {
+        href: "https://fonts.googleapis.com/css?family=Fira+Mono|Ubuntu+Mono",
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 51
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_9__["createElement"]("body", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 56
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_9__["createElement"](next_document__WEBPACK_IMPORTED_MODULE_10__["Main"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 57
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_9__["createElement"](next_document__WEBPACK_IMPORTED_MODULE_10__["NextScript"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 58
         },
         __self: this
       })));
@@ -2455,7 +2455,7 @@ function () {
                     return sheets.collect(react__WEBPACK_IMPORTED_MODULE_9__["createElement"](App, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, props, {
                       __source: {
                         fileName: _jsxFileName,
-                        lineNumber: 96
+                        lineNumber: 95
                       },
                       __self: this
                     })));
@@ -2474,7 +2474,7 @@ function () {
               styles: react__WEBPACK_IMPORTED_MODULE_9__["createElement"](react__WEBPACK_IMPORTED_MODULE_9__["Fragment"], {
                 __source: {
                   fileName: _jsxFileName,
-                  lineNumber: 105
+                  lineNumber: 104
                 },
                 __self: this
               }, sheets.getStyleElement(), styled_jsx_server__WEBPACK_IMPORTED_MODULE_12___default()() || null)

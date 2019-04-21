@@ -11,10 +11,14 @@
   "dependencies": {
     "@material-ui/core": "4.0.0-alpha.8",
     "@material-ui/styles": "4.0.0-alpha.8",
-    "styled-components": "^4.2.0"
+    "firebase": "^5.10.0",
+    "remcalc": "^1.0.10",
+    "styled-components": "^4.2.0",
+    "styled-theming": "^2.2.0"
   },
   "devDependencies": {
     "@types/styled-components": "^4.1.14",
+    "@types/styled-jsx": "^2.2.8",
     "babel-plugin-styled-components": "^1.10.0"
   }
 }

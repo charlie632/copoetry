@@ -66,6 +66,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "..
 
 /***/ }),
 
+/***/ "../../node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js":
+/*!**************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/define-properties */ "../../node_modules/core-js/library/fn/object/define-properties.js");
+
+/***/ }),
+
 /***/ "../../node_modules/@babel/runtime-corejs2/core-js/object/define-property.js":
 /*!************************************************************************************************************************!*\
   !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@babel/runtime-corejs2/core-js/object/define-property.js ***!
@@ -74,6 +85,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/create */ "..
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/define-property */ "../../node_modules/core-js/library/fn/object/define-property.js");
+
+/***/ }),
+
+/***/ "../../node_modules/@babel/runtime-corejs2/core-js/object/freeze.js":
+/*!***************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@babel/runtime-corejs2/core-js/object/freeze.js ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/freeze */ "../../node_modules/core-js/library/fn/object/freeze.js");
 
 /***/ }),
 
@@ -698,6 +720,36 @@ function _slicedToArray(arr, i) {
 
 /***/ }),
 
+/***/ "../../node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js":
+/*!***************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js ***!
+  \***************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _taggedTemplateLiteral; });
+/* harmony import */ var _core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-properties */ "../../node_modules/@babel/runtime-corejs2/core-js/object/define-properties.js");
+/* harmony import */ var _core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/freeze */ "../../node_modules/@babel/runtime-corejs2/core-js/object/freeze.js");
+/* harmony import */ var _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function _taggedTemplateLiteral(strings, raw) {
+  if (!raw) {
+    raw = strings.slice(0);
+  }
+
+  return _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default()(_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_0___default()(strings, {
+    raw: {
+      value: _core_js_object_freeze__WEBPACK_IMPORTED_MODULE_1___default()(raw)
+    }
+  }));
+}
+
+/***/ }),
+
 /***/ "../../node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js":
 /*!***********************************************************************************************************************!*\
   !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js ***!
@@ -1265,6 +1317,5518 @@ function _typeof(obj) {
 }
 
 module.exports = _typeof;
+
+/***/ }),
+
+/***/ "../../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js":
+/*!************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_memoize__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/memoize */ "../../node_modules/@emotion/memoize/dist/memoize.browser.esm.js");
+
+
+var reactPropsRegex = /^((children|dangerouslySetInnerHTML|key|ref|autoFocus|defaultValue|defaultChecked|innerHTML|suppressContentEditableWarning|suppressHydrationWarning|valueLink|accept|acceptCharset|accessKey|action|allow|allowUserMedia|allowPaymentRequest|allowFullScreen|allowTransparency|alt|async|autoComplete|autoPlay|capture|cellPadding|cellSpacing|challenge|charSet|checked|cite|classID|className|cols|colSpan|content|contentEditable|contextMenu|controls|controlsList|coords|crossOrigin|data|dateTime|default|defer|dir|disabled|download|draggable|encType|form|formAction|formEncType|formMethod|formNoValidate|formTarget|frameBorder|headers|height|hidden|high|href|hrefLang|htmlFor|httpEquiv|id|inputMode|integrity|is|keyParams|keyType|kind|label|lang|list|loop|low|marginHeight|marginWidth|max|maxLength|media|mediaGroup|method|min|minLength|multiple|muted|name|nonce|noValidate|open|optimum|pattern|placeholder|playsInline|poster|preload|profile|radioGroup|readOnly|referrerPolicy|rel|required|reversed|role|rows|rowSpan|sandbox|scope|scoped|scrolling|seamless|selected|shape|size|sizes|slot|span|spellCheck|src|srcDoc|srcLang|srcSet|start|step|style|summary|tabIndex|target|title|type|useMap|value|width|wmode|wrap|about|datatype|inlist|prefix|property|resource|typeof|vocab|autoCapitalize|autoCorrect|autoSave|color|itemProp|itemScope|itemType|itemID|itemRef|results|security|unselectable|accentHeight|accumulate|additive|alignmentBaseline|allowReorder|alphabetic|amplitude|arabicForm|ascent|attributeName|attributeType|autoReverse|azimuth|baseFrequency|baselineShift|baseProfile|bbox|begin|bias|by|calcMode|capHeight|clip|clipPathUnits|clipPath|clipRule|colorInterpolation|colorInterpolationFilters|colorProfile|colorRendering|contentScriptType|contentStyleType|cursor|cx|cy|d|decelerate|descent|diffuseConstant|direction|display|divisor|dominantBaseline|dur|dx|dy|edgeMode|elevation|enableBackground|end|exponent|externalResourcesRequired|fill|fillOpacity|fillRule|filter|filterRes|filterUnits|floodColor|floodOpacity|focusable|fontFamily|fontSize|fontSizeAdjust|fontStretch|fontStyle|fontVariant|fontWeight|format|from|fr|fx|fy|g1|g2|glyphName|glyphOrientationHorizontal|glyphOrientationVertical|glyphRef|gradientTransform|gradientUnits|hanging|horizAdvX|horizOriginX|ideographic|imageRendering|in|in2|intercept|k|k1|k2|k3|k4|kernelMatrix|kernelUnitLength|kerning|keyPoints|keySplines|keyTimes|lengthAdjust|letterSpacing|lightingColor|limitingConeAngle|local|markerEnd|markerMid|markerStart|markerHeight|markerUnits|markerWidth|mask|maskContentUnits|maskUnits|mathematical|mode|numOctaves|offset|opacity|operator|order|orient|orientation|origin|overflow|overlinePosition|overlineThickness|panose1|paintOrder|pathLength|patternContentUnits|patternTransform|patternUnits|pointerEvents|points|pointsAtX|pointsAtY|pointsAtZ|preserveAlpha|preserveAspectRatio|primitiveUnits|r|radius|refX|refY|renderingIntent|repeatCount|repeatDur|requiredExtensions|requiredFeatures|restart|result|rotate|rx|ry|scale|seed|shapeRendering|slope|spacing|specularConstant|specularExponent|speed|spreadMethod|startOffset|stdDeviation|stemh|stemv|stitchTiles|stopColor|stopOpacity|strikethroughPosition|strikethroughThickness|string|stroke|strokeDasharray|strokeDashoffset|strokeLinecap|strokeLinejoin|strokeMiterlimit|strokeOpacity|strokeWidth|surfaceScale|systemLanguage|tableValues|targetX|targetY|textAnchor|textDecoration|textRendering|textLength|to|transform|u1|u2|underlinePosition|underlineThickness|unicode|unicodeBidi|unicodeRange|unitsPerEm|vAlphabetic|vHanging|vIdeographic|vMathematical|values|vectorEffect|version|vertAdvY|vertOriginX|vertOriginY|viewBox|viewTarget|visibility|widths|wordSpacing|writingMode|x|xHeight|x1|x2|xChannelSelector|xlinkActuate|xlinkArcrole|xlinkHref|xlinkRole|xlinkShow|xlinkTitle|xlinkType|xmlBase|xmlns|xmlnsXlink|xmlLang|xmlSpace|y|y1|y2|yChannelSelector|z|zoomAndPan|for|class|autofocus)|(([Dd][Aa][Tt][Aa]|[Aa][Rr][Ii][Aa]|x)-.*))$/; // https://esbench.com/bench/5bfee68a4cd7e6009ef61d23
+
+var index = Object(_emotion_memoize__WEBPACK_IMPORTED_MODULE_0__["default"])(function (prop) {
+  return reactPropsRegex.test(prop) || prop.charCodeAt(0) === 111
+  /* o */
+  && prop.charCodeAt(1) === 110
+  /* n */
+  && prop.charCodeAt(2) < 91;
+}
+/* Z+1 */
+);
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@emotion/memoize/dist/memoize.browser.esm.js":
+/*!************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@emotion/memoize/dist/memoize.browser.esm.js ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function memoize(fn) {
+  var cache = {};
+  return function (arg) {
+    if (cache[arg] === undefined) cache[arg] = fn(arg);
+    return cache[arg];
+  };
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (memoize);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@emotion/unitless/dist/unitless.browser.esm.js":
+/*!**************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@emotion/unitless/dist/unitless.browser.esm.js ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var unitlessKeys = {
+  animationIterationCount: 1,
+  borderImageOutset: 1,
+  borderImageSlice: 1,
+  borderImageWidth: 1,
+  boxFlex: 1,
+  boxFlexGroup: 1,
+  boxOrdinalGroup: 1,
+  columnCount: 1,
+  columns: 1,
+  flex: 1,
+  flexGrow: 1,
+  flexPositive: 1,
+  flexShrink: 1,
+  flexNegative: 1,
+  flexOrder: 1,
+  gridRow: 1,
+  gridRowEnd: 1,
+  gridRowSpan: 1,
+  gridRowStart: 1,
+  gridColumn: 1,
+  gridColumnEnd: 1,
+  gridColumnSpan: 1,
+  gridColumnStart: 1,
+  msGridRow: 1,
+  msGridRowSpan: 1,
+  msGridColumn: 1,
+  msGridColumnSpan: 1,
+  fontWeight: 1,
+  lineHeight: 1,
+  opacity: 1,
+  order: 1,
+  orphans: 1,
+  tabSize: 1,
+  widows: 1,
+  zIndex: 1,
+  zoom: 1,
+  WebkitLineClamp: 1,
+  // SVG-related properties
+  fillOpacity: 1,
+  floodOpacity: 1,
+  stopOpacity: 1,
+  strokeDasharray: 1,
+  strokeDashoffset: 1,
+  strokeMiterlimit: 1,
+  strokeOpacity: 1,
+  strokeWidth: 1
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (unitlessKeys);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/app/dist/index.cjs.js":
+/*!***********************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/app/dist/index.cjs.js ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var util = __webpack_require__(/*! @firebase/util */ "../../node_modules/@firebase/util/dist/index.cjs.js");
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var _a;
+var errors = (_a = {},
+    _a["no-app" /* NO_APP */] = "No Firebase App '{$name}' has been created - " +
+        'call Firebase App.initializeApp()',
+    _a["bad-app-name" /* BAD_APP_NAME */] = "Illegal App name: '{$name}",
+    _a["duplicate-app" /* DUPLICATE_APP */] = "Firebase App named '{$name}' already exists",
+    _a["app-deleted" /* APP_DELETED */] = "Firebase App named '{$name}' already deleted",
+    _a["duplicate-service" /* DUPLICATE_SERVICE */] = "Firebase service named '{$name}' already registered",
+    _a["invalid-app-argument" /* INVALID_APP_ARGUMENT */] = 'firebase.{$name}() takes either no argument or a ' +
+        'Firebase App instance.',
+    _a);
+var appErrors = new util.ErrorFactory('app', 'Firebase', errors);
+function error(code, args) {
+    throw appErrors.create(code, args);
+}
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var DEFAULT_ENTRY_NAME = '[DEFAULT]';
+// An array to capture listeners before the true auth functions
+// exist
+var tokenListeners = [];
+/**
+ * Global context object for a collection of services using
+ * a shared authentication state.
+ */
+var FirebaseAppImpl = /** @class */ (function () {
+    function FirebaseAppImpl(options, config, firebase_) {
+        this.firebase_ = firebase_;
+        this.isDeleted_ = false;
+        this.services_ = {};
+        this.name_ = config.name;
+        this._automaticDataCollectionEnabled =
+            config.automaticDataCollectionEnabled || false;
+        this.options_ = util.deepCopy(options);
+        this.INTERNAL = {
+            getUid: function () { return null; },
+            getToken: function () { return Promise.resolve(null); },
+            addAuthTokenListener: function (callback) {
+                tokenListeners.push(callback);
+                // Make sure callback is called, asynchronously, in the absence of the auth module
+                setTimeout(function () { return callback(null); }, 0);
+            },
+            removeAuthTokenListener: function (callback) {
+                tokenListeners = tokenListeners.filter(function (listener) { return listener !== callback; });
+            }
+        };
+    }
+    Object.defineProperty(FirebaseAppImpl.prototype, "automaticDataCollectionEnabled", {
+        get: function () {
+            this.checkDestroyed_();
+            return this._automaticDataCollectionEnabled;
+        },
+        set: function (val) {
+            this.checkDestroyed_();
+            this._automaticDataCollectionEnabled = val;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(FirebaseAppImpl.prototype, "name", {
+        get: function () {
+            this.checkDestroyed_();
+            return this.name_;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(FirebaseAppImpl.prototype, "options", {
+        get: function () {
+            this.checkDestroyed_();
+            return this.options_;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    FirebaseAppImpl.prototype.delete = function () {
+        var _this = this;
+        return new Promise(function (resolve) {
+            _this.checkDestroyed_();
+            resolve();
+        })
+            .then(function () {
+            _this.firebase_.INTERNAL.removeApp(_this.name_);
+            var services = [];
+            Object.keys(_this.services_).forEach(function (serviceKey) {
+                Object.keys(_this.services_[serviceKey]).forEach(function (instanceKey) {
+                    services.push(_this.services_[serviceKey][instanceKey]);
+                });
+            });
+            return Promise.all(services.map(function (service) {
+                return service.INTERNAL.delete();
+            }));
+        })
+            .then(function () {
+            _this.isDeleted_ = true;
+            _this.services_ = {};
+        });
+    };
+    /**
+     * Return a service instance associated with this app (creating it
+     * on demand), identified by the passed instanceIdentifier.
+     *
+     * NOTE: Currently storage is the only one that is leveraging this
+     * functionality. They invoke it by calling:
+     *
+     * ```javascript
+     * firebase.app().storage('STORAGE BUCKET ID')
+     * ```
+     *
+     * The service name is passed to this already
+     * @internal
+     */
+    FirebaseAppImpl.prototype._getService = function (name, instanceIdentifier) {
+        if (instanceIdentifier === void 0) { instanceIdentifier = DEFAULT_ENTRY_NAME; }
+        this.checkDestroyed_();
+        if (!this.services_[name]) {
+            this.services_[name] = {};
+        }
+        if (!this.services_[name][instanceIdentifier]) {
+            /**
+             * If a custom instance has been defined (i.e. not '[DEFAULT]')
+             * then we will pass that instance on, otherwise we pass `null`
+             */
+            var instanceSpecifier = instanceIdentifier !== DEFAULT_ENTRY_NAME
+                ? instanceIdentifier
+                : undefined;
+            var service = this.firebase_.INTERNAL.factories[name](this, this.extendApp.bind(this), instanceSpecifier);
+            this.services_[name][instanceIdentifier] = service;
+        }
+        return this.services_[name][instanceIdentifier];
+    };
+    /**
+     * Callback function used to extend an App instance at the time
+     * of service instance creation.
+     */
+    FirebaseAppImpl.prototype.extendApp = function (props) {
+        var _this = this;
+        // Copy the object onto the FirebaseAppImpl prototype
+        util.deepExtend(this, props);
+        /**
+         * If the app has overwritten the addAuthTokenListener stub, forward
+         * the active token listeners on to the true fxn.
+         *
+         * TODO: This function is required due to our current module
+         * structure. Once we are able to rely strictly upon a single module
+         * implementation, this code should be refactored and Auth should
+         * provide these stubs and the upgrade logic
+         */
+        if (props.INTERNAL && props.INTERNAL.addAuthTokenListener) {
+            tokenListeners.forEach(function (listener) {
+                _this.INTERNAL.addAuthTokenListener(listener);
+            });
+            tokenListeners = [];
+        }
+    };
+    /**
+     * This function will throw an Error if the App has already been deleted -
+     * use before performing API actions on the App.
+     */
+    FirebaseAppImpl.prototype.checkDestroyed_ = function () {
+        if (this.isDeleted_) {
+            error("app-deleted" /* APP_DELETED */, { name: this.name_ });
+        }
+    };
+    return FirebaseAppImpl;
+}());
+// Prevent dead-code elimination of these methods w/o invalid property
+// copying.
+(FirebaseAppImpl.prototype.name && FirebaseAppImpl.prototype.options) ||
+    FirebaseAppImpl.prototype.delete ||
+    console.log('dc');
+
+/**
+ * @license
+ * Copyright 2019 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var contains = function (obj, key) {
+    return Object.prototype.hasOwnProperty.call(obj, key);
+};
+/**
+ * Return a firebase namespace object.
+ *
+ * In production, this will be called exactly once and the result
+ * assigned to the 'firebase' global.  It may be called multiple times
+ * in unit tests.
+ */
+function createFirebaseNamespace() {
+    var apps_ = {};
+    var factories = {};
+    var appHooks = {};
+    // A namespace is a plain JavaScript Object.
+    var namespace = {
+        // Hack to prevent Babel from modifying the object returned
+        // as the firebase namespace.
+        __esModule: true,
+        initializeApp: initializeApp,
+        app: app,
+        apps: null,
+        Promise: Promise,
+        SDK_VERSION: '5.10.0',
+        INTERNAL: {
+            registerService: registerService,
+            createFirebaseNamespace: createFirebaseNamespace,
+            extendNamespace: extendNamespace,
+            createSubscribe: util.createSubscribe,
+            ErrorFactory: util.ErrorFactory,
+            removeApp: removeApp,
+            factories: factories,
+            useAsService: useAsService,
+            Promise: Promise,
+            deepExtend: util.deepExtend
+        }
+    };
+    // Inject a circular default export to allow Babel users who were previously
+    // using:
+    //
+    //   import firebase from 'firebase';
+    //   which becomes: var firebase = require('firebase').default;
+    //
+    // instead of
+    //
+    //   import * as firebase from 'firebase';
+    //   which becomes: var firebase = require('firebase');
+    util.patchProperty(namespace, 'default', namespace);
+    // firebase.apps is a read-only getter.
+    Object.defineProperty(namespace, 'apps', {
+        get: getApps
+    });
+    /**
+     * Called by App.delete() - but before any services associated with the App
+     * are deleted.
+     */
+    function removeApp(name) {
+        var app = apps_[name];
+        callAppHooks(app, 'delete');
+        delete apps_[name];
+    }
+    /**
+     * Get the App object for a given name (or DEFAULT).
+     */
+    function app(name) {
+        name = name || DEFAULT_ENTRY_NAME;
+        if (!contains(apps_, name)) {
+            error("no-app" /* NO_APP */, { name: name });
+        }
+        return apps_[name];
+    }
+    util.patchProperty(app, 'App', FirebaseAppImpl);
+    function initializeApp(options, rawConfig) {
+        if (rawConfig === void 0) { rawConfig = {}; }
+        if (typeof rawConfig !== 'object' || rawConfig === null) {
+            var name_1 = rawConfig;
+            rawConfig = { name: name_1 };
+        }
+        var config = rawConfig;
+        if (config.name === undefined) {
+            config.name = DEFAULT_ENTRY_NAME;
+        }
+        var name = config.name;
+        if (typeof name !== 'string' || !name) {
+            error("bad-app-name" /* BAD_APP_NAME */, { name: name + '' });
+        }
+        if (contains(apps_, name)) {
+            error("duplicate-app" /* DUPLICATE_APP */, { name: name });
+        }
+        var app = new FirebaseAppImpl(options, config, namespace);
+        apps_[name] = app;
+        callAppHooks(app, 'create');
+        return app;
+    }
+    /*
+     * Return an array of all the non-deleted FirebaseApps.
+     */
+    function getApps() {
+        // Make a copy so caller cannot mutate the apps list.
+        return Object.keys(apps_).map(function (name) { return apps_[name]; });
+    }
+    /*
+     * Register a Firebase Service.
+     *
+     * firebase.INTERNAL.registerService()
+     *
+     * TODO: Implement serviceProperties.
+     */
+    function registerService(name, createService, serviceProperties, appHook, allowMultipleInstances) {
+        // Cannot re-register a service that already exists
+        if (factories[name]) {
+            error("duplicate-service" /* DUPLICATE_SERVICE */, { name: name });
+        }
+        // Capture the service factory for later service instantiation
+        factories[name] = createService;
+        // Capture the appHook, if passed
+        if (appHook) {
+            appHooks[name] = appHook;
+            // Run the **new** app hook on all existing apps
+            getApps().forEach(function (app) {
+                appHook('create', app);
+            });
+        }
+        // The Service namespace is an accessor function ...
+        var serviceNamespace = function (appArg) {
+            if (appArg === void 0) { appArg = app(); }
+            if (typeof appArg[name] !== 'function') {
+                // Invalid argument.
+                // This happens in the following case: firebase.storage('gs:/')
+                error("invalid-app-argument" /* INVALID_APP_ARGUMENT */, { name: name });
+            }
+            // Forward service instance lookup to the FirebaseApp.
+            return appArg[name]();
+        };
+        // ... and a container for service-level properties.
+        if (serviceProperties !== undefined) {
+            util.deepExtend(serviceNamespace, serviceProperties);
+        }
+        // Monkey-patch the serviceNamespace onto the firebase namespace
+        namespace[name] = serviceNamespace;
+        // Patch the FirebaseAppImpl prototype
+        FirebaseAppImpl.prototype[name] = function () {
+            var args = [];
+            for (var _i = 0; _i < arguments.length; _i++) {
+                args[_i] = arguments[_i];
+            }
+            var serviceFxn = this._getService.bind(this, name);
+            return serviceFxn.apply(this, allowMultipleInstances ? args : []);
+        };
+        return serviceNamespace;
+    }
+    /**
+     * Patch the top-level firebase namespace with additional properties.
+     *
+     * firebase.INTERNAL.extendNamespace()
+     */
+    function extendNamespace(props) {
+        util.deepExtend(namespace, props);
+    }
+    function callAppHooks(app, eventName) {
+        Object.keys(factories).forEach(function (serviceName) {
+            // Ignore virtual services
+            var factoryName = useAsService(app, serviceName);
+            if (factoryName === null) {
+                return;
+            }
+            if (appHooks[factoryName]) {
+                appHooks[factoryName](eventName, app);
+            }
+        });
+    }
+    // Map the requested service to a registered service name
+    // (used to map auth to serverAuth service when needed).
+    function useAsService(app, name) {
+        if (name === 'serverAuth') {
+            return null;
+        }
+        var useService = name;
+        var options = app.options;
+        return useService;
+    }
+    return namespace;
+}
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+// Node detection logic from: https://github.com/iliakan/detect-node/
+var isNode = false;
+try {
+    isNode =
+        Object.prototype.toString.call(global.process) === '[object process]';
+}
+catch (e) { }
+isNode &&
+    console.warn("\nWarning: This is a browser-targeted Firebase bundle but it appears it is being\nrun in a Node environment.  If running in a Node environment, make sure you\nare using the bundle specified by the \"main\" field in package.json.\n\nIf you are using Webpack, you can specify \"main\" as the first item in\n\"resolve.mainFields\":\nhttps://webpack.js.org/configuration/resolve/#resolvemainfields\n\nIf using Rollup, use the rollup-plugin-node-resolve plugin and set \"module\"\nto false and \"main\" to true:\nhttps://github.com/rollup/rollup-plugin-node-resolve\n");
+var firebase = createFirebaseNamespace();
+
+exports.default = firebase;
+exports.firebase = firebase;
+//# sourceMappingURL=index.cjs.js.map
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../webpack/buildin/global.js */ "../../node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/dist/index.esm.js":
+/*!****************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/dist/index.esm.js ***!
+  \****************************************************************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var whatwg_fetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! whatwg-fetch */ "../../node_modules/whatwg-fetch/fetch.js");
+/* harmony import */ var whatwg_fetch__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(whatwg_fetch__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var promise_polyfill_lib_polyfill__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! promise-polyfill/lib/polyfill */ "../../node_modules/promise-polyfill/lib/polyfill.js");
+/* harmony import */ var promise_polyfill_lib_polyfill__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(promise_polyfill_lib_polyfill__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_features_array_find__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/features/array/find */ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/array/find.js");
+/* harmony import */ var core_js_features_array_find__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_features_array_find__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_features_array_find_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/features/array/find-index */ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/array/find-index.js");
+/* harmony import */ var core_js_features_array_find_index__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_features_array_find_index__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_features_object_assign__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/features/object/assign */ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/object/assign.js");
+/* harmony import */ var core_js_features_object_assign__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_features_object_assign__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var core_js_features_string_starts_with__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/features/string/starts-with */ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/string/starts-with.js");
+/* harmony import */ var core_js_features_string_starts_with__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_features_string_starts_with__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var core_js_features_string_repeat__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/features/string/repeat */ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/string/repeat.js");
+/* harmony import */ var core_js_features_string_repeat__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_features_string_repeat__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var core_js_features_symbol__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/features/symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/symbol/index.js");
+/* harmony import */ var core_js_features_symbol__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_features_symbol__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var core_js_features_symbol_iterator__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/features/symbol/iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/symbol/iterator.js");
+/* harmony import */ var core_js_features_symbol_iterator__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_features_symbol_iterator__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
+
+
+
+
+
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+//# sourceMappingURL=index.esm.js.map
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/array/find-index.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/es/array/find-index.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es.array.find-index */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.find-index.js");
+
+module.exports = __webpack_require__(/*! ../../internals/entry-unbind */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/entry-unbind.js")('Array', 'findIndex');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/array/find.js":
+/*!************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/es/array/find.js ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es.array.find */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.find.js");
+
+module.exports = __webpack_require__(/*! ../../internals/entry-unbind */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/entry-unbind.js")('Array', 'find');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/object/assign.js":
+/*!***************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/es/object/assign.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es.object.assign */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.object.assign.js");
+
+module.exports = __webpack_require__(/*! ../../internals/path */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/path.js").Object.assign;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/string/repeat.js":
+/*!***************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/es/string/repeat.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es.string.repeat */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.repeat.js");
+
+module.exports = __webpack_require__(/*! ../../internals/entry-unbind */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/entry-unbind.js")('String', 'repeat');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/string/starts-with.js":
+/*!********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/es/string/starts-with.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es.string.starts-with */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.starts-with.js");
+
+module.exports = __webpack_require__(/*! ../../internals/entry-unbind */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/entry-unbind.js")('String', 'startsWith');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/symbol/index.js":
+/*!**************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/es/symbol/index.js ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es.array.concat */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.concat.js");
+__webpack_require__(/*! ../../modules/es.object.to-string */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.object.to-string.js");
+__webpack_require__(/*! ../../modules/es.symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.js");
+__webpack_require__(/*! ../../modules/es.symbol.async-iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.async-iterator.js");
+__webpack_require__(/*! ../../modules/es.symbol.description */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.description.js");
+__webpack_require__(/*! ../../modules/es.symbol.has-instance */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.has-instance.js");
+__webpack_require__(/*! ../../modules/es.symbol.is-concat-spreadable */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.is-concat-spreadable.js");
+__webpack_require__(/*! ../../modules/es.symbol.iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.iterator.js");
+__webpack_require__(/*! ../../modules/es.symbol.match */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.match.js");
+__webpack_require__(/*! ../../modules/es.symbol.replace */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.replace.js");
+__webpack_require__(/*! ../../modules/es.symbol.search */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.search.js");
+__webpack_require__(/*! ../../modules/es.symbol.species */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.species.js");
+__webpack_require__(/*! ../../modules/es.symbol.split */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.split.js");
+__webpack_require__(/*! ../../modules/es.symbol.to-primitive */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.to-primitive.js");
+__webpack_require__(/*! ../../modules/es.symbol.to-string-tag */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.to-string-tag.js");
+__webpack_require__(/*! ../../modules/es.symbol.unscopables */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.unscopables.js");
+__webpack_require__(/*! ../../modules/es.math.to-string-tag */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.math.to-string-tag.js");
+__webpack_require__(/*! ../../modules/es.json.to-string-tag */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.json.to-string-tag.js");
+
+module.exports = __webpack_require__(/*! ../../internals/path */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/path.js").Symbol;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/symbol/iterator.js":
+/*!*****************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/es/symbol/iterator.js ***!
+  \*****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es.symbol.iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.iterator.js");
+__webpack_require__(/*! ../../modules/es.string.iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.iterator.js");
+__webpack_require__(/*! ../../modules/web.dom-collections.iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/web.dom-collections.iterator.js");
+
+module.exports = __webpack_require__(/*! ../../internals/wrapped-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/wrapped-well-known-symbol.js").f('iterator');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/array/find-index.js":
+/*!************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/features/array/find-index.js ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../../es/array/find-index */ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/array/find-index.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/array/find.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/features/array/find.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../../es/array/find */ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/array/find.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/object/assign.js":
+/*!*********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/features/object/assign.js ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../../es/object/assign */ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/object/assign.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/string/repeat.js":
+/*!*********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/features/string/repeat.js ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../../es/string/repeat */ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/string/repeat.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/string/starts-with.js":
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/features/string/starts-with.js ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../../es/string/starts-with */ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/string/starts-with.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/symbol/index.js":
+/*!********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/features/symbol/index.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../../es/symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/symbol/index.js");
+
+__webpack_require__(/*! ../../modules/esnext.symbol.dispose */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.dispose.js");
+__webpack_require__(/*! ../../modules/esnext.symbol.observable */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.observable.js");
+__webpack_require__(/*! ../../modules/esnext.symbol.pattern-match */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.pattern-match.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/features/symbol/iterator.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/features/symbol/iterator.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../../es/symbol/iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/es/symbol/iterator.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/a-function.js":
+/*!*******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/a-function.js ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (it) {
+  if (typeof it != 'function') {
+    throw TypeError(String(it) + ' is not a function');
+  } return it;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/add-to-unscopables.js":
+/*!***************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/add-to-unscopables.js ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var UNSCOPABLES = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('unscopables');
+var create = __webpack_require__(/*! ../internals/object-create */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-create.js");
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+var ArrayPrototype = Array.prototype;
+
+// Array.prototype[@@unscopables]
+// https://tc39.github.io/ecma262/#sec-array.prototype-@@unscopables
+if (ArrayPrototype[UNSCOPABLES] == undefined) {
+  hide(ArrayPrototype, UNSCOPABLES, create(null));
+}
+
+// add a key to Array.prototype[@@unscopables]
+module.exports = function (key) {
+  ArrayPrototype[UNSCOPABLES][key] = true;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+
+module.exports = function (it) {
+  if (!isObject(it)) {
+    throw TypeError(String(it) + ' is not an object');
+  } return it;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-includes.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-includes.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js");
+var toLength = __webpack_require__(/*! ../internals/to-length */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-length.js");
+var toAbsoluteIndex = __webpack_require__(/*! ../internals/to-absolute-index */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-absolute-index.js");
+
+// `Array.prototype.{ indexOf, includes }` methods implementation
+// false -> Array#indexOf
+// https://tc39.github.io/ecma262/#sec-array.prototype.indexof
+// true  -> Array#includes
+// https://tc39.github.io/ecma262/#sec-array.prototype.includes
+module.exports = function (IS_INCLUDES) {
+  return function ($this, el, fromIndex) {
+    var O = toIndexedObject($this);
+    var length = toLength(O.length);
+    var index = toAbsoluteIndex(fromIndex, length);
+    var value;
+    // Array#includes uses SameValueZero equality algorithm
+    // eslint-disable-next-line no-self-compare
+    if (IS_INCLUDES && el != el) while (length > index) {
+      value = O[index++];
+      // eslint-disable-next-line no-self-compare
+      if (value != value) return true;
+    // Array#indexOf ignores holes, Array#includes - not
+    } else for (;length > index; index++) if (IS_INCLUDES || index in O) {
+      if (O[index] === el) return IS_INCLUDES || index || 0;
+    } return !IS_INCLUDES && -1;
+  };
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-method-has-species-support.js":
+/*!*****************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-method-has-species-support.js ***!
+  \*****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js");
+var SPECIES = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('species');
+
+module.exports = function (METHOD_NAME) {
+  return !fails(function () {
+    var array = [];
+    var constructor = array.constructor = {};
+    constructor[SPECIES] = function () {
+      return { foo: 1 };
+    };
+    return array[METHOD_NAME](Boolean).foo !== 1;
+  });
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-methods.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-methods.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var bind = __webpack_require__(/*! ../internals/bind-context */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/bind-context.js");
+var IndexedObject = __webpack_require__(/*! ../internals/indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/indexed-object.js");
+var toObject = __webpack_require__(/*! ../internals/to-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-object.js");
+var toLength = __webpack_require__(/*! ../internals/to-length */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-length.js");
+var arraySpeciesCreate = __webpack_require__(/*! ../internals/array-species-create */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-species-create.js");
+
+// `Array.prototype.{ forEach, map, filter, some, every, find, findIndex }` methods implementation
+// 0 -> Array#forEach
+// https://tc39.github.io/ecma262/#sec-array.prototype.foreach
+// 1 -> Array#map
+// https://tc39.github.io/ecma262/#sec-array.prototype.map
+// 2 -> Array#filter
+// https://tc39.github.io/ecma262/#sec-array.prototype.filter
+// 3 -> Array#some
+// https://tc39.github.io/ecma262/#sec-array.prototype.some
+// 4 -> Array#every
+// https://tc39.github.io/ecma262/#sec-array.prototype.every
+// 5 -> Array#find
+// https://tc39.github.io/ecma262/#sec-array.prototype.find
+// 6 -> Array#findIndex
+// https://tc39.github.io/ecma262/#sec-array.prototype.findIndex
+module.exports = function (TYPE, specificCreate) {
+  var IS_MAP = TYPE == 1;
+  var IS_FILTER = TYPE == 2;
+  var IS_SOME = TYPE == 3;
+  var IS_EVERY = TYPE == 4;
+  var IS_FIND_INDEX = TYPE == 6;
+  var NO_HOLES = TYPE == 5 || IS_FIND_INDEX;
+  var create = specificCreate || arraySpeciesCreate;
+  return function ($this, callbackfn, that) {
+    var O = toObject($this);
+    var self = IndexedObject(O);
+    var boundFunction = bind(callbackfn, that, 3);
+    var length = toLength(self.length);
+    var index = 0;
+    var target = IS_MAP ? create($this, length) : IS_FILTER ? create($this, 0) : undefined;
+    var value, result;
+    for (;length > index; index++) if (NO_HOLES || index in self) {
+      value = self[index];
+      result = boundFunction(value, index, O);
+      if (TYPE) {
+        if (IS_MAP) target[index] = result; // map
+        else if (result) switch (TYPE) {
+          case 3: return true;              // some
+          case 5: return value;             // find
+          case 6: return index;             // findIndex
+          case 2: target.push(value);       // filter
+        } else if (IS_EVERY) return false;  // every
+      }
+    }
+    return IS_FIND_INDEX ? -1 : IS_SOME || IS_EVERY ? IS_EVERY : target;
+  };
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-species-create.js":
+/*!*****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/array-species-create.js ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+var isArray = __webpack_require__(/*! ../internals/is-array */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-array.js");
+var SPECIES = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('species');
+
+// `ArraySpeciesCreate` abstract operation
+// https://tc39.github.io/ecma262/#sec-arrayspeciescreate
+module.exports = function (originalArray, length) {
+  var C;
+  if (isArray(originalArray)) {
+    C = originalArray.constructor;
+    // cross-realm fallback
+    if (typeof C == 'function' && (C === Array || isArray(C.prototype))) C = undefined;
+    else if (isObject(C)) {
+      C = C[SPECIES];
+      if (C === null) C = undefined;
+    }
+  } return new (C === undefined ? Array : C)(length === 0 ? 0 : length);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/bind-context.js":
+/*!*********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/bind-context.js ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var aFunction = __webpack_require__(/*! ../internals/a-function */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/a-function.js");
+
+// optional / simple context binding
+module.exports = function (fn, that, length) {
+  aFunction(fn);
+  if (that === undefined) return fn;
+  switch (length) {
+    case 0: return function () {
+      return fn.call(that);
+    };
+    case 1: return function (a) {
+      return fn.call(that, a);
+    };
+    case 2: return function (a, b) {
+      return fn.call(that, a, b);
+    };
+    case 3: return function (a, b, c) {
+      return fn.call(that, a, b, c);
+    };
+  }
+  return function (/* ...args */) {
+    return fn.apply(that, arguments);
+  };
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/classof-raw.js":
+/*!********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/classof-raw.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var toString = {}.toString;
+
+module.exports = function (it) {
+  return toString.call(it).slice(8, -1);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/classof.js":
+/*!****************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/classof.js ***!
+  \****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var classofRaw = __webpack_require__(/*! ../internals/classof-raw */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/classof-raw.js");
+var TO_STRING_TAG = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('toStringTag');
+// ES3 wrong here
+var CORRECT_ARGUMENTS = classofRaw(function () { return arguments; }()) == 'Arguments';
+
+// fallback for IE11 Script Access Denied error
+var tryGet = function (it, key) {
+  try {
+    return it[key];
+  } catch (error) { /* empty */ }
+};
+
+// getting tag from ES6+ `Object.prototype.toString`
+module.exports = function (it) {
+  var O, tag, result;
+  return it === undefined ? 'Undefined' : it === null ? 'Null'
+    // @@toStringTag case
+    : typeof (tag = tryGet(O = Object(it), TO_STRING_TAG)) == 'string' ? tag
+    // builtinTag case
+    : CORRECT_ARGUMENTS ? classofRaw(O)
+    // ES3 arguments fallback
+    : (result = classofRaw(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : result;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/copy-constructor-properties.js":
+/*!************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/copy-constructor-properties.js ***!
+  \************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var ownKeys = __webpack_require__(/*! ../internals/own-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/own-keys.js");
+var getOwnPropertyDescriptorModule = __webpack_require__(/*! ../internals/object-get-own-property-descriptor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-descriptor.js");
+var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js");
+
+module.exports = function (target, source) {
+  var keys = ownKeys(source);
+  var defineProperty = definePropertyModule.f;
+  var getOwnPropertyDescriptor = getOwnPropertyDescriptorModule.f;
+  for (var i = 0; i < keys.length; i++) {
+    var key = keys[i];
+    if (!has(target, key)) defineProperty(target, key, getOwnPropertyDescriptor(source, key));
+  }
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/correct-is-regexp-logic.js":
+/*!********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/correct-is-regexp-logic.js ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var MATCH = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('match');
+
+module.exports = function (METHOD_NAME) {
+  var regexp = /./;
+  try {
+    '/./'[METHOD_NAME](regexp);
+  } catch (e) {
+    try {
+      regexp[MATCH] = false;
+      return '/./'[METHOD_NAME](regexp);
+    } catch (f) { /* empty */ }
+  } return false;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/correct-prototype-getter.js":
+/*!*********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/correct-prototype-getter.js ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = !__webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js")(function () {
+  function F() { /* empty */ }
+  F.prototype.constructor = null;
+  return Object.getPrototypeOf(new F()) !== F.prototype;
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-iterator-constructor.js":
+/*!************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/create-iterator-constructor.js ***!
+  \************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var IteratorPrototype = __webpack_require__(/*! ../internals/iterators-core */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators-core.js").IteratorPrototype;
+var create = __webpack_require__(/*! ../internals/object-create */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-create.js");
+var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property-descriptor.js");
+var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-to-string-tag.js");
+var Iterators = __webpack_require__(/*! ../internals/iterators */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators.js");
+
+var returnThis = function () { return this; };
+
+module.exports = function (IteratorConstructor, NAME, next) {
+  var TO_STRING_TAG = NAME + ' Iterator';
+  IteratorConstructor.prototype = create(IteratorPrototype, { next: createPropertyDescriptor(1, next) });
+  setToStringTag(IteratorConstructor, TO_STRING_TAG, false, true);
+  Iterators[TO_STRING_TAG] = returnThis;
+  return IteratorConstructor;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property-descriptor.js":
+/*!***********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property-descriptor.js ***!
+  \***********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (bitmap, value) {
+  return {
+    enumerable: !(bitmap & 1),
+    configurable: !(bitmap & 2),
+    writable: !(bitmap & 4),
+    value: value
+  };
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property.js":
+/*!************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property.js ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-primitive.js");
+var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js");
+var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property-descriptor.js");
+
+module.exports = function (object, key, value) {
+  var propertyKey = toPrimitive(key);
+  if (propertyKey in object) definePropertyModule.f(object, propertyKey, createPropertyDescriptor(0, value));
+  else object[propertyKey] = value;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-iterator.js":
+/*!************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/define-iterator.js ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $export = __webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js");
+var createIteratorConstructor = __webpack_require__(/*! ../internals/create-iterator-constructor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-iterator-constructor.js");
+var getPrototypeOf = __webpack_require__(/*! ../internals/object-get-prototype-of */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-prototype-of.js");
+var setPrototypeOf = __webpack_require__(/*! ../internals/object-set-prototype-of */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-set-prototype-of.js");
+var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-to-string-tag.js");
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/redefine.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-pure.js");
+var ITERATOR = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('iterator');
+var Iterators = __webpack_require__(/*! ../internals/iterators */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators.js");
+var IteratorsCore = __webpack_require__(/*! ../internals/iterators-core */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators-core.js");
+var IteratorPrototype = IteratorsCore.IteratorPrototype;
+var BUGGY_SAFARI_ITERATORS = IteratorsCore.BUGGY_SAFARI_ITERATORS;
+var KEYS = 'keys';
+var VALUES = 'values';
+var ENTRIES = 'entries';
+
+var returnThis = function () { return this; };
+
+module.exports = function (Iterable, NAME, IteratorConstructor, next, DEFAULT, IS_SET, FORCED) {
+  createIteratorConstructor(IteratorConstructor, NAME, next);
+
+  var getIterationMethod = function (KIND) {
+    if (KIND === DEFAULT && defaultIterator) return defaultIterator;
+    if (!BUGGY_SAFARI_ITERATORS && KIND in IterablePrototype) return IterablePrototype[KIND];
+    switch (KIND) {
+      case KEYS: return function keys() { return new IteratorConstructor(this, KIND); };
+      case VALUES: return function values() { return new IteratorConstructor(this, KIND); };
+      case ENTRIES: return function entries() { return new IteratorConstructor(this, KIND); };
+    } return function () { return new IteratorConstructor(this); };
+  };
+
+  var TO_STRING_TAG = NAME + ' Iterator';
+  var INCORRECT_VALUES_NAME = false;
+  var IterablePrototype = Iterable.prototype;
+  var nativeIterator = IterablePrototype[ITERATOR]
+    || IterablePrototype['@@iterator']
+    || DEFAULT && IterablePrototype[DEFAULT];
+  var defaultIterator = !BUGGY_SAFARI_ITERATORS && nativeIterator || getIterationMethod(DEFAULT);
+  var anyNativeIterator = NAME == 'Array' ? IterablePrototype.entries || nativeIterator : nativeIterator;
+  var CurrentIteratorPrototype, methods, KEY;
+
+  // fix native
+  if (anyNativeIterator) {
+    CurrentIteratorPrototype = getPrototypeOf(anyNativeIterator.call(new Iterable()));
+    if (IteratorPrototype !== Object.prototype && CurrentIteratorPrototype.next) {
+      if (!IS_PURE && getPrototypeOf(CurrentIteratorPrototype) !== IteratorPrototype) {
+        if (setPrototypeOf) {
+          setPrototypeOf(CurrentIteratorPrototype, IteratorPrototype);
+        } else if (typeof CurrentIteratorPrototype[ITERATOR] != 'function') {
+          hide(CurrentIteratorPrototype, ITERATOR, returnThis);
+        }
+      }
+      // Set @@toStringTag to native iterators
+      setToStringTag(CurrentIteratorPrototype, TO_STRING_TAG, true, true);
+      if (IS_PURE) Iterators[TO_STRING_TAG] = returnThis;
+    }
+  }
+
+  // fix Array#{values, @@iterator}.name in V8 / FF
+  if (DEFAULT == VALUES && nativeIterator && nativeIterator.name !== VALUES) {
+    INCORRECT_VALUES_NAME = true;
+    defaultIterator = function values() { return nativeIterator.call(this); };
+  }
+
+  // define iterator
+  if ((!IS_PURE || FORCED) && IterablePrototype[ITERATOR] !== defaultIterator) {
+    hide(IterablePrototype, ITERATOR, defaultIterator);
+  }
+  Iterators[NAME] = defaultIterator;
+
+  // export additional methods
+  if (DEFAULT) {
+    methods = {
+      values: getIterationMethod(VALUES),
+      keys: IS_SET ? defaultIterator : getIterationMethod(KEYS),
+      entries: getIterationMethod(ENTRIES)
+    };
+    if (FORCED) for (KEY in methods) {
+      if (BUGGY_SAFARI_ITERATORS || INCORRECT_VALUES_NAME || !(KEY in IterablePrototype)) {
+        redefine(IterablePrototype, KEY, methods[KEY]);
+      }
+    } else $export({ target: NAME, proto: true, forced: BUGGY_SAFARI_ITERATORS || INCORRECT_VALUES_NAME }, methods);
+  }
+
+  return methods;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js":
+/*!*********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var path = __webpack_require__(/*! ../internals/path */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/path.js");
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var wrappedWellKnownSymbolModule = __webpack_require__(/*! ../internals/wrapped-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/wrapped-well-known-symbol.js");
+var defineProperty = __webpack_require__(/*! ../internals/object-define-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js").f;
+
+module.exports = function (NAME) {
+  var Symbol = path.Symbol || (path.Symbol = {});
+  if (!has(Symbol, NAME)) defineProperty(Symbol, NAME, {
+    value: wrappedWellKnownSymbolModule.f(NAME)
+  });
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js":
+/*!********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Thank's IE8 for his funny defineProperty
+module.exports = !__webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js")(function () {
+  return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/document-create-element.js":
+/*!********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/document-create-element.js ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+var document = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js").document;
+// typeof document.createElement is 'object' in old IE
+var exist = isObject(document) && isObject(document.createElement);
+
+module.exports = function (it) {
+  return exist ? document.createElement(it) : {};
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/dom-iterables.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/dom-iterables.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// iterable DOM collections
+// flag - `iterable` interface - 'entries', 'keys', 'values', 'forEach' methods
+module.exports = {
+  CSSRuleList: 0,
+  CSSStyleDeclaration: 0,
+  CSSValueList: 0,
+  ClientRectList: 0,
+  DOMRectList: 0,
+  DOMStringList: 0,
+  DOMTokenList: 1,
+  DataTransferItemList: 0,
+  FileList: 0,
+  HTMLAllCollection: 0,
+  HTMLCollection: 0,
+  HTMLFormElement: 0,
+  HTMLSelectElement: 0,
+  MediaList: 0,
+  MimeTypeArray: 0,
+  NamedNodeMap: 0,
+  NodeList: 1,
+  PaintRequestList: 0,
+  Plugin: 0,
+  PluginArray: 0,
+  SVGLengthList: 0,
+  SVGNumberList: 0,
+  SVGPathSegList: 0,
+  SVGPointList: 0,
+  SVGStringList: 0,
+  SVGTransformList: 0,
+  SourceBufferList: 0,
+  StyleSheetList: 0,
+  TextTrackCueList: 0,
+  TextTrackList: 0,
+  TouchList: 0
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/entry-unbind.js":
+/*!*********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/entry-unbind.js ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js");
+var bind = __webpack_require__(/*! ../internals/bind-context */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/bind-context.js");
+var call = Function.call;
+
+module.exports = function (CONSTRUCTOR, METHOD, length) {
+  return bind(call, global[CONSTRUCTOR].prototype[METHOD], length);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-bug-keys.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-bug-keys.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// IE8- don't enum bug keys
+module.exports = [
+  'constructor',
+  'hasOwnProperty',
+  'isPrototypeOf',
+  'propertyIsEnumerable',
+  'toLocaleString',
+  'toString',
+  'valueOf'
+];
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-keys.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-keys.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var objectKeys = __webpack_require__(/*! ../internals/object-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys.js");
+var getOwnPropertySymbolsModule = __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-symbols.js");
+var propertyIsEnumerableModule = __webpack_require__(/*! ../internals/object-property-is-enumerable */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-property-is-enumerable.js");
+
+// all enumerable object keys, includes symbols
+module.exports = function (it) {
+  var result = objectKeys(it);
+  var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
+  if (getOwnPropertySymbols) {
+    var symbols = getOwnPropertySymbols(it);
+    var propertyIsEnumerable = propertyIsEnumerableModule.f;
+    var i = 0;
+    var key;
+    while (symbols.length > i) if (propertyIsEnumerable.call(it, key = symbols[i++])) result.push(key);
+  } return result;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js":
+/*!***************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js");
+var getOwnPropertyDescriptor = __webpack_require__(/*! ../internals/object-get-own-property-descriptor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-descriptor.js").f;
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/redefine.js");
+var setGlobal = __webpack_require__(/*! ../internals/set-global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-global.js");
+var copyConstructorProperties = __webpack_require__(/*! ../internals/copy-constructor-properties */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/copy-constructor-properties.js");
+var isForced = __webpack_require__(/*! ../internals/is-forced */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-forced.js");
+
+/*
+  options.target      - name of the target object
+  options.global      - target is the global object
+  options.stat        - export as static methods of target
+  options.proto       - export as prototype methods of target
+  options.real        - real prototype method for the `pure` version
+  options.forced      - export even if the native feature is available
+  options.bind        - bind methods to the target, required for the `pure` version
+  options.wrap        - wrap constructors to preventing global pollution, required for the `pure` version
+  options.unsafe      - use the simple assignment of property instead of delete + defineProperty
+  options.sham        - add a flag to not completely full polyfills
+  options.enumerable  - export as enumerable property
+  options.noTargetGet - prevent calling a getter on target
+*/
+module.exports = function (options, source) {
+  var TARGET = options.target;
+  var GLOBAL = options.global;
+  var STATIC = options.stat;
+  var FORCED, target, key, targetProperty, sourceProperty, descriptor;
+  if (GLOBAL) {
+    target = global;
+  } else if (STATIC) {
+    target = global[TARGET] || setGlobal(TARGET, {});
+  } else {
+    target = (global[TARGET] || {}).prototype;
+  }
+  if (target) for (key in source) {
+    sourceProperty = source[key];
+    if (options.noTargetGet) {
+      descriptor = getOwnPropertyDescriptor(target, key);
+      targetProperty = descriptor && descriptor.value;
+    } else targetProperty = target[key];
+    FORCED = isForced(GLOBAL ? key : TARGET + (STATIC ? '.' : '#') + key, options.forced);
+    // contained in target
+    if (!FORCED && targetProperty !== undefined) {
+      if (typeof sourceProperty === typeof targetProperty) continue;
+      copyConstructorProperties(sourceProperty, targetProperty);
+    }
+    // add a flag to not completely full polyfills
+    if (options.sham || (targetProperty && targetProperty.sham)) {
+      hide(sourceProperty, 'sham', true);
+    }
+    // extend global
+    redefine(target, key, sourceProperty, options);
+  }
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js":
+/*!**************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (exec) {
+  try {
+    return !!exec();
+  } catch (error) {
+    return true;
+  }
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/function-to-string.js":
+/*!***************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/function-to-string.js ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../internals/shared */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared.js")('native-function-to-string', Function.toString);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js":
+/*!***************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
+module.exports = typeof window == 'object' && window && window.Math == Math ? window
+  : typeof self == 'object' && self && self.Math == Math ? self
+  // eslint-disable-next-line no-new-func
+  : Function('return this')();
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js":
+/*!************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var hasOwnProperty = {}.hasOwnProperty;
+
+module.exports = function (it, key) {
+  return hasOwnProperty.call(it, key);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hidden-keys.js":
+/*!********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/hidden-keys.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js":
+/*!*************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js");
+var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property-descriptor.js");
+
+module.exports = __webpack_require__(/*! ../internals/descriptors */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js") ? function (object, key, value) {
+  return definePropertyModule.f(object, key, createPropertyDescriptor(1, value));
+} : function (object, key, value) {
+  object[key] = value;
+  return object;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/html.js":
+/*!*************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/html.js ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var document = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js").document;
+
+module.exports = document && document.documentElement;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/ie8-dom-define.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/ie8-dom-define.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Thank's IE8 for his funny defineProperty
+module.exports = !__webpack_require__(/*! ../internals/descriptors */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js") && !__webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js")(function () {
+  return Object.defineProperty(__webpack_require__(/*! ../internals/document-create-element */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/document-create-element.js")('div'), 'a', {
+    get: function () { return 7; }
+  }).a != 7;
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/indexed-object.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/indexed-object.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// fallback for non-array-like ES3 and non-enumerable old V8 strings
+var fails = __webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js");
+var classof = __webpack_require__(/*! ../internals/classof-raw */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/classof-raw.js");
+var split = ''.split;
+
+module.exports = fails(function () {
+  // throws an error in rhino, see https://github.com/mozilla/rhino/issues/346
+  // eslint-disable-next-line no-prototype-builtins
+  return !Object('z').propertyIsEnumerable(0);
+}) ? function (it) {
+  return classof(it) == 'String' ? split.call(it, '') : Object(it);
+} : Object;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/internal-state.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/internal-state.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var NATIVE_WEAK_MAP = __webpack_require__(/*! ../internals/native-weak-map */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/native-weak-map.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+var objectHas = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var sharedKey = __webpack_require__(/*! ../internals/shared-key */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared-key.js");
+var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hidden-keys.js");
+var WeakMap = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js").WeakMap;
+var set, get, has;
+
+var enforce = function (it) {
+  return has(it) ? get(it) : set(it, {});
+};
+
+var getterFor = function (TYPE) {
+  return function (it) {
+    var state;
+    if (!isObject(it) || (state = get(it)).type !== TYPE) {
+      throw TypeError('Incompatible receiver, ' + TYPE + ' required');
+    } return state;
+  };
+};
+
+if (NATIVE_WEAK_MAP) {
+  var store = new WeakMap();
+  var wmget = store.get;
+  var wmhas = store.has;
+  var wmset = store.set;
+  set = function (it, metadata) {
+    wmset.call(store, it, metadata);
+    return metadata;
+  };
+  get = function (it) {
+    return wmget.call(store, it) || {};
+  };
+  has = function (it) {
+    return wmhas.call(store, it);
+  };
+} else {
+  var STATE = sharedKey('state');
+  hiddenKeys[STATE] = true;
+  set = function (it, metadata) {
+    hide(it, STATE, metadata);
+    return metadata;
+  };
+  get = function (it) {
+    return objectHas(it, STATE) ? it[STATE] : {};
+  };
+  has = function (it) {
+    return objectHas(it, STATE);
+  };
+}
+
+module.exports = {
+  set: set,
+  get: get,
+  has: has,
+  enforce: enforce,
+  getterFor: getterFor
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-array.js":
+/*!*****************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-array.js ***!
+  \*****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var classof = __webpack_require__(/*! ../internals/classof-raw */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/classof-raw.js");
+
+// `IsArray` abstract operation
+// https://tc39.github.io/ecma262/#sec-isarray
+module.exports = Array.isArray || function isArray(arg) {
+  return classof(arg) == 'Array';
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-forced.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-forced.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js");
+var replacement = /#|\.prototype\./;
+
+var isForced = function (feature, detection) {
+  var value = data[normalize(feature)];
+  return value == POLYFILL ? true
+    : value == NATIVE ? false
+    : typeof detection == 'function' ? fails(detection)
+    : !!detection;
+};
+
+var normalize = isForced.normalize = function (string) {
+  return String(string).replace(replacement, '.').toLowerCase();
+};
+
+var data = isForced.data = {};
+var NATIVE = isForced.NATIVE = 'N';
+var POLYFILL = isForced.POLYFILL = 'P';
+
+module.exports = isForced;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function (it) {
+  return typeof it === 'object' ? it !== null : typeof it === 'function';
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-pure.js":
+/*!****************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-pure.js ***!
+  \****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = false;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-regexp.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/is-regexp.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+var classof = __webpack_require__(/*! ../internals/classof-raw */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/classof-raw.js");
+var MATCH = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('match');
+
+// `IsRegExp` abstract operation
+// https://tc39.github.io/ecma262/#sec-isregexp
+module.exports = function (it) {
+  var isRegExp;
+  return isObject(it) && ((isRegExp = it[MATCH]) !== undefined ? !!isRegExp : classof(it) == 'RegExp');
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators-core.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators-core.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var getPrototypeOf = __webpack_require__(/*! ../internals/object-get-prototype-of */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-prototype-of.js");
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-pure.js");
+var ITERATOR = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('iterator');
+var BUGGY_SAFARI_ITERATORS = false;
+
+var returnThis = function () { return this; };
+
+// `%IteratorPrototype%` object
+// https://tc39.github.io/ecma262/#sec-%iteratorprototype%-object
+var IteratorPrototype, PrototypeOfArrayIteratorPrototype, arrayIterator;
+
+if ([].keys) {
+  arrayIterator = [].keys();
+  // Safari 8 has buggy iterators w/o `next`
+  if (!('next' in arrayIterator)) BUGGY_SAFARI_ITERATORS = true;
+  else {
+    PrototypeOfArrayIteratorPrototype = getPrototypeOf(getPrototypeOf(arrayIterator));
+    if (PrototypeOfArrayIteratorPrototype !== Object.prototype) IteratorPrototype = PrototypeOfArrayIteratorPrototype;
+  }
+}
+
+if (IteratorPrototype == undefined) IteratorPrototype = {};
+
+// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
+if (!IS_PURE && !has(IteratorPrototype, ITERATOR)) hide(IteratorPrototype, ITERATOR, returnThis);
+
+module.exports = {
+  IteratorPrototype: IteratorPrototype,
+  BUGGY_SAFARI_ITERATORS: BUGGY_SAFARI_ITERATORS
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = {};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/native-symbol.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/native-symbol.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Chrome 38 Symbol has incorrect toString conversion
+module.exports = !__webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js")(function () {
+  // eslint-disable-next-line no-undef
+  return !String(Symbol());
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/native-weak-map.js":
+/*!************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/native-weak-map.js ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var nativeFunctionToString = __webpack_require__(/*! ../internals/function-to-string */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/function-to-string.js");
+var WeakMap = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js").WeakMap;
+
+module.exports = typeof WeakMap === 'function' && /native code/.test(nativeFunctionToString.call(WeakMap));
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-assign.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-assign.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// 19.1.2.1 Object.assign(target, source, ...)
+var objectKeys = __webpack_require__(/*! ../internals/object-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys.js");
+var getOwnPropertySymbolsModule = __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-symbols.js");
+var propertyIsEnumerableModule = __webpack_require__(/*! ../internals/object-property-is-enumerable */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-property-is-enumerable.js");
+var toObject = __webpack_require__(/*! ../internals/to-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-object.js");
+var IndexedObject = __webpack_require__(/*! ../internals/indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/indexed-object.js");
+var nativeAssign = Object.assign;
+
+// should work with symbols and should have deterministic property order (V8 bug)
+module.exports = !nativeAssign || __webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js")(function () {
+  var A = {};
+  var B = {};
+  // eslint-disable-next-line no-undef
+  var symbol = Symbol();
+  var alphabet = 'abcdefghijklmnopqrst';
+  A[symbol] = 7;
+  alphabet.split('').forEach(function (chr) { B[chr] = chr; });
+  return nativeAssign({}, A)[symbol] != 7 || objectKeys(nativeAssign({}, B)).join('') != alphabet;
+}) ? function assign(target, source) { // eslint-disable-line no-unused-vars
+  var T = toObject(target);
+  var argumentsLength = arguments.length;
+  var index = 1;
+  var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
+  var propertyIsEnumerable = propertyIsEnumerableModule.f;
+  while (argumentsLength > index) {
+    var S = IndexedObject(arguments[index++]);
+    var keys = getOwnPropertySymbols ? objectKeys(S).concat(getOwnPropertySymbols(S)) : objectKeys(S);
+    var length = keys.length;
+    var j = 0;
+    var key;
+    while (length > j) if (propertyIsEnumerable.call(S, key = keys[j++])) T[key] = S[key];
+  } return T;
+} : nativeAssign;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-create.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-create.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
+var anObject = __webpack_require__(/*! ../internals/an-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js");
+var defineProperties = __webpack_require__(/*! ../internals/object-define-properties */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-properties.js");
+var enumBugKeys = __webpack_require__(/*! ../internals/enum-bug-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-bug-keys.js");
+var html = __webpack_require__(/*! ../internals/html */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/html.js");
+var documentCreateElement = __webpack_require__(/*! ../internals/document-create-element */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/document-create-element.js");
+var IE_PROTO = __webpack_require__(/*! ../internals/shared-key */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared-key.js")('IE_PROTO');
+var PROTOTYPE = 'prototype';
+var Empty = function () { /* empty */ };
+
+// Create object with fake `null` prototype: use iframe Object with cleared prototype
+var createDict = function () {
+  // Thrash, waste and sodomy: IE GC bug
+  var iframe = documentCreateElement('iframe');
+  var length = enumBugKeys.length;
+  var lt = '<';
+  var script = 'script';
+  var gt = '>';
+  var js = 'java' + script + ':';
+  var iframeDocument;
+  iframe.style.display = 'none';
+  html.appendChild(iframe);
+  iframe.src = String(js);
+  iframeDocument = iframe.contentWindow.document;
+  iframeDocument.open();
+  iframeDocument.write(lt + script + gt + 'document.F=Object' + lt + '/' + script + gt);
+  iframeDocument.close();
+  createDict = iframeDocument.F;
+  while (length--) delete createDict[PROTOTYPE][enumBugKeys[length]];
+  return createDict();
+};
+
+module.exports = Object.create || function create(O, Properties) {
+  var result;
+  if (O !== null) {
+    Empty[PROTOTYPE] = anObject(O);
+    result = new Empty();
+    Empty[PROTOTYPE] = null;
+    // add "__proto__" for Object.getPrototypeOf polyfill
+    result[IE_PROTO] = O;
+  } else result = createDict();
+  return Properties === undefined ? result : defineProperties(result, Properties);
+};
+
+__webpack_require__(/*! ../internals/hidden-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hidden-keys.js")[IE_PROTO] = true;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-properties.js":
+/*!*********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-properties.js ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js");
+var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js");
+var objectKeys = __webpack_require__(/*! ../internals/object-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys.js");
+
+module.exports = DESCRIPTORS ? Object.defineProperties : function defineProperties(O, Properties) {
+  anObject(O);
+  var keys = objectKeys(Properties);
+  var length = keys.length;
+  var i = 0;
+  var key;
+  while (length > i) definePropertyModule.f(O, key = keys[i++], Properties[key]);
+  return O;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js":
+/*!*******************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js");
+var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/ie8-dom-define.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js");
+var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-primitive.js");
+var nativeDefineProperty = Object.defineProperty;
+
+exports.f = DESCRIPTORS ? nativeDefineProperty : function defineProperty(O, P, Attributes) {
+  anObject(O);
+  P = toPrimitive(P, true);
+  anObject(Attributes);
+  if (IE8_DOM_DEFINE) try {
+    return nativeDefineProperty(O, P, Attributes);
+  } catch (error) { /* empty */ }
+  if ('get' in Attributes || 'set' in Attributes) throw TypeError('Accessors not supported');
+  if ('value' in Attributes) O[P] = Attributes.value;
+  return O;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-descriptor.js":
+/*!*******************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-descriptor.js ***!
+  \*******************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js");
+var propertyIsEnumerableModule = __webpack_require__(/*! ../internals/object-property-is-enumerable */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-property-is-enumerable.js");
+var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property-descriptor.js");
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js");
+var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-primitive.js");
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var IE8_DOM_DEFINE = __webpack_require__(/*! ../internals/ie8-dom-define */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/ie8-dom-define.js");
+var nativeGetOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+exports.f = DESCRIPTORS ? nativeGetOwnPropertyDescriptor : function getOwnPropertyDescriptor(O, P) {
+  O = toIndexedObject(O);
+  P = toPrimitive(P, true);
+  if (IE8_DOM_DEFINE) try {
+    return nativeGetOwnPropertyDescriptor(O, P);
+  } catch (error) { /* empty */ }
+  if (has(O, P)) return createPropertyDescriptor(!propertyIsEnumerableModule.f.call(O, P), O[P]);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names-external.js":
+/*!***********************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names-external.js ***!
+  \***********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js");
+var nativeGetOwnPropertyNames = __webpack_require__(/*! ../internals/object-get-own-property-names */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names.js").f;
+var toString = {}.toString;
+
+var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
+  ? Object.getOwnPropertyNames(window) : [];
+
+var getWindowNames = function (it) {
+  try {
+    return nativeGetOwnPropertyNames(it);
+  } catch (error) {
+    return windowNames.slice();
+  }
+};
+
+module.exports.f = function getOwnPropertyNames(it) {
+  return windowNames && toString.call(it) == '[object Window]'
+    ? getWindowNames(it)
+    : nativeGetOwnPropertyNames(toIndexedObject(it));
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names.js":
+/*!**************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names.js ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
+var internalObjectKeys = __webpack_require__(/*! ../internals/object-keys-internal */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys-internal.js");
+var hiddenKeys = __webpack_require__(/*! ../internals/enum-bug-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-bug-keys.js").concat('length', 'prototype');
+
+exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
+  return internalObjectKeys(O, hiddenKeys);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-symbols.js":
+/*!****************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-symbols.js ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+exports.f = Object.getOwnPropertySymbols;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-prototype-of.js":
+/*!********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-prototype-of.js ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var toObject = __webpack_require__(/*! ../internals/to-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-object.js");
+var IE_PROTO = __webpack_require__(/*! ../internals/shared-key */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared-key.js")('IE_PROTO');
+var CORRECT_PROTOTYPE_GETTER = __webpack_require__(/*! ../internals/correct-prototype-getter */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/correct-prototype-getter.js");
+var ObjectPrototype = Object.prototype;
+
+module.exports = CORRECT_PROTOTYPE_GETTER ? Object.getPrototypeOf : function (O) {
+  O = toObject(O);
+  if (has(O, IE_PROTO)) return O[IE_PROTO];
+  if (typeof O.constructor == 'function' && O instanceof O.constructor) {
+    return O.constructor.prototype;
+  } return O instanceof Object ? ObjectPrototype : null;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys-internal.js":
+/*!*****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys-internal.js ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js");
+var arrayIndexOf = __webpack_require__(/*! ../internals/array-includes */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-includes.js")(false);
+var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hidden-keys.js");
+
+module.exports = function (object, names) {
+  var O = toIndexedObject(object);
+  var i = 0;
+  var result = [];
+  var key;
+  for (key in O) !has(hiddenKeys, key) && has(O, key) && result.push(key);
+  // Don't enum bug & hidden keys
+  while (names.length > i) if (has(O, key = names[i++])) {
+    ~arrayIndexOf(result, key) || result.push(key);
+  }
+  return result;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys.js":
+/*!********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.14 / 15.2.3.14 Object.keys(O)
+var internalObjectKeys = __webpack_require__(/*! ../internals/object-keys-internal */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys-internal.js");
+var enumBugKeys = __webpack_require__(/*! ../internals/enum-bug-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-bug-keys.js");
+
+module.exports = Object.keys || function keys(O) {
+  return internalObjectKeys(O, enumBugKeys);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-property-is-enumerable.js":
+/*!**************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-property-is-enumerable.js ***!
+  \**************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var nativePropertyIsEnumerable = {}.propertyIsEnumerable;
+var nativeGetOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// Nashorn ~ JDK8 bug
+var NASHORN_BUG = nativeGetOwnPropertyDescriptor && !nativePropertyIsEnumerable.call({ 1: 2 }, 1);
+
+exports.f = NASHORN_BUG ? function propertyIsEnumerable(V) {
+  var descriptor = nativeGetOwnPropertyDescriptor(this, V);
+  return !!descriptor && descriptor.enumerable;
+} : nativePropertyIsEnumerable;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-set-prototype-of.js":
+/*!********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-set-prototype-of.js ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Works with __proto__ only. Old v8 can't work with null proto objects.
+/* eslint-disable no-proto */
+var validateSetPrototypeOfArguments = __webpack_require__(/*! ../internals/validate-set-prototype-of-arguments */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/validate-set-prototype-of-arguments.js");
+
+module.exports = Object.setPrototypeOf || ('__proto__' in {} ? function () {
+  var correctSetter = false;
+  var test = {};
+  var setter;
+  try {
+    setter = Object.getOwnPropertyDescriptor(Object.prototype, '__proto__').set;
+    setter.call(test, []);
+    correctSetter = test instanceof Array;
+  } catch (error) { /* empty */ }
+  return function setPrototypeOf(O, proto) {
+    validateSetPrototypeOfArguments(O, proto);
+    if (correctSetter) setter.call(O, proto);
+    else O.__proto__ = proto;
+    return O;
+  };
+}() : undefined);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-to-string.js":
+/*!*************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/object-to-string.js ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var classof = __webpack_require__(/*! ../internals/classof */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/classof.js");
+var TO_STRING_TAG = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('toStringTag');
+var test = {};
+
+test[TO_STRING_TAG] = 'z';
+
+// `Object.prototype.toString` method implementation
+// https://tc39.github.io/ecma262/#sec-object.prototype.tostring
+module.exports = String(test) !== '[object z]' ? function toString() {
+  return '[object ' + classof(this) + ']';
+} : test.toString;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/own-keys.js":
+/*!*****************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/own-keys.js ***!
+  \*****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getOwnPropertyNamesModule = __webpack_require__(/*! ../internals/object-get-own-property-names */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names.js");
+var getOwnPropertySymbolsModule = __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-symbols.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js");
+var Reflect = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js").Reflect;
+
+// all object keys, includes non-enumerable and symbols
+module.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
+  var keys = getOwnPropertyNamesModule.f(anObject(it));
+  var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
+  return getOwnPropertySymbols ? keys.concat(getOwnPropertySymbols(it)) : keys;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/path.js":
+/*!*************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/path.js ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/redefine.js":
+/*!*****************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/redefine.js ***!
+  \*****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js");
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var setGlobal = __webpack_require__(/*! ../internals/set-global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-global.js");
+var nativeFunctionToString = __webpack_require__(/*! ../internals/function-to-string */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/function-to-string.js");
+var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/internal-state.js");
+var getInternalState = InternalStateModule.get;
+var enforceInternalState = InternalStateModule.enforce;
+var TEMPLATE = String(nativeFunctionToString).split('toString');
+
+__webpack_require__(/*! ../internals/shared */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared.js")('inspectSource', function (it) {
+  return nativeFunctionToString.call(it);
+});
+
+(module.exports = function (O, key, value, options) {
+  var unsafe = options ? !!options.unsafe : false;
+  var simple = options ? !!options.enumerable : false;
+  var noTargetGet = options ? !!options.noTargetGet : false;
+  if (typeof value == 'function') {
+    if (typeof key == 'string' && !has(value, 'name')) hide(value, 'name', key);
+    enforceInternalState(value).source = TEMPLATE.join(typeof key == 'string' ? key : '');
+  }
+  if (O === global) {
+    if (simple) O[key] = value;
+    else setGlobal(key, value);
+    return;
+  } else if (!unsafe) {
+    delete O[key];
+  } else if (!noTargetGet && O[key]) {
+    simple = true;
+  }
+  if (simple) O[key] = value;
+  else hide(O, key, value);
+// add fake Function#toString for correct work wrapped methods / constructors with methods like LoDash isNative
+})(Function.prototype, 'toString', function toString() {
+  return typeof this == 'function' && getInternalState(this).source || nativeFunctionToString.call(this);
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/require-object-coercible.js":
+/*!*********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/require-object-coercible.js ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// `RequireObjectCoercible` abstract operation
+// https://tc39.github.io/ecma262/#sec-requireobjectcoercible
+module.exports = function (it) {
+  if (it == undefined) throw TypeError("Can't call method on " + it);
+  return it;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-global.js":
+/*!*******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/set-global.js ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js");
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+
+module.exports = function (key, value) {
+  try {
+    hide(global, key, value);
+  } catch (error) {
+    global[key] = value;
+  } return value;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-to-string-tag.js":
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/set-to-string-tag.js ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var defineProperty = __webpack_require__(/*! ../internals/object-define-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js").f;
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var TO_STRING_TAG = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('toStringTag');
+
+module.exports = function (it, TAG, STATIC) {
+  if (it && !has(it = STATIC ? it : it.prototype, TO_STRING_TAG)) {
+    defineProperty(it, TO_STRING_TAG, { configurable: true, value: TAG });
+  }
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared-key.js":
+/*!*******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/shared-key.js ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var shared = __webpack_require__(/*! ../internals/shared */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared.js")('keys');
+var uid = __webpack_require__(/*! ../internals/uid */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/uid.js");
+
+module.exports = function (key) {
+  return shared[key] || (shared[key] = uid(key));
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared.js":
+/*!***************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/shared.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js");
+var setGlobal = __webpack_require__(/*! ../internals/set-global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-global.js");
+var SHARED = '__core-js_shared__';
+var store = global[SHARED] || setGlobal(SHARED, {});
+
+(module.exports = function (key, value) {
+  return store[key] || (store[key] = value !== undefined ? value : {});
+})('versions', []).push({
+  version: '3.0.1',
+  mode: __webpack_require__(/*! ../internals/is-pure */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-pure.js") ? 'pure' : 'global',
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/string-at.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/string-at.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-integer.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/require-object-coercible.js");
+// CONVERT_TO_STRING: true  -> String#at
+// CONVERT_TO_STRING: false -> String#codePointAt
+module.exports = function (that, pos, CONVERT_TO_STRING) {
+  var S = String(requireObjectCoercible(that));
+  var position = toInteger(pos);
+  var size = S.length;
+  var first, second;
+  if (position < 0 || position >= size) return CONVERT_TO_STRING ? '' : undefined;
+  first = S.charCodeAt(position);
+  return first < 0xD800 || first > 0xDBFF || position + 1 === size
+    || (second = S.charCodeAt(position + 1)) < 0xDC00 || second > 0xDFFF
+      ? CONVERT_TO_STRING ? S.charAt(position) : first
+      : CONVERT_TO_STRING ? S.slice(position, position + 2) : (first - 0xD800 << 10) + (second - 0xDC00) + 0x10000;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/string-repeat.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/string-repeat.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-integer.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/require-object-coercible.js");
+
+// `String.prototype.repeat` method implementation
+// https://tc39.github.io/ecma262/#sec-string.prototype.repeat
+module.exports = ''.repeat || function repeat(count) {
+  var str = String(requireObjectCoercible(this));
+  var result = '';
+  var n = toInteger(count);
+  if (n < 0 || n == Infinity) throw RangeError('Wrong number of repetitions');
+  for (;n > 0; (n >>>= 1) && (str += str)) if (n & 1) result += str;
+  return result;
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-absolute-index.js":
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-absolute-index.js ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-integer.js");
+var max = Math.max;
+var min = Math.min;
+
+// Helper for a popular repeating case of the spec:
+// Let integer be ? ToInteger(index).
+// If integer < 0, let result be max((length + integer), 0); else let result be min(length, length).
+module.exports = function (index, length) {
+  var integer = toInteger(index);
+  return integer < 0 ? max(integer + length, 0) : min(integer, length);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js":
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// toObject with fallback for non-array-like ES3 strings
+var IndexedObject = __webpack_require__(/*! ../internals/indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/indexed-object.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/require-object-coercible.js");
+
+module.exports = function (it) {
+  return IndexedObject(requireObjectCoercible(it));
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-integer.js":
+/*!*******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-integer.js ***!
+  \*******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var ceil = Math.ceil;
+var floor = Math.floor;
+
+// `ToInteger` abstract operation
+// https://tc39.github.io/ecma262/#sec-tointeger
+module.exports = function (argument) {
+  return isNaN(argument = +argument) ? 0 : (argument > 0 ? floor : ceil)(argument);
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-length.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-length.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toInteger = __webpack_require__(/*! ../internals/to-integer */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-integer.js");
+var min = Math.min;
+
+// `ToLength` abstract operation
+// https://tc39.github.io/ecma262/#sec-tolength
+module.exports = function (argument) {
+  return argument > 0 ? min(toInteger(argument), 0x1FFFFFFFFFFFFF) : 0; // 2 ** 53 - 1 == 9007199254740991
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-object.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-object.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/require-object-coercible.js");
+
+// `ToObject` abstract operation
+// https://tc39.github.io/ecma262/#sec-toobject
+module.exports = function (argument) {
+  return Object(requireObjectCoercible(argument));
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-primitive.js":
+/*!*********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/to-primitive.js ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 7.1.1 ToPrimitive(input [, PreferredType])
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+// instead of the ES6 spec version, we didn't implement @@toPrimitive case
+// and the second argument - flag - preferred type is a string
+module.exports = function (it, S) {
+  if (!isObject(it)) return it;
+  var fn, val;
+  if (S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
+  if (typeof (fn = it.valueOf) == 'function' && !isObject(val = fn.call(it))) return val;
+  if (!S && typeof (fn = it.toString) == 'function' && !isObject(val = fn.call(it))) return val;
+  throw TypeError("Can't convert object to primitive value");
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/uid.js":
+/*!************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/uid.js ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var id = 0;
+var postfix = Math.random();
+
+module.exports = function (key) {
+  return 'Symbol('.concat(key === undefined ? '' : key, ')_', (++id + postfix).toString(36));
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/validate-set-prototype-of-arguments.js":
+/*!********************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/validate-set-prototype-of-arguments.js ***!
+  \********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js");
+
+module.exports = function (O, proto) {
+  anObject(O);
+  if (!isObject(proto) && proto !== null) {
+    throw TypeError("Can't set " + String(proto) + ' as a prototype');
+  }
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/validate-string-method-arguments.js":
+/*!*****************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/validate-string-method-arguments.js ***!
+  \*****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// helper for String#{startsWith, endsWith, includes}
+var isRegExp = __webpack_require__(/*! ../internals/is-regexp */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-regexp.js");
+var requireObjectCoercible = __webpack_require__(/*! ../internals/require-object-coercible */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/require-object-coercible.js");
+
+module.exports = function (that, searchString, NAME) {
+  if (isRegExp(searchString)) {
+    throw TypeError('String.prototype.' + NAME + " doesn't accept regex");
+  } return String(requireObjectCoercible(that));
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js":
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var store = __webpack_require__(/*! ../internals/shared */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared.js")('wks');
+var uid = __webpack_require__(/*! ../internals/uid */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/uid.js");
+var Symbol = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js").Symbol;
+var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/native-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/native-symbol.js");
+
+module.exports = function (name) {
+  return store[name] || (store[name] = NATIVE_SYMBOL && Symbol[name]
+    || (NATIVE_SYMBOL ? Symbol : uid)('Symbol.' + name));
+};
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/wrapped-well-known-symbol.js":
+/*!**********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/internals/wrapped-well-known-symbol.js ***!
+  \**********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports.f = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js");
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.concat.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.concat.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var isArray = __webpack_require__(/*! ../internals/is-array */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-array.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+var toObject = __webpack_require__(/*! ../internals/to-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-object.js");
+var toLength = __webpack_require__(/*! ../internals/to-length */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-length.js");
+var createProperty = __webpack_require__(/*! ../internals/create-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property.js");
+var arraySpeciesCreate = __webpack_require__(/*! ../internals/array-species-create */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-species-create.js");
+var IS_CONCAT_SPREADABLE = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js")('isConcatSpreadable');
+var MAX_SAFE_INTEGER = 0x1FFFFFFFFFFFFF;
+var MAXIMUM_ALLOWED_INDEX_EXCEEDED = 'Maximum allowed index exceeded';
+
+var IS_CONCAT_SPREADABLE_SUPPORT = !__webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js")(function () {
+  var array = [];
+  array[IS_CONCAT_SPREADABLE] = false;
+  return array.concat()[0] !== array;
+});
+
+var SPECIES_SUPPORT = __webpack_require__(/*! ../internals/array-method-has-species-support */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-method-has-species-support.js")('concat');
+
+var isConcatSpreadable = function (O) {
+  if (!isObject(O)) return false;
+  var spreadable = O[IS_CONCAT_SPREADABLE];
+  return spreadable !== undefined ? !!spreadable : isArray(O);
+};
+
+var FORCED = !IS_CONCAT_SPREADABLE_SUPPORT || !SPECIES_SUPPORT;
+
+// `Array.prototype.concat` method
+// https://tc39.github.io/ecma262/#sec-array.prototype.concat
+// with adding support of @@isConcatSpreadable and @@species
+__webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js")({ target: 'Array', proto: true, forced: FORCED }, {
+  concat: function concat(arg) { // eslint-disable-line no-unused-vars
+    var O = toObject(this);
+    var A = arraySpeciesCreate(O, 0);
+    var n = 0;
+    var i, k, length, len, E;
+    for (i = -1, length = arguments.length; i < length; i++) {
+      E = i === -1 ? O : arguments[i];
+      if (isConcatSpreadable(E)) {
+        len = toLength(E.length);
+        if (n + len > MAX_SAFE_INTEGER) throw TypeError(MAXIMUM_ALLOWED_INDEX_EXCEEDED);
+        for (k = 0; k < len; k++, n++) if (k in E) createProperty(A, n, E[k]);
+      } else {
+        if (n >= MAX_SAFE_INTEGER) throw TypeError(MAXIMUM_ALLOWED_INDEX_EXCEEDED);
+        createProperty(A, n++, E);
+      }
+    }
+    A.length = n;
+    return A;
+  }
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.find-index.js":
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.find-index.js ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var internalFindIndex = __webpack_require__(/*! ../internals/array-methods */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-methods.js")(6);
+var FIND_INDEX = 'findIndex';
+var SKIPS_HOLES = true;
+
+// Shouldn't skip holes
+if (FIND_INDEX in []) Array(1)[FIND_INDEX](function () { SKIPS_HOLES = false; });
+
+// `Array.prototype.findIndex` method
+// https://tc39.github.io/ecma262/#sec-array.prototype.findindex
+__webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js")({ target: 'Array', proto: true, forced: SKIPS_HOLES }, {
+  findIndex: function findIndex(callbackfn /* , that = undefined */) {
+    return internalFindIndex(this, callbackfn, arguments.length > 1 ? arguments[1] : undefined);
+  }
+});
+
+// https://tc39.github.io/ecma262/#sec-array.prototype-@@unscopables
+__webpack_require__(/*! ../internals/add-to-unscopables */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/add-to-unscopables.js")(FIND_INDEX);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.find.js":
+/*!********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.find.js ***!
+  \********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var internalFind = __webpack_require__(/*! ../internals/array-methods */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/array-methods.js")(5);
+var FIND = 'find';
+var SKIPS_HOLES = true;
+
+// Shouldn't skip holes
+if (FIND in []) Array(1)[FIND](function () { SKIPS_HOLES = false; });
+
+// `Array.prototype.find` method
+// https://tc39.github.io/ecma262/#sec-array.prototype.find
+__webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js")({ target: 'Array', proto: true, forced: SKIPS_HOLES }, {
+  find: function find(callbackfn /* , that = undefined */) {
+    return internalFind(this, callbackfn, arguments.length > 1 ? arguments[1] : undefined);
+  }
+});
+
+// https://tc39.github.io/ecma262/#sec-array.prototype-@@unscopables
+__webpack_require__(/*! ../internals/add-to-unscopables */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/add-to-unscopables.js")(FIND);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.iterator.js":
+/*!************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.iterator.js ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js");
+var addToUnscopables = __webpack_require__(/*! ../internals/add-to-unscopables */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/add-to-unscopables.js");
+var Iterators = __webpack_require__(/*! ../internals/iterators */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/iterators.js");
+var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/internal-state.js");
+var defineIterator = __webpack_require__(/*! ../internals/define-iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-iterator.js");
+var ARRAY_ITERATOR = 'Array Iterator';
+var setInternalState = InternalStateModule.set;
+var getInternalState = InternalStateModule.getterFor(ARRAY_ITERATOR);
+
+// `Array.prototype.entries` method
+// https://tc39.github.io/ecma262/#sec-array.prototype.entries
+// `Array.prototype.keys` method
+// https://tc39.github.io/ecma262/#sec-array.prototype.keys
+// `Array.prototype.values` method
+// https://tc39.github.io/ecma262/#sec-array.prototype.values
+// `Array.prototype[@@iterator]` method
+// https://tc39.github.io/ecma262/#sec-array.prototype-@@iterator
+// `CreateArrayIterator` internal method
+// https://tc39.github.io/ecma262/#sec-createarrayiterator
+module.exports = defineIterator(Array, 'Array', function (iterated, kind) {
+  setInternalState(this, {
+    type: ARRAY_ITERATOR,
+    target: toIndexedObject(iterated), // target
+    index: 0,                          // next index
+    kind: kind                         // kind
+  });
+// `%ArrayIteratorPrototype%.next` method
+// https://tc39.github.io/ecma262/#sec-%arrayiteratorprototype%.next
+}, function () {
+  var state = getInternalState(this);
+  var target = state.target;
+  var kind = state.kind;
+  var index = state.index++;
+  if (!target || index >= target.length) {
+    state.target = undefined;
+    return { value: undefined, done: true };
+  }
+  if (kind == 'keys') return { value: index, done: false };
+  if (kind == 'values') return { value: target[index], done: false };
+  return { value: [index, target[index]], done: false };
+}, 'values');
+
+// argumentsList[@@iterator] is %ArrayProto_values%
+// https://tc39.github.io/ecma262/#sec-createunmappedargumentsobject
+// https://tc39.github.io/ecma262/#sec-createmappedargumentsobject
+Iterators.Arguments = Iterators.Array;
+
+// https://tc39.github.io/ecma262/#sec-array.prototype-@@unscopables
+addToUnscopables('keys');
+addToUnscopables('values');
+addToUnscopables('entries');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.json.to-string-tag.js":
+/*!****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.json.to-string-tag.js ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// JSON[@@toStringTag] property
+// https://tc39.github.io/ecma262/#sec-json-@@tostringtag
+__webpack_require__(/*! ../internals/set-to-string-tag */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-to-string-tag.js")(__webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js").JSON, 'JSON', true);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.math.to-string-tag.js":
+/*!****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.math.to-string-tag.js ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Math[@@toStringTag] property
+// https://tc39.github.io/ecma262/#sec-math-@@tostringtag
+__webpack_require__(/*! ../internals/set-to-string-tag */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-to-string-tag.js")(Math, 'Math', true);
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.object.assign.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.object.assign.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var assign = __webpack_require__(/*! ../internals/object-assign */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-assign.js");
+
+// `Object.assign` method
+// https://tc39.github.io/ecma262/#sec-object.assign
+__webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js")({ target: 'Object', stat: true, forced: Object.assign !== assign }, { assign: assign });
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.object.to-string.js":
+/*!**************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.object.to-string.js ***!
+  \**************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var toString = __webpack_require__(/*! ../internals/object-to-string */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-to-string.js");
+var ObjectPrototype = Object.prototype;
+
+// `Object.prototype.toString` method
+// https://tc39.github.io/ecma262/#sec-object.prototype.tostring
+if (toString !== ObjectPrototype.toString) {
+  __webpack_require__(/*! ../internals/redefine */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/redefine.js")(ObjectPrototype, 'toString', toString, { unsafe: true });
+}
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.iterator.js":
+/*!*************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.iterator.js ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var codePointAt = __webpack_require__(/*! ../internals/string-at */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/string-at.js");
+var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/internal-state.js");
+var defineIterator = __webpack_require__(/*! ../internals/define-iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-iterator.js");
+var STRING_ITERATOR = 'String Iterator';
+var setInternalState = InternalStateModule.set;
+var getInternalState = InternalStateModule.getterFor(STRING_ITERATOR);
+
+// `String.prototype[@@iterator]` method
+// https://tc39.github.io/ecma262/#sec-string.prototype-@@iterator
+defineIterator(String, 'String', function (iterated) {
+  setInternalState(this, {
+    type: STRING_ITERATOR,
+    string: String(iterated),
+    index: 0
+  });
+// `%StringIteratorPrototype%.next` method
+// https://tc39.github.io/ecma262/#sec-%stringiteratorprototype%.next
+}, function next() {
+  var state = getInternalState(this);
+  var string = state.string;
+  var index = state.index;
+  var point;
+  if (index >= string.length) return { value: undefined, done: true };
+  point = codePointAt(string, index, true);
+  state.index += point.length;
+  return { value: point, done: false };
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.repeat.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.repeat.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `String.prototype.repeat` method
+// https://tc39.github.io/ecma262/#sec-string.prototype.repeat
+__webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js")({ target: 'String', proto: true }, {
+  repeat: __webpack_require__(/*! ../internals/string-repeat */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/string-repeat.js")
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.starts-with.js":
+/*!****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.string.starts-with.js ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var toLength = __webpack_require__(/*! ../internals/to-length */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-length.js");
+var validateArguments = __webpack_require__(/*! ../internals/validate-string-method-arguments */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/validate-string-method-arguments.js");
+var STARTS_WITH = 'startsWith';
+var CORRECT_IS_REGEXP_LOGIC = __webpack_require__(/*! ../internals/correct-is-regexp-logic */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/correct-is-regexp-logic.js")(STARTS_WITH);
+var nativeStartsWith = ''[STARTS_WITH];
+
+// `String.prototype.startsWith` method
+// https://tc39.github.io/ecma262/#sec-string.prototype.startswith
+__webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js")({ target: 'String', proto: true, forced: !CORRECT_IS_REGEXP_LOGIC }, {
+  startsWith: function startsWith(searchString /* , position = 0 */) {
+    var that = validateArguments(this, searchString, STARTS_WITH);
+    var index = toLength(Math.min(arguments.length > 1 ? arguments[1] : undefined, that.length));
+    var search = String(searchString);
+    return nativeStartsWith
+      ? nativeStartsWith.call(that, search, index)
+      : that.slice(index, index + search.length) === search;
+  }
+});
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.async-iterator.js":
+/*!*******************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.async-iterator.js ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.asyncIterator` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.asynciterator
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('asyncIterator');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.description.js":
+/*!****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.description.js ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// `Symbol.prototype.description` getter
+// https://tc39.github.io/ecma262/#sec-symbol.prototype.description
+
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js");
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+var defineProperty = __webpack_require__(/*! ../internals/object-define-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js").f;
+var copyConstructorProperties = __webpack_require__(/*! ../internals/copy-constructor-properties */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/copy-constructor-properties.js");
+var NativeSymbol = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js").Symbol;
+
+if (DESCRIPTORS && typeof NativeSymbol == 'function' && (!('description' in NativeSymbol.prototype) ||
+  // Safari 12 bug
+  NativeSymbol().description !== undefined
+)) {
+  var EmptyStringDescriptionStore = {};
+  // wrap Symbol constructor for correct work with undefined description
+  var SymbolWrapper = function Symbol() {
+    var description = arguments.length < 1 || arguments[0] === undefined ? undefined : String(arguments[0]);
+    var result = this instanceof SymbolWrapper
+      ? new NativeSymbol(description)
+      // in Edge 13, String(Symbol(undefined)) === 'Symbol(undefined)'
+      : description === undefined ? NativeSymbol() : NativeSymbol(description);
+    if (description === '') EmptyStringDescriptionStore[result] = true;
+    return result;
+  };
+  copyConstructorProperties(SymbolWrapper, NativeSymbol);
+  var symbolPrototype = SymbolWrapper.prototype = NativeSymbol.prototype;
+  symbolPrototype.constructor = SymbolWrapper;
+
+  var symbolToString = symbolPrototype.toString;
+  var native = String(NativeSymbol('test')) == 'Symbol(test)';
+  var regexp = /^Symbol\((.*)\)[^)]+$/;
+  defineProperty(symbolPrototype, 'description', {
+    configurable: true,
+    get: function description() {
+      var symbol = isObject(this) ? this.valueOf() : this;
+      var string = symbolToString.call(symbol);
+      if (has(EmptyStringDescriptionStore, symbol)) return '';
+      var desc = native ? string.slice(7, -1) : string.replace(regexp, '$1');
+      return desc === '' ? undefined : desc;
+    }
+  });
+
+  __webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js")({ global: true, forced: true }, { Symbol: SymbolWrapper });
+}
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.has-instance.js":
+/*!*****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.has-instance.js ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.hasInstance` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.hasinstance
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('hasInstance');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.is-concat-spreadable.js":
+/*!*************************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.is-concat-spreadable.js ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.isConcatSpreadable` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.isconcatspreadable
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('isConcatSpreadable');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.iterator.js":
+/*!*************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.iterator.js ***!
+  \*************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.iterator` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.iterator
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('iterator');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.js":
+/*!****************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.js ***!
+  \****************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+// ECMAScript 6 symbols shim
+var global = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js");
+var has = __webpack_require__(/*! ../internals/has */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/has.js");
+var DESCRIPTORS = __webpack_require__(/*! ../internals/descriptors */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/descriptors.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-pure.js");
+var $export = __webpack_require__(/*! ../internals/export */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/export.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/redefine.js");
+var hiddenKeys = __webpack_require__(/*! ../internals/hidden-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hidden-keys.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/fails.js");
+var shared = __webpack_require__(/*! ../internals/shared */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared.js");
+var setToStringTag = __webpack_require__(/*! ../internals/set-to-string-tag */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/set-to-string-tag.js");
+var uid = __webpack_require__(/*! ../internals/uid */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/uid.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js");
+var wrappedWellKnownSymbolModule = __webpack_require__(/*! ../internals/wrapped-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/wrapped-well-known-symbol.js");
+var defineWellKnownSymbol = __webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js");
+var enumKeys = __webpack_require__(/*! ../internals/enum-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/enum-keys.js");
+var isArray = __webpack_require__(/*! ../internals/is-array */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-array.js");
+var anObject = __webpack_require__(/*! ../internals/an-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/an-object.js");
+var isObject = __webpack_require__(/*! ../internals/is-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/is-object.js");
+var toIndexedObject = __webpack_require__(/*! ../internals/to-indexed-object */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-indexed-object.js");
+var toPrimitive = __webpack_require__(/*! ../internals/to-primitive */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/to-primitive.js");
+var createPropertyDescriptor = __webpack_require__(/*! ../internals/create-property-descriptor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/create-property-descriptor.js");
+var nativeObjectCreate = __webpack_require__(/*! ../internals/object-create */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-create.js");
+var getOwnPropertyNamesExternal = __webpack_require__(/*! ../internals/object-get-own-property-names-external */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names-external.js");
+var getOwnPropertyDescriptorModule = __webpack_require__(/*! ../internals/object-get-own-property-descriptor */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-descriptor.js");
+var definePropertyModule = __webpack_require__(/*! ../internals/object-define-property */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-define-property.js");
+var propertyIsEnumerableModule = __webpack_require__(/*! ../internals/object-property-is-enumerable */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-property-is-enumerable.js");
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+var objectKeys = __webpack_require__(/*! ../internals/object-keys */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-keys.js");
+var HIDDEN = __webpack_require__(/*! ../internals/shared-key */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/shared-key.js")('hidden');
+var InternalStateModule = __webpack_require__(/*! ../internals/internal-state */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/internal-state.js");
+var SYMBOL = 'Symbol';
+var setInternalState = InternalStateModule.set;
+var getInternalState = InternalStateModule.getterFor(SYMBOL);
+var nativeGetOwnPropertyDescriptor = getOwnPropertyDescriptorModule.f;
+var nativeDefineProperty = definePropertyModule.f;
+var nativeGetOwnPropertyNames = getOwnPropertyNamesExternal.f;
+var $Symbol = global.Symbol;
+var JSON = global.JSON;
+var nativeJSONStringify = JSON && JSON.stringify;
+var PROTOTYPE = 'prototype';
+var TO_PRIMITIVE = wellKnownSymbol('toPrimitive');
+var nativePropertyIsEnumerable = propertyIsEnumerableModule.f;
+var SymbolRegistry = shared('symbol-registry');
+var AllSymbols = shared('symbols');
+var ObjectPrototypeSymbols = shared('op-symbols');
+var WellKnownSymbolsStore = shared('wks');
+var ObjectPrototype = Object[PROTOTYPE];
+var QObject = global.QObject;
+var NATIVE_SYMBOL = __webpack_require__(/*! ../internals/native-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/native-symbol.js");
+// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173
+var USE_SETTER = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;
+
+// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687
+var setSymbolDescriptor = DESCRIPTORS && fails(function () {
+  return nativeObjectCreate(nativeDefineProperty({}, 'a', {
+    get: function () { return nativeDefineProperty(this, 'a', { value: 7 }).a; }
+  })).a != 7;
+}) ? function (it, key, D) {
+  var ObjectPrototypeDescriptor = nativeGetOwnPropertyDescriptor(ObjectPrototype, key);
+  if (ObjectPrototypeDescriptor) delete ObjectPrototype[key];
+  nativeDefineProperty(it, key, D);
+  if (ObjectPrototypeDescriptor && it !== ObjectPrototype) {
+    nativeDefineProperty(ObjectPrototype, key, ObjectPrototypeDescriptor);
+  }
+} : nativeDefineProperty;
+
+var wrap = function (tag, description) {
+  var symbol = AllSymbols[tag] = nativeObjectCreate($Symbol[PROTOTYPE]);
+  setInternalState(symbol, {
+    type: SYMBOL,
+    tag: tag,
+    description: description
+  });
+  if (!DESCRIPTORS) symbol.description = description;
+  return symbol;
+};
+
+var isSymbol = NATIVE_SYMBOL && typeof $Symbol.iterator == 'symbol' ? function (it) {
+  return typeof it == 'symbol';
+} : function (it) {
+  return Object(it) instanceof $Symbol;
+};
+
+var $defineProperty = function defineProperty(it, key, D) {
+  if (it === ObjectPrototype) $defineProperty(ObjectPrototypeSymbols, key, D);
+  anObject(it);
+  key = toPrimitive(key, true);
+  anObject(D);
+  if (has(AllSymbols, key)) {
+    if (!D.enumerable) {
+      if (!has(it, HIDDEN)) nativeDefineProperty(it, HIDDEN, createPropertyDescriptor(1, {}));
+      it[HIDDEN][key] = true;
+    } else {
+      if (has(it, HIDDEN) && it[HIDDEN][key]) it[HIDDEN][key] = false;
+      D = nativeObjectCreate(D, { enumerable: createPropertyDescriptor(0, false) });
+    } return setSymbolDescriptor(it, key, D);
+  } return nativeDefineProperty(it, key, D);
+};
+
+var $defineProperties = function defineProperties(it, P) {
+  anObject(it);
+  var keys = enumKeys(P = toIndexedObject(P));
+  var i = 0;
+  var l = keys.length;
+  var key;
+  while (l > i) $defineProperty(it, key = keys[i++], P[key]);
+  return it;
+};
+
+var $create = function create(it, P) {
+  return P === undefined ? nativeObjectCreate(it) : $defineProperties(nativeObjectCreate(it), P);
+};
+
+var $propertyIsEnumerable = function propertyIsEnumerable(key) {
+  var E = nativePropertyIsEnumerable.call(this, key = toPrimitive(key, true));
+  if (this === ObjectPrototype && has(AllSymbols, key) && !has(ObjectPrototypeSymbols, key)) return false;
+  return E || !has(this, key) || !has(AllSymbols, key) || has(this, HIDDEN) && this[HIDDEN][key] ? E : true;
+};
+
+var $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(it, key) {
+  it = toIndexedObject(it);
+  key = toPrimitive(key, true);
+  if (it === ObjectPrototype && has(AllSymbols, key) && !has(ObjectPrototypeSymbols, key)) return;
+  var D = nativeGetOwnPropertyDescriptor(it, key);
+  if (D && has(AllSymbols, key) && !(has(it, HIDDEN) && it[HIDDEN][key])) D.enumerable = true;
+  return D;
+};
+
+var $getOwnPropertyNames = function getOwnPropertyNames(it) {
+  var names = nativeGetOwnPropertyNames(toIndexedObject(it));
+  var result = [];
+  var i = 0;
+  var key;
+  while (names.length > i) {
+    if (!has(AllSymbols, key = names[i++]) && !has(hiddenKeys, key)) result.push(key);
+  } return result;
+};
+
+var $getOwnPropertySymbols = function getOwnPropertySymbols(it) {
+  var IS_OP = it === ObjectPrototype;
+  var names = nativeGetOwnPropertyNames(IS_OP ? ObjectPrototypeSymbols : toIndexedObject(it));
+  var result = [];
+  var i = 0;
+  var key;
+  while (names.length > i) {
+    if (has(AllSymbols, key = names[i++]) && (IS_OP ? has(ObjectPrototype, key) : true)) result.push(AllSymbols[key]);
+  } return result;
+};
+
+// `Symbol` constructor
+// https://tc39.github.io/ecma262/#sec-symbol-constructor
+if (!NATIVE_SYMBOL) {
+  $Symbol = function Symbol() {
+    if (this instanceof $Symbol) throw TypeError('Symbol is not a constructor');
+    var description = arguments[0] === undefined ? undefined : String(arguments[0]);
+    var tag = uid(description);
+    var setter = function (value) {
+      if (this === ObjectPrototype) setter.call(ObjectPrototypeSymbols, value);
+      if (has(this, HIDDEN) && has(this[HIDDEN], tag)) this[HIDDEN][tag] = false;
+      setSymbolDescriptor(this, tag, createPropertyDescriptor(1, value));
+    };
+    if (DESCRIPTORS && USE_SETTER) setSymbolDescriptor(ObjectPrototype, tag, { configurable: true, set: setter });
+    return wrap(tag, description);
+  };
+  redefine($Symbol[PROTOTYPE], 'toString', function toString() {
+    return getInternalState(this).tag;
+  });
+
+  propertyIsEnumerableModule.f = $propertyIsEnumerable;
+  definePropertyModule.f = $defineProperty;
+  getOwnPropertyDescriptorModule.f = $getOwnPropertyDescriptor;
+  __webpack_require__(/*! ../internals/object-get-own-property-names */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-names.js").f = getOwnPropertyNamesExternal.f = $getOwnPropertyNames;
+  __webpack_require__(/*! ../internals/object-get-own-property-symbols */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/object-get-own-property-symbols.js").f = $getOwnPropertySymbols;
+
+  if (DESCRIPTORS) {
+    // https://github.com/tc39/proposal-Symbol-description
+    nativeDefineProperty($Symbol[PROTOTYPE], 'description', {
+      configurable: true,
+      get: function description() {
+        return getInternalState(this).description;
+      }
+    });
+    if (!IS_PURE) {
+      redefine(ObjectPrototype, 'propertyIsEnumerable', $propertyIsEnumerable, { unsafe: true });
+    }
+  }
+
+  wrappedWellKnownSymbolModule.f = function (name) {
+    return wrap(wellKnownSymbol(name), name);
+  };
+}
+
+$export({ global: true, wrap: true, forced: !NATIVE_SYMBOL, sham: !NATIVE_SYMBOL }, { Symbol: $Symbol });
+
+for (var wellKnownSymbols = objectKeys(WellKnownSymbolsStore), k = 0; wellKnownSymbols.length > k;) {
+  defineWellKnownSymbol(wellKnownSymbols[k++]);
+}
+
+$export({ target: SYMBOL, stat: true, forced: !NATIVE_SYMBOL }, {
+  // `Symbol.for` method
+  // https://tc39.github.io/ecma262/#sec-symbol.for
+  'for': function (key) {
+    return has(SymbolRegistry, key += '')
+      ? SymbolRegistry[key]
+      : SymbolRegistry[key] = $Symbol(key);
+  },
+  // `Symbol.keyFor` method
+  // https://tc39.github.io/ecma262/#sec-symbol.keyfor
+  keyFor: function keyFor(sym) {
+    if (!isSymbol(sym)) throw TypeError(sym + ' is not a symbol');
+    for (var key in SymbolRegistry) if (SymbolRegistry[key] === sym) return key;
+  },
+  useSetter: function () { USE_SETTER = true; },
+  useSimple: function () { USE_SETTER = false; }
+});
+
+$export({ target: 'Object', stat: true, forced: !NATIVE_SYMBOL, sham: !DESCRIPTORS }, {
+  // `Object.create` method
+  // https://tc39.github.io/ecma262/#sec-object.create
+  create: $create,
+  // `Object.defineProperty` method
+  // https://tc39.github.io/ecma262/#sec-object.defineproperty
+  defineProperty: $defineProperty,
+  // `Object.defineProperties` method
+  // https://tc39.github.io/ecma262/#sec-object.defineproperties
+  defineProperties: $defineProperties,
+  // `Object.getOwnPropertyDescriptor` method
+  // https://tc39.github.io/ecma262/#sec-object.getownpropertydescriptors
+  getOwnPropertyDescriptor: $getOwnPropertyDescriptor
+});
+
+$export({ target: 'Object', stat: true, forced: !NATIVE_SYMBOL }, {
+  // `Object.getOwnPropertyNames` method
+  // https://tc39.github.io/ecma262/#sec-object.getownpropertynames
+  getOwnPropertyNames: $getOwnPropertyNames,
+  // `Object.getOwnPropertySymbols` method
+  // https://tc39.github.io/ecma262/#sec-object.getownpropertysymbols
+  getOwnPropertySymbols: $getOwnPropertySymbols
+});
+
+// `JSON.stringify` method behavior with symbols
+// https://tc39.github.io/ecma262/#sec-json.stringify
+JSON && $export({ target: 'JSON', stat: true, forced: !NATIVE_SYMBOL || fails(function () {
+  var symbol = $Symbol();
+  // MS Edge converts symbol values to JSON as {}
+  return nativeJSONStringify([symbol]) != '[null]'
+    // WebKit converts symbol values to JSON as null
+    || nativeJSONStringify({ a: symbol }) != '{}'
+    // V8 throws on boxed symbols
+    || nativeJSONStringify(Object(symbol)) != '{}';
+}) }, {
+  stringify: function stringify(it) {
+    var args = [it];
+    var i = 1;
+    var replacer, $replacer;
+    while (arguments.length > i) args.push(arguments[i++]);
+    $replacer = replacer = args[1];
+    if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined
+    if (!isArray(replacer)) replacer = function (key, value) {
+      if (typeof $replacer == 'function') value = $replacer.call(this, key, value);
+      if (!isSymbol(value)) return value;
+    };
+    args[1] = replacer;
+    return nativeJSONStringify.apply(JSON, args);
+  }
+});
+
+// `Symbol.prototype[@@toPrimitive]` method
+// https://tc39.github.io/ecma262/#sec-symbol.prototype-@@toprimitive
+if (!$Symbol[PROTOTYPE][TO_PRIMITIVE]) hide($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
+// `Symbol.prototype[@@toStringTag]` property
+// https://tc39.github.io/ecma262/#sec-symbol.prototype-@@tostringtag
+setToStringTag($Symbol, SYMBOL);
+
+hiddenKeys[HIDDEN] = true;
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.match.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.match.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.match` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.match
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('match');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.replace.js":
+/*!************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.replace.js ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.replace` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.replace
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('replace');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.search.js":
+/*!***********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.search.js ***!
+  \***********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.search` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.search
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('search');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.species.js":
+/*!************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.species.js ***!
+  \************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.species` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.species
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('species');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.split.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.split.js ***!
+  \**********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.split` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.split
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('split');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.to-primitive.js":
+/*!*****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.to-primitive.js ***!
+  \*****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.toPrimitive` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.toprimitive
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('toPrimitive');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.to-string-tag.js":
+/*!******************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.to-string-tag.js ***!
+  \******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.toStringTag` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.tostringtag
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('toStringTag');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.unscopables.js":
+/*!****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/es.symbol.unscopables.js ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.unscopables` well-known symbol
+// https://tc39.github.io/ecma262/#sec-symbol.unscopables
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('unscopables');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.dispose.js":
+/*!****************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.dispose.js ***!
+  \****************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.patternMatch` well-known symbol
+// https://github.com/tc39/proposal-using-statement
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('dispose');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.observable.js":
+/*!*******************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.observable.js ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://github.com/tc39/proposal-observable
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('observable');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.pattern-match.js":
+/*!**********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/esnext.symbol.pattern-match.js ***!
+  \**********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// `Symbol.patternMatch` well-known symbol
+// https://github.com/tc39/proposal-pattern-matching
+__webpack_require__(/*! ../internals/define-well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/define-well-known-symbol.js")('patternMatch');
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/web.dom-collections.iterator.js":
+/*!***********************************************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/polyfill/node_modules/core-js/modules/web.dom-collections.iterator.js ***!
+  \***********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DOMIterables = __webpack_require__(/*! ../internals/dom-iterables */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/dom-iterables.js");
+var ArrayIteratorMethods = __webpack_require__(/*! ../modules/es.array.iterator */ "../../node_modules/@firebase/polyfill/node_modules/core-js/modules/es.array.iterator.js");
+var global = __webpack_require__(/*! ../internals/global */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/global.js");
+var hide = __webpack_require__(/*! ../internals/hide */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/hide.js");
+var wellKnownSymbol = __webpack_require__(/*! ../internals/well-known-symbol */ "../../node_modules/@firebase/polyfill/node_modules/core-js/internals/well-known-symbol.js");
+var ITERATOR = wellKnownSymbol('iterator');
+var TO_STRING_TAG = wellKnownSymbol('toStringTag');
+var ArrayValues = ArrayIteratorMethods.values;
+
+for (var COLLECTION_NAME in DOMIterables) {
+  var Collection = global[COLLECTION_NAME];
+  var CollectionPrototype = Collection && Collection.prototype;
+  if (CollectionPrototype) {
+    // some Chrome versions have non-configurable methods on DOMTokenList
+    if (CollectionPrototype[ITERATOR] !== ArrayValues) try {
+      hide(CollectionPrototype, ITERATOR, ArrayValues);
+    } catch (error) {
+      CollectionPrototype[ITERATOR] = ArrayValues;
+    }
+    if (!CollectionPrototype[TO_STRING_TAG]) hide(CollectionPrototype, TO_STRING_TAG, COLLECTION_NAME);
+    if (DOMIterables[COLLECTION_NAME]) for (var METHOD_NAME in ArrayIteratorMethods) {
+      // some Chrome versions have non-configurable methods on DOMTokenList
+      if (CollectionPrototype[METHOD_NAME] !== ArrayIteratorMethods[METHOD_NAME]) try {
+        hide(CollectionPrototype, METHOD_NAME, ArrayIteratorMethods[METHOD_NAME]);
+      } catch (error) {
+        CollectionPrototype[METHOD_NAME] = ArrayIteratorMethods[METHOD_NAME];
+      }
+    }
+  }
+}
+
+
+/***/ }),
+
+/***/ "../../node_modules/@firebase/util/dist/index.cjs.js":
+/*!************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@firebase/util/dist/index.cjs.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * @fileoverview Firebase constants.  Some of these (@defines) can be overridden at compile-time.
+ */
+var CONSTANTS = {
+    /**
+     * @define {boolean} Whether this is the client Node.js SDK.
+     */
+    NODE_CLIENT: false,
+    /**
+     * @define {boolean} Whether this is the Admin Node.js SDK.
+     */
+    NODE_ADMIN: false,
+    /**
+     * Firebase SDK Version
+     */
+    SDK_VERSION: '${JSCORE_VERSION}'
+};
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Throws an error if the provided assertion is falsy
+ * @param {*} assertion The assertion to be tested for falsiness
+ * @param {!string} message The message to display if the check fails
+ */
+var assert = function (assertion, message) {
+    if (!assertion) {
+        throw assertionError(message);
+    }
+};
+/**
+ * Returns an Error object suitable for throwing.
+ * @param {string} message
+ * @return {!Error}
+ */
+var assertionError = function (message) {
+    return new Error('Firebase Database (' +
+        CONSTANTS.SDK_VERSION +
+        ') INTERNAL ASSERT FAILED: ' +
+        message);
+};
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var stringToByteArray = function (str) {
+    // TODO(user): Use native implementations if/when available
+    var out = [], p = 0;
+    for (var i = 0; i < str.length; i++) {
+        var c = str.charCodeAt(i);
+        if (c < 128) {
+            out[p++] = c;
+        }
+        else if (c < 2048) {
+            out[p++] = (c >> 6) | 192;
+            out[p++] = (c & 63) | 128;
+        }
+        else if ((c & 0xfc00) == 0xd800 &&
+            i + 1 < str.length &&
+            (str.charCodeAt(i + 1) & 0xfc00) == 0xdc00) {
+            // Surrogate Pair
+            c = 0x10000 + ((c & 0x03ff) << 10) + (str.charCodeAt(++i) & 0x03ff);
+            out[p++] = (c >> 18) | 240;
+            out[p++] = ((c >> 12) & 63) | 128;
+            out[p++] = ((c >> 6) & 63) | 128;
+            out[p++] = (c & 63) | 128;
+        }
+        else {
+            out[p++] = (c >> 12) | 224;
+            out[p++] = ((c >> 6) & 63) | 128;
+            out[p++] = (c & 63) | 128;
+        }
+    }
+    return out;
+};
+/**
+ * Turns an array of numbers into the string given by the concatenation of the
+ * characters to which the numbers correspond.
+ * @param {Array<number>} bytes Array of numbers representing characters.
+ * @return {string} Stringification of the array.
+ */
+var byteArrayToString = function (bytes) {
+    // TODO(user): Use native implementations if/when available
+    var out = [], pos = 0, c = 0;
+    while (pos < bytes.length) {
+        var c1 = bytes[pos++];
+        if (c1 < 128) {
+            out[c++] = String.fromCharCode(c1);
+        }
+        else if (c1 > 191 && c1 < 224) {
+            var c2 = bytes[pos++];
+            out[c++] = String.fromCharCode(((c1 & 31) << 6) | (c2 & 63));
+        }
+        else if (c1 > 239 && c1 < 365) {
+            // Surrogate Pair
+            var c2 = bytes[pos++];
+            var c3 = bytes[pos++];
+            var c4 = bytes[pos++];
+            var u = (((c1 & 7) << 18) | ((c2 & 63) << 12) | ((c3 & 63) << 6) | (c4 & 63)) -
+                0x10000;
+            out[c++] = String.fromCharCode(0xd800 + (u >> 10));
+            out[c++] = String.fromCharCode(0xdc00 + (u & 1023));
+        }
+        else {
+            var c2 = bytes[pos++];
+            var c3 = bytes[pos++];
+            out[c++] = String.fromCharCode(((c1 & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+        }
+    }
+    return out.join('');
+};
+// Static lookup maps, lazily populated by init_()
+var base64 = {
+    /**
+     * Maps bytes to characters.
+     * @type {Object}
+     * @private
+     */
+    byteToCharMap_: null,
+    /**
+     * Maps characters to bytes.
+     * @type {Object}
+     * @private
+     */
+    charToByteMap_: null,
+    /**
+     * Maps bytes to websafe characters.
+     * @type {Object}
+     * @private
+     */
+    byteToCharMapWebSafe_: null,
+    /**
+     * Maps websafe characters to bytes.
+     * @type {Object}
+     * @private
+     */
+    charToByteMapWebSafe_: null,
+    /**
+     * Our default alphabet, shared between
+     * ENCODED_VALS and ENCODED_VALS_WEBSAFE
+     * @type {string}
+     */
+    ENCODED_VALS_BASE: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' + 'abcdefghijklmnopqrstuvwxyz' + '0123456789',
+    /**
+     * Our default alphabet. Value 64 (=) is special; it means "nothing."
+     * @type {string}
+     */
+    get ENCODED_VALS() {
+        return this.ENCODED_VALS_BASE + '+/=';
+    },
+    /**
+     * Our websafe alphabet.
+     * @type {string}
+     */
+    get ENCODED_VALS_WEBSAFE() {
+        return this.ENCODED_VALS_BASE + '-_.';
+    },
+    /**
+     * Whether this browser supports the atob and btoa functions. This extension
+     * started at Mozilla but is now implemented by many browsers. We use the
+     * ASSUME_* variables to avoid pulling in the full useragent detection library
+     * but still allowing the standard per-browser compilations.
+     *
+     * @type {boolean}
+     */
+    HAS_NATIVE_SUPPORT: typeof atob === 'function',
+    /**
+     * Base64-encode an array of bytes.
+     *
+     * @param {Array<number>|Uint8Array} input An array of bytes (numbers with
+     *     value in [0, 255]) to encode.
+     * @param {boolean=} opt_webSafe Boolean indicating we should use the
+     *     alternative alphabet.
+     * @return {string} The base64 encoded string.
+     */
+    encodeByteArray: function (input, opt_webSafe) {
+        if (!Array.isArray(input)) {
+            throw Error('encodeByteArray takes an array as a parameter');
+        }
+        this.init_();
+        var byteToCharMap = opt_webSafe
+            ? this.byteToCharMapWebSafe_
+            : this.byteToCharMap_;
+        var output = [];
+        for (var i = 0; i < input.length; i += 3) {
+            var byte1 = input[i];
+            var haveByte2 = i + 1 < input.length;
+            var byte2 = haveByte2 ? input[i + 1] : 0;
+            var haveByte3 = i + 2 < input.length;
+            var byte3 = haveByte3 ? input[i + 2] : 0;
+            var outByte1 = byte1 >> 2;
+            var outByte2 = ((byte1 & 0x03) << 4) | (byte2 >> 4);
+            var outByte3 = ((byte2 & 0x0f) << 2) | (byte3 >> 6);
+            var outByte4 = byte3 & 0x3f;
+            if (!haveByte3) {
+                outByte4 = 64;
+                if (!haveByte2) {
+                    outByte3 = 64;
+                }
+            }
+            output.push(byteToCharMap[outByte1], byteToCharMap[outByte2], byteToCharMap[outByte3], byteToCharMap[outByte4]);
+        }
+        return output.join('');
+    },
+    /**
+     * Base64-encode a string.
+     *
+     * @param {string} input A string to encode.
+     * @param {boolean=} opt_webSafe If true, we should use the
+     *     alternative alphabet.
+     * @return {string} The base64 encoded string.
+     */
+    encodeString: function (input, opt_webSafe) {
+        // Shortcut for Mozilla browsers that implement
+        // a native base64 encoder in the form of "btoa/atob"
+        if (this.HAS_NATIVE_SUPPORT && !opt_webSafe) {
+            return btoa(input);
+        }
+        return this.encodeByteArray(stringToByteArray(input), opt_webSafe);
+    },
+    /**
+     * Base64-decode a string.
+     *
+     * @param {string} input to decode.
+     * @param {boolean=} opt_webSafe True if we should use the
+     *     alternative alphabet.
+     * @return {string} string representing the decoded value.
+     */
+    decodeString: function (input, opt_webSafe) {
+        // Shortcut for Mozilla browsers that implement
+        // a native base64 encoder in the form of "btoa/atob"
+        if (this.HAS_NATIVE_SUPPORT && !opt_webSafe) {
+            return atob(input);
+        }
+        return byteArrayToString(this.decodeStringToByteArray(input, opt_webSafe));
+    },
+    /**
+     * Base64-decode a string.
+     *
+     * In base-64 decoding, groups of four characters are converted into three
+     * bytes.  If the encoder did not apply padding, the input length may not
+     * be a multiple of 4.
+     *
+     * In this case, the last group will have fewer than 4 characters, and
+     * padding will be inferred.  If the group has one or two characters, it decodes
+     * to one byte.  If the group has three characters, it decodes to two bytes.
+     *
+     * @param {string} input Input to decode.
+     * @param {boolean=} opt_webSafe True if we should use the web-safe alphabet.
+     * @return {!Array<number>} bytes representing the decoded value.
+     */
+    decodeStringToByteArray: function (input, opt_webSafe) {
+        this.init_();
+        var charToByteMap = opt_webSafe
+            ? this.charToByteMapWebSafe_
+            : this.charToByteMap_;
+        var output = [];
+        for (var i = 0; i < input.length;) {
+            var byte1 = charToByteMap[input.charAt(i++)];
+            var haveByte2 = i < input.length;
+            var byte2 = haveByte2 ? charToByteMap[input.charAt(i)] : 0;
+            ++i;
+            var haveByte3 = i < input.length;
+            var byte3 = haveByte3 ? charToByteMap[input.charAt(i)] : 64;
+            ++i;
+            var haveByte4 = i < input.length;
+            var byte4 = haveByte4 ? charToByteMap[input.charAt(i)] : 64;
+            ++i;
+            if (byte1 == null || byte2 == null || byte3 == null || byte4 == null) {
+                throw Error();
+            }
+            var outByte1 = (byte1 << 2) | (byte2 >> 4);
+            output.push(outByte1);
+            if (byte3 != 64) {
+                var outByte2 = ((byte2 << 4) & 0xf0) | (byte3 >> 2);
+                output.push(outByte2);
+                if (byte4 != 64) {
+                    var outByte3 = ((byte3 << 6) & 0xc0) | byte4;
+                    output.push(outByte3);
+                }
+            }
+        }
+        return output;
+    },
+    /**
+     * Lazy static initialization function. Called before
+     * accessing any of the static map variables.
+     * @private
+     */
+    init_: function () {
+        if (!this.byteToCharMap_) {
+            this.byteToCharMap_ = {};
+            this.charToByteMap_ = {};
+            this.byteToCharMapWebSafe_ = {};
+            this.charToByteMapWebSafe_ = {};
+            // We want quick mappings back and forth, so we precompute two maps.
+            for (var i = 0; i < this.ENCODED_VALS.length; i++) {
+                this.byteToCharMap_[i] = this.ENCODED_VALS.charAt(i);
+                this.charToByteMap_[this.byteToCharMap_[i]] = i;
+                this.byteToCharMapWebSafe_[i] = this.ENCODED_VALS_WEBSAFE.charAt(i);
+                this.charToByteMapWebSafe_[this.byteToCharMapWebSafe_[i]] = i;
+                // Be forgiving when decoding and correctly decode both encodings.
+                if (i >= this.ENCODED_VALS_BASE.length) {
+                    this.charToByteMap_[this.ENCODED_VALS_WEBSAFE.charAt(i)] = i;
+                    this.charToByteMapWebSafe_[this.ENCODED_VALS.charAt(i)] = i;
+                }
+            }
+        }
+    }
+};
+/**
+ * URL-safe base64 encoding
+ * @param {!string} str
+ * @return {!string}
+ */
+var base64Encode = function (str) {
+    var utf8Bytes = stringToByteArray(str);
+    return base64.encodeByteArray(utf8Bytes, true);
+};
+/**
+ * URL-safe base64 decoding
+ *
+ * NOTE: DO NOT use the global atob() function - it does NOT support the
+ * base64Url variant encoding.
+ *
+ * @param {string} str To be decoded
+ * @return {?string} Decoded result, if possible
+ */
+var base64Decode = function (str) {
+    try {
+        return base64.decodeString(str, true);
+    }
+    catch (e) {
+        console.error('base64Decode failed: ', e);
+    }
+    return null;
+};
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Do a deep-copy of basic JavaScript Objects or Arrays.
+ */
+function deepCopy(value) {
+    return deepExtend(undefined, value);
+}
+/**
+ * Copy properties from source to target (recursively allows extension
+ * of Objects and Arrays).  Scalar values in the target are over-written.
+ * If target is undefined, an object of the appropriate type will be created
+ * (and returned).
+ *
+ * We recursively copy all child properties of plain Objects in the source- so
+ * that namespace- like dictionaries are merged.
+ *
+ * Note that the target can be a function, in which case the properties in
+ * the source Object are copied onto it as static properties of the Function.
+ */
+function deepExtend(target, source) {
+    if (!(source instanceof Object)) {
+        return source;
+    }
+    switch (source.constructor) {
+        case Date:
+            // Treat Dates like scalars; if the target date object had any child
+            // properties - they will be lost!
+            var dateValue = source;
+            return new Date(dateValue.getTime());
+        case Object:
+            if (target === undefined) {
+                target = {};
+            }
+            break;
+        case Array:
+            // Always copy the array source and overwrite the target.
+            target = [];
+            break;
+        default:
+            // Not a plain Object - treat it as a scalar.
+            return source;
+    }
+    for (var prop in source) {
+        if (!source.hasOwnProperty(prop)) {
+            continue;
+        }
+        target[prop] = deepExtend(target[prop], source[prop]);
+    }
+    return target;
+}
+// TODO: Really needed (for JSCompiler type checking)?
+function patchProperty(obj, prop, value) {
+    obj[prop] = value;
+}
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+var Deferred = /** @class */ (function () {
+    function Deferred() {
+        var _this = this;
+        this.promise = new Promise(function (resolve, reject) {
+            _this.resolve = resolve;
+            _this.reject = reject;
+        });
+    }
+    /**
+     * Our API internals are not promiseified and cannot because our callback APIs have subtle expectations around
+     * invoking promises inline, which Promises are forbidden to do. This method accepts an optional node-style callback
+     * and returns a node-style callback which will resolve or reject the Deferred's promise.
+     * @param {((?function(?(Error)): (?|undefined))| (?function(?(Error),?=): (?|undefined)))=} callback
+     * @return {!function(?(Error), ?=)}
+     */
+    Deferred.prototype.wrapCallback = function (callback) {
+        var _this = this;
+        return function (error, value) {
+            if (error) {
+                _this.reject(error);
+            }
+            else {
+                _this.resolve(value);
+            }
+            if (typeof callback === 'function') {
+                // Attaching noop handler just in case developer wasn't expecting
+                // promises
+                _this.promise.catch(function () { });
+                // Some of our callbacks don't expect a value and our own tests
+                // assert that the parameter length is 1
+                if (callback.length === 1) {
+                    callback(error);
+                }
+                else {
+                    callback(error, value);
+                }
+            }
+        };
+    };
+    return Deferred;
+}());
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Returns navigator.userAgent string or '' if it's not defined.
+ * @return {string} user agent string
+ */
+var getUA = function () {
+    if (typeof navigator !== 'undefined' &&
+        typeof navigator['userAgent'] === 'string') {
+        return navigator['userAgent'];
+    }
+    else {
+        return '';
+    }
+};
+/**
+ * Detect Cordova / PhoneGap / Ionic frameworks on a mobile device.
+ *
+ * Deliberately does not rely on checking `file://` URLs (as this fails PhoneGap in the Ripple emulator) nor
+ * Cordova `onDeviceReady`, which would normally wait for a callback.
+ *
+ * @return {boolean} isMobileCordova
+ */
+var isMobileCordova = function () {
+    return (typeof window !== 'undefined' &&
+        !!(window['cordova'] || window['phonegap'] || window['PhoneGap']) &&
+        /ios|iphone|ipod|ipad|android|blackberry|iemobile/i.test(getUA()));
+};
+/**
+ * Detect React Native.
+ *
+ * @return {boolean} True if ReactNative environment is detected.
+ */
+var isReactNative = function () {
+    return (typeof navigator === 'object' && navigator['product'] === 'ReactNative');
+};
+/**
+ * Detect Node.js.
+ *
+ * @return {boolean} True if Node.js environment is detected.
+ */
+var isNodeSdk = function () {
+    return CONSTANTS.NODE_CLIENT === true || CONSTANTS.NODE_ADMIN === true;
+};
+
+var ERROR_NAME = 'FirebaseError';
+var captureStackTrace = Error
+    .captureStackTrace;
+// Export for faking in tests
+function patchCapture(captureFake) {
+    var result = captureStackTrace;
+    captureStackTrace = captureFake;
+    return result;
+}
+var FirebaseError = /** @class */ (function () {
+    function FirebaseError(code, message) {
+        this.code = code;
+        this.message = message;
+        // We want the stack value, if implemented by Error
+        if (captureStackTrace) {
+            // Patches this.stack, omitted calls above ErrorFactory#create
+            captureStackTrace(this, ErrorFactory.prototype.create);
+        }
+        else {
+            try {
+                // In case of IE11, stack will be set only after error is raised.
+                // https://docs.microsoft.com/en-us/scripting/javascript/reference/stack-property-error-javascript
+                throw Error.apply(this, arguments);
+            }
+            catch (err) {
+                this.name = ERROR_NAME;
+                // Make non-enumerable getter for the property.
+                Object.defineProperty(this, 'stack', {
+                    get: function () {
+                        return err.stack;
+                    }
+                });
+            }
+        }
+    }
+    return FirebaseError;
+}());
+// Back-door inheritance
+FirebaseError.prototype = Object.create(Error.prototype);
+FirebaseError.prototype.constructor = FirebaseError;
+FirebaseError.prototype.name = ERROR_NAME;
+var ErrorFactory = /** @class */ (function () {
+    function ErrorFactory(service, serviceName, errors) {
+        this.service = service;
+        this.serviceName = serviceName;
+        this.errors = errors;
+        // Matches {$name}, by default.
+        this.pattern = /\{\$([^}]+)}/g;
+        // empty
+    }
+    ErrorFactory.prototype.create = function (code, data) {
+        if (data === undefined) {
+            data = {};
+        }
+        var template = this.errors[code];
+        var fullCode = this.service + '/' + code;
+        var message;
+        if (template === undefined) {
+            message = 'Error';
+        }
+        else {
+            message = template.replace(this.pattern, function (match, key) {
+                var value = data[key];
+                return value !== undefined ? value.toString() : '<' + key + '?>';
+            });
+        }
+        // Service: Error message (service/code).
+        message = this.serviceName + ': ' + message + ' (' + fullCode + ').';
+        var err = new FirebaseError(fullCode, message);
+        // Populate the Error object with message parts for programmatic
+        // accesses (e.g., e.file).
+        for (var prop in data) {
+            if (!data.hasOwnProperty(prop) || prop.slice(-1) === '_') {
+                continue;
+            }
+            err[prop] = data[prop];
+        }
+        return err;
+    };
+    return ErrorFactory;
+}());
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Evaluates a JSON string into a javascript object.
+ *
+ * @param {string} str A string containing JSON.
+ * @return {*} The javascript object representing the specified JSON.
+ */
+function jsonEval(str) {
+    return JSON.parse(str);
+}
+/**
+ * Returns JSON representing a javascript object.
+ * @param {*} data Javascript object to be stringified.
+ * @return {string} The JSON contents of the object.
+ */
+function stringify(data) {
+    return JSON.stringify(data);
+}
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Decodes a Firebase auth. token into constituent parts.
+ *
+ * Notes:
+ * - May return with invalid / incomplete claims if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ *
+ * @param {?string} token
+ * @return {{header: *, claims: *, data: *, signature: string}}
+ */
+var decode = function (token) {
+    var header = {}, claims = {}, data = {}, signature = '';
+    try {
+        var parts = token.split('.');
+        header = jsonEval(base64Decode(parts[0]) || '');
+        claims = jsonEval(base64Decode(parts[1]) || '');
+        signature = parts[2];
+        data = claims['d'] || {};
+        delete claims['d'];
+    }
+    catch (e) { }
+    return {
+        header: header,
+        claims: claims,
+        data: data,
+        signature: signature
+    };
+};
+/**
+ * Decodes a Firebase auth. token and checks the validity of its time-based claims. Will return true if the
+ * token is within the time window authorized by the 'nbf' (not-before) and 'iat' (issued-at) claims.
+ *
+ * Notes:
+ * - May return a false negative if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ *
+ * @param {?string} token
+ * @return {boolean}
+ */
+var isValidTimestamp = function (token) {
+    var claims = decode(token).claims, now = Math.floor(new Date().getTime() / 1000), validSince, validUntil;
+    if (typeof claims === 'object') {
+        if (claims.hasOwnProperty('nbf')) {
+            validSince = claims['nbf'];
+        }
+        else if (claims.hasOwnProperty('iat')) {
+            validSince = claims['iat'];
+        }
+        if (claims.hasOwnProperty('exp')) {
+            validUntil = claims['exp'];
+        }
+        else {
+            // token will expire after 24h by default
+            validUntil = validSince + 86400;
+        }
+    }
+    return (now && validSince && validUntil && now >= validSince && now <= validUntil);
+};
+/**
+ * Decodes a Firebase auth. token and returns its issued at time if valid, null otherwise.
+ *
+ * Notes:
+ * - May return null if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ *
+ * @param {?string} token
+ * @return {?number}
+ */
+var issuedAtTime = function (token) {
+    var claims = decode(token).claims;
+    if (typeof claims === 'object' && claims.hasOwnProperty('iat')) {
+        return claims['iat'];
+    }
+    return null;
+};
+/**
+ * Decodes a Firebase auth. token and checks the validity of its format. Expects a valid issued-at time.
+ *
+ * Notes:
+ * - May return a false negative if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ *
+ * @param {?string} token
+ * @return {boolean}
+ */
+var isValidFormat = function (token) {
+    var decoded = decode(token), claims = decoded.claims;
+    return !!claims && typeof claims === 'object' && claims.hasOwnProperty('iat');
+};
+/**
+ * Attempts to peer into an auth token and determine if it's an admin auth token by looking at the claims portion.
+ *
+ * Notes:
+ * - May return a false negative if there's no native base64 decoding support.
+ * - Doesn't check if the token is actually valid.
+ *
+ * @param {?string} token
+ * @return {boolean}
+ */
+var isAdmin = function (token) {
+    var claims = decode(token).claims;
+    return typeof claims === 'object' && claims['admin'] === true;
+};
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+// See http://www.devthought.com/2012/01/18/an-object-is-not-a-hash/
+var contains = function (obj, key) {
+    return Object.prototype.hasOwnProperty.call(obj, key);
+};
+var safeGet = function (obj, key) {
+    if (Object.prototype.hasOwnProperty.call(obj, key))
+        return obj[key];
+    // else return undefined.
+};
+/**
+ * Enumerates the keys/values in an object, excluding keys defined on the prototype.
+ *
+ * @param {?Object.<K,V>} obj Object to enumerate.
+ * @param {!function(K, V)} fn Function to call for each key and value.
+ * @template K,V
+ */
+var forEach = function (obj, fn) {
+    for (var key in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, key)) {
+            fn(key, obj[key]);
+        }
+    }
+};
+/**
+ * Copies all the (own) properties from one object to another.
+ * @param {!Object} objTo
+ * @param {!Object} objFrom
+ * @return {!Object} objTo
+ */
+var extend = function (objTo, objFrom) {
+    forEach(objFrom, function (key, value) {
+        objTo[key] = value;
+    });
+    return objTo;
+};
+/**
+ * Returns a clone of the specified object.
+ * @param {!Object} obj
+ * @return {!Object} cloned obj.
+ */
+var clone = function (obj) {
+    return extend({}, obj);
+};
+/**
+ * Returns true if obj has typeof "object" and is not null.  Unlike goog.isObject(), does not return true
+ * for functions.
+ *
+ * @param obj {*} A potential object.
+ * @returns {boolean} True if it's an object.
+ */
+var isNonNullObject = function (obj) {
+    return typeof obj === 'object' && obj !== null;
+};
+var isEmpty = function (obj) {
+    for (var key in obj) {
+        return false;
+    }
+    return true;
+};
+var getCount = function (obj) {
+    var rv = 0;
+    for (var key in obj) {
+        rv++;
+    }
+    return rv;
+};
+var map = function (obj, f, opt_obj) {
+    var res = {};
+    for (var key in obj) {
+        res[key] = f.call(opt_obj, obj[key], key, obj);
+    }
+    return res;
+};
+var findKey = function (obj, fn, opt_this) {
+    for (var key in obj) {
+        if (fn.call(opt_this, obj[key], key, obj)) {
+            return key;
+        }
+    }
+    return undefined;
+};
+var findValue = function (obj, fn, opt_this) {
+    var key = findKey(obj, fn, opt_this);
+    return key && obj[key];
+};
+var getAnyKey = function (obj) {
+    for (var key in obj) {
+        return key;
+    }
+};
+var getValues = function (obj) {
+    var res = [];
+    var i = 0;
+    for (var key in obj) {
+        res[i++] = obj[key];
+    }
+    return res;
+};
+/**
+ * Tests whether every key/value pair in an object pass the test implemented
+ * by the provided function
+ *
+ * @param {?Object.<K,V>} obj Object to test.
+ * @param {!function(K, V)} fn Function to call for each key and value.
+ * @template K,V
+ */
+var every = function (obj, fn) {
+    for (var key in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, key)) {
+            if (!fn(key, obj[key])) {
+                return false;
+            }
+        }
+    }
+    return true;
+};
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Returns a querystring-formatted string (e.g. &arg=val&arg2=val2) from a params
+ * object (e.g. {arg: 'val', arg2: 'val2'})
+ * Note: You must prepend it with ? when adding it to a URL.
+ *
+ * @param {!Object} querystringParams
+ * @return {string}
+ */
+var querystring = function (querystringParams) {
+    var params = [];
+    forEach(querystringParams, function (key, value) {
+        if (Array.isArray(value)) {
+            value.forEach(function (arrayVal) {
+                params.push(encodeURIComponent(key) + '=' + encodeURIComponent(arrayVal));
+            });
+        }
+        else {
+            params.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));
+        }
+    });
+    return params.length ? '&' + params.join('&') : '';
+};
+/**
+ * Decodes a querystring (e.g. ?arg=val&arg2=val2) into a params object (e.g. {arg: 'val', arg2: 'val2'})
+ *
+ * @param {string} querystring
+ * @return {!Object}
+ */
+var querystringDecode = function (querystring) {
+    var obj = {};
+    var tokens = querystring.replace(/^\?/, '').split('&');
+    tokens.forEach(function (token) {
+        if (token) {
+            var key = token.split('=');
+            obj[key[0]] = key[1];
+        }
+    });
+    return obj;
+};
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * @fileoverview SHA-1 cryptographic hash.
+ * Variable names follow the notation in FIPS PUB 180-3:
+ * http://csrc.nist.gov/publications/fips/fips180-3/fips180-3_final.pdf.
+ *
+ * Usage:
+ *   var sha1 = new sha1();
+ *   sha1.update(bytes);
+ *   var hash = sha1.digest();
+ *
+ * Performance:
+ *   Chrome 23:   ~400 Mbit/s
+ *   Firefox 16:  ~250 Mbit/s
+ *
+ */
+/**
+ * SHA-1 cryptographic hash constructor.
+ *
+ * The properties declared here are discussed in the above algorithm document.
+ * @constructor
+ * @final
+ * @struct
+ */
+var Sha1 = /** @class */ (function () {
+    function Sha1() {
+        /**
+         * Holds the previous values of accumulated variables a-e in the compress_
+         * function.
+         * @type {!Array<number>}
+         * @private
+         */
+        this.chain_ = [];
+        /**
+         * A buffer holding the partially computed hash result.
+         * @type {!Array<number>}
+         * @private
+         */
+        this.buf_ = [];
+        /**
+         * An array of 80 bytes, each a part of the message to be hashed.  Referred to
+         * as the message schedule in the docs.
+         * @type {!Array<number>}
+         * @private
+         */
+        this.W_ = [];
+        /**
+         * Contains data needed to pad messages less than 64 bytes.
+         * @type {!Array<number>}
+         * @private
+         */
+        this.pad_ = [];
+        /**
+         * @private {number}
+         */
+        this.inbuf_ = 0;
+        /**
+         * @private {number}
+         */
+        this.total_ = 0;
+        this.blockSize = 512 / 8;
+        this.pad_[0] = 128;
+        for (var i = 1; i < this.blockSize; ++i) {
+            this.pad_[i] = 0;
+        }
+        this.reset();
+    }
+    Sha1.prototype.reset = function () {
+        this.chain_[0] = 0x67452301;
+        this.chain_[1] = 0xefcdab89;
+        this.chain_[2] = 0x98badcfe;
+        this.chain_[3] = 0x10325476;
+        this.chain_[4] = 0xc3d2e1f0;
+        this.inbuf_ = 0;
+        this.total_ = 0;
+    };
+    /**
+     * Internal compress helper function.
+     * @param {!Array<number>|!Uint8Array|string} buf Block to compress.
+     * @param {number=} opt_offset Offset of the block in the buffer.
+     * @private
+     */
+    Sha1.prototype.compress_ = function (buf, opt_offset) {
+        if (!opt_offset) {
+            opt_offset = 0;
+        }
+        var W = this.W_;
+        // get 16 big endian words
+        if (typeof buf === 'string') {
+            for (var i = 0; i < 16; i++) {
+                // TODO(user): [bug 8140122] Recent versions of Safari for Mac OS and iOS
+                // have a bug that turns the post-increment ++ operator into pre-increment
+                // during JIT compilation.  We have code that depends heavily on SHA-1 for
+                // correctness and which is affected by this bug, so I've removed all uses
+                // of post-increment ++ in which the result value is used.  We can revert
+                // this change once the Safari bug
+                // (https://bugs.webkit.org/show_bug.cgi?id=109036) has been fixed and
+                // most clients have been updated.
+                W[i] =
+                    (buf.charCodeAt(opt_offset) << 24) |
+                        (buf.charCodeAt(opt_offset + 1) << 16) |
+                        (buf.charCodeAt(opt_offset + 2) << 8) |
+                        buf.charCodeAt(opt_offset + 3);
+                opt_offset += 4;
+            }
+        }
+        else {
+            for (var i = 0; i < 16; i++) {
+                W[i] =
+                    (buf[opt_offset] << 24) |
+                        (buf[opt_offset + 1] << 16) |
+                        (buf[opt_offset + 2] << 8) |
+                        buf[opt_offset + 3];
+                opt_offset += 4;
+            }
+        }
+        // expand to 80 words
+        for (var i = 16; i < 80; i++) {
+            var t = W[i - 3] ^ W[i - 8] ^ W[i - 14] ^ W[i - 16];
+            W[i] = ((t << 1) | (t >>> 31)) & 0xffffffff;
+        }
+        var a = this.chain_[0];
+        var b = this.chain_[1];
+        var c = this.chain_[2];
+        var d = this.chain_[3];
+        var e = this.chain_[4];
+        var f, k;
+        // TODO(user): Try to unroll this loop to speed up the computation.
+        for (var i = 0; i < 80; i++) {
+            if (i < 40) {
+                if (i < 20) {
+                    f = d ^ (b & (c ^ d));
+                    k = 0x5a827999;
+                }
+                else {
+                    f = b ^ c ^ d;
+                    k = 0x6ed9eba1;
+                }
+            }
+            else {
+                if (i < 60) {
+                    f = (b & c) | (d & (b | c));
+                    k = 0x8f1bbcdc;
+                }
+                else {
+                    f = b ^ c ^ d;
+                    k = 0xca62c1d6;
+                }
+            }
+            var t = (((a << 5) | (a >>> 27)) + f + e + k + W[i]) & 0xffffffff;
+            e = d;
+            d = c;
+            c = ((b << 30) | (b >>> 2)) & 0xffffffff;
+            b = a;
+            a = t;
+        }
+        this.chain_[0] = (this.chain_[0] + a) & 0xffffffff;
+        this.chain_[1] = (this.chain_[1] + b) & 0xffffffff;
+        this.chain_[2] = (this.chain_[2] + c) & 0xffffffff;
+        this.chain_[3] = (this.chain_[3] + d) & 0xffffffff;
+        this.chain_[4] = (this.chain_[4] + e) & 0xffffffff;
+    };
+    Sha1.prototype.update = function (bytes, opt_length) {
+        // TODO(johnlenz): tighten the function signature and remove this check
+        if (bytes == null) {
+            return;
+        }
+        if (opt_length === undefined) {
+            opt_length = bytes.length;
+        }
+        var lengthMinusBlock = opt_length - this.blockSize;
+        var n = 0;
+        // Using local instead of member variables gives ~5% speedup on Firefox 16.
+        var buf = this.buf_;
+        var inbuf = this.inbuf_;
+        // The outer while loop should execute at most twice.
+        while (n < opt_length) {
+            // When we have no data in the block to top up, we can directly process the
+            // input buffer (assuming it contains sufficient data). This gives ~25%
+            // speedup on Chrome 23 and ~15% speedup on Firefox 16, but requires that
+            // the data is provided in large chunks (or in multiples of 64 bytes).
+            if (inbuf == 0) {
+                while (n <= lengthMinusBlock) {
+                    this.compress_(bytes, n);
+                    n += this.blockSize;
+                }
+            }
+            if (typeof bytes === 'string') {
+                while (n < opt_length) {
+                    buf[inbuf] = bytes.charCodeAt(n);
+                    ++inbuf;
+                    ++n;
+                    if (inbuf == this.blockSize) {
+                        this.compress_(buf);
+                        inbuf = 0;
+                        // Jump to the outer loop so we use the full-block optimization.
+                        break;
+                    }
+                }
+            }
+            else {
+                while (n < opt_length) {
+                    buf[inbuf] = bytes[n];
+                    ++inbuf;
+                    ++n;
+                    if (inbuf == this.blockSize) {
+                        this.compress_(buf);
+                        inbuf = 0;
+                        // Jump to the outer loop so we use the full-block optimization.
+                        break;
+                    }
+                }
+            }
+        }
+        this.inbuf_ = inbuf;
+        this.total_ += opt_length;
+    };
+    /** @override */
+    Sha1.prototype.digest = function () {
+        var digest = [];
+        var totalBits = this.total_ * 8;
+        // Add pad 0x80 0x00*.
+        if (this.inbuf_ < 56) {
+            this.update(this.pad_, 56 - this.inbuf_);
+        }
+        else {
+            this.update(this.pad_, this.blockSize - (this.inbuf_ - 56));
+        }
+        // Add # bits.
+        for (var i = this.blockSize - 1; i >= 56; i--) {
+            this.buf_[i] = totalBits & 255;
+            totalBits /= 256; // Don't use bit-shifting here!
+        }
+        this.compress_(this.buf_);
+        var n = 0;
+        for (var i = 0; i < 5; i++) {
+            for (var j = 24; j >= 0; j -= 8) {
+                digest[n] = (this.chain_[i] >> j) & 255;
+                ++n;
+            }
+        }
+        return digest;
+    };
+    return Sha1;
+}());
+
+/**
+ * Helper to make a Subscribe function (just like Promise helps make a
+ * Thenable).
+ *
+ * @param executor Function which can make calls to a single Observer
+ *     as a proxy.
+ * @param onNoObservers Callback when count of Observers goes to zero.
+ */
+function createSubscribe(executor, onNoObservers) {
+    var proxy = new ObserverProxy(executor, onNoObservers);
+    return proxy.subscribe.bind(proxy);
+}
+/**
+ * Implement fan-out for any number of Observers attached via a subscribe
+ * function.
+ */
+var ObserverProxy = /** @class */ (function () {
+    /**
+     * @param executor Function which can make calls to a single Observer
+     *     as a proxy.
+     * @param onNoObservers Callback when count of Observers goes to zero.
+     */
+    function ObserverProxy(executor, onNoObservers) {
+        var _this = this;
+        this.observers = [];
+        this.unsubscribes = [];
+        this.observerCount = 0;
+        // Micro-task scheduling by calling task.then().
+        this.task = Promise.resolve();
+        this.finalized = false;
+        this.onNoObservers = onNoObservers;
+        // Call the executor asynchronously so subscribers that are called
+        // synchronously after the creation of the subscribe function
+        // can still receive the very first value generated in the executor.
+        this.task
+            .then(function () {
+            executor(_this);
+        })
+            .catch(function (e) {
+            _this.error(e);
+        });
+    }
+    ObserverProxy.prototype.next = function (value) {
+        this.forEachObserver(function (observer) {
+            observer.next(value);
+        });
+    };
+    ObserverProxy.prototype.error = function (error) {
+        this.forEachObserver(function (observer) {
+            observer.error(error);
+        });
+        this.close(error);
+    };
+    ObserverProxy.prototype.complete = function () {
+        this.forEachObserver(function (observer) {
+            observer.complete();
+        });
+        this.close();
+    };
+    /**
+     * Subscribe function that can be used to add an Observer to the fan-out list.
+     *
+     * - We require that no event is sent to a subscriber sychronously to their
+     *   call to subscribe().
+     */
+    ObserverProxy.prototype.subscribe = function (nextOrObserver, error, complete) {
+        var _this = this;
+        var observer;
+        if (nextOrObserver === undefined &&
+            error === undefined &&
+            complete === undefined) {
+            throw new Error('Missing Observer.');
+        }
+        // Assemble an Observer object when passed as callback functions.
+        if (implementsAnyMethods(nextOrObserver, ['next', 'error', 'complete'])) {
+            observer = nextOrObserver;
+        }
+        else {
+            observer = {
+                next: nextOrObserver,
+                error: error,
+                complete: complete
+            };
+        }
+        if (observer.next === undefined) {
+            observer.next = noop;
+        }
+        if (observer.error === undefined) {
+            observer.error = noop;
+        }
+        if (observer.complete === undefined) {
+            observer.complete = noop;
+        }
+        var unsub = this.unsubscribeOne.bind(this, this.observers.length);
+        // Attempt to subscribe to a terminated Observable - we
+        // just respond to the Observer with the final error or complete
+        // event.
+        if (this.finalized) {
+            this.task.then(function () {
+                try {
+                    if (_this.finalError) {
+                        observer.error(_this.finalError);
+                    }
+                    else {
+                        observer.complete();
+                    }
+                }
+                catch (e) {
+                    // nothing
+                }
+                return;
+            });
+        }
+        this.observers.push(observer);
+        return unsub;
+    };
+    // Unsubscribe is synchronous - we guarantee that no events are sent to
+    // any unsubscribed Observer.
+    ObserverProxy.prototype.unsubscribeOne = function (i) {
+        if (this.observers === undefined || this.observers[i] === undefined) {
+            return;
+        }
+        delete this.observers[i];
+        this.observerCount -= 1;
+        if (this.observerCount === 0 && this.onNoObservers !== undefined) {
+            this.onNoObservers(this);
+        }
+    };
+    ObserverProxy.prototype.forEachObserver = function (fn) {
+        if (this.finalized) {
+            // Already closed by previous event....just eat the additional values.
+            return;
+        }
+        // Since sendOne calls asynchronously - there is no chance that
+        // this.observers will become undefined.
+        for (var i = 0; i < this.observers.length; i++) {
+            this.sendOne(i, fn);
+        }
+    };
+    // Call the Observer via one of it's callback function. We are careful to
+    // confirm that the observe has not been unsubscribed since this asynchronous
+    // function had been queued.
+    ObserverProxy.prototype.sendOne = function (i, fn) {
+        var _this = this;
+        // Execute the callback asynchronously
+        this.task.then(function () {
+            if (_this.observers !== undefined && _this.observers[i] !== undefined) {
+                try {
+                    fn(_this.observers[i]);
+                }
+                catch (e) {
+                    // Ignore exceptions raised in Observers or missing methods of an
+                    // Observer.
+                    // Log error to console. b/31404806
+                    if (typeof console !== 'undefined' && console.error) {
+                        console.error(e);
+                    }
+                }
+            }
+        });
+    };
+    ObserverProxy.prototype.close = function (err) {
+        var _this = this;
+        if (this.finalized) {
+            return;
+        }
+        this.finalized = true;
+        if (err !== undefined) {
+            this.finalError = err;
+        }
+        // Proxy is no longer needed - garbage collect references
+        this.task.then(function () {
+            _this.observers = undefined;
+            _this.onNoObservers = undefined;
+        });
+    };
+    return ObserverProxy;
+}());
+/** Turn synchronous function into one called asynchronously. */
+function async(fn, onError) {
+    return function () {
+        var args = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            args[_i] = arguments[_i];
+        }
+        Promise.resolve(true)
+            .then(function () {
+            fn.apply(void 0, args);
+        })
+            .catch(function (error) {
+            if (onError) {
+                onError(error);
+            }
+        });
+    };
+}
+/**
+ * Return true if the object passed in implements any of the named methods.
+ */
+function implementsAnyMethods(obj, methods) {
+    if (typeof obj !== 'object' || obj === null) {
+        return false;
+    }
+    for (var _i = 0, methods_1 = methods; _i < methods_1.length; _i++) {
+        var method = methods_1[_i];
+        if (method in obj && typeof obj[method] === 'function') {
+            return true;
+        }
+    }
+    return false;
+}
+function noop() {
+    // do nothing
+}
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+/**
+ * Check to make sure the appropriate number of arguments are provided for a public function.
+ * Throws an error if it fails.
+ *
+ * @param {!string} fnName The function name
+ * @param {!number} minCount The minimum number of arguments to allow for the function call
+ * @param {!number} maxCount The maximum number of argument to allow for the function call
+ * @param {!number} argCount The actual number of arguments provided.
+ */
+var validateArgCount = function (fnName, minCount, maxCount, argCount) {
+    var argError;
+    if (argCount < minCount) {
+        argError = 'at least ' + minCount;
+    }
+    else if (argCount > maxCount) {
+        argError = maxCount === 0 ? 'none' : 'no more than ' + maxCount;
+    }
+    if (argError) {
+        var error = fnName +
+            ' failed: Was called with ' +
+            argCount +
+            (argCount === 1 ? ' argument.' : ' arguments.') +
+            ' Expects ' +
+            argError +
+            '.';
+        throw new Error(error);
+    }
+};
+/**
+ * Generates a string to prefix an error message about failed argument validation
+ *
+ * @param {!string} fnName The function name
+ * @param {!number} argumentNumber The index of the argument
+ * @param {boolean} optional Whether or not the argument is optional
+ * @return {!string} The prefix to add to the error thrown for validation.
+ */
+function errorPrefix(fnName, argumentNumber, optional) {
+    var argName = '';
+    switch (argumentNumber) {
+        case 1:
+            argName = optional ? 'first' : 'First';
+            break;
+        case 2:
+            argName = optional ? 'second' : 'Second';
+            break;
+        case 3:
+            argName = optional ? 'third' : 'Third';
+            break;
+        case 4:
+            argName = optional ? 'fourth' : 'Fourth';
+            break;
+        default:
+            throw new Error('errorPrefix called with argumentNumber > 4.  Need to update it?');
+    }
+    var error = fnName + ' failed: ';
+    error += argName + ' argument ';
+    return error;
+}
+/**
+ * @param {!string} fnName
+ * @param {!number} argumentNumber
+ * @param {!string} namespace
+ * @param {boolean} optional
+ */
+function validateNamespace(fnName, argumentNumber, namespace, optional) {
+    if (optional && !namespace)
+        return;
+    if (typeof namespace !== 'string') {
+        //TODO: I should do more validation here. We only allow certain chars in namespaces.
+        throw new Error(errorPrefix(fnName, argumentNumber, optional) +
+            'must be a valid firebase namespace.');
+    }
+}
+function validateCallback(fnName, argumentNumber, callback, optional) {
+    if (optional && !callback)
+        return;
+    if (typeof callback !== 'function')
+        throw new Error(errorPrefix(fnName, argumentNumber, optional) +
+            'must be a valid function.');
+}
+function validateContextObject(fnName, argumentNumber, context, optional) {
+    if (optional && !context)
+        return;
+    if (typeof context !== 'object' || context === null)
+        throw new Error(errorPrefix(fnName, argumentNumber, optional) +
+            'must be a valid context object.');
+}
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+// Code originally came from goog.crypt.stringToUtf8ByteArray, but for some reason they
+// automatically replaced '\r\n' with '\n', and they didn't handle surrogate pairs,
+// so it's been modified.
+// Note that not all Unicode characters appear as single characters in JavaScript strings.
+// fromCharCode returns the UTF-16 encoding of a character - so some Unicode characters
+// use 2 characters in Javascript.  All 4-byte UTF-8 characters begin with a first
+// character in the range 0xD800 - 0xDBFF (the first character of a so-called surrogate
+// pair).
+// See http://www.ecma-international.org/ecma-262/5.1/#sec-15.1.3
+/**
+ * @param {string} str
+ * @return {Array}
+ */
+var stringToByteArray$1 = function (str) {
+    var out = [], p = 0;
+    for (var i = 0; i < str.length; i++) {
+        var c = str.charCodeAt(i);
+        // Is this the lead surrogate in a surrogate pair?
+        if (c >= 0xd800 && c <= 0xdbff) {
+            var high = c - 0xd800; // the high 10 bits.
+            i++;
+            assert(i < str.length, 'Surrogate pair missing trail surrogate.');
+            var low = str.charCodeAt(i) - 0xdc00; // the low 10 bits.
+            c = 0x10000 + (high << 10) + low;
+        }
+        if (c < 128) {
+            out[p++] = c;
+        }
+        else if (c < 2048) {
+            out[p++] = (c >> 6) | 192;
+            out[p++] = (c & 63) | 128;
+        }
+        else if (c < 65536) {
+            out[p++] = (c >> 12) | 224;
+            out[p++] = ((c >> 6) & 63) | 128;
+            out[p++] = (c & 63) | 128;
+        }
+        else {
+            out[p++] = (c >> 18) | 240;
+            out[p++] = ((c >> 12) & 63) | 128;
+            out[p++] = ((c >> 6) & 63) | 128;
+            out[p++] = (c & 63) | 128;
+        }
+    }
+    return out;
+};
+/**
+ * Calculate length without actually converting; useful for doing cheaper validation.
+ * @param {string} str
+ * @return {number}
+ */
+var stringLength = function (str) {
+    var p = 0;
+    for (var i = 0; i < str.length; i++) {
+        var c = str.charCodeAt(i);
+        if (c < 128) {
+            p++;
+        }
+        else if (c < 2048) {
+            p += 2;
+        }
+        else if (c >= 0xd800 && c <= 0xdbff) {
+            // Lead surrogate of a surrogate pair.  The pair together will take 4 bytes to represent.
+            p += 4;
+            i++; // skip trail surrogate.
+        }
+        else {
+            p += 3;
+        }
+    }
+    return p;
+};
+
+/**
+ * @license
+ * Copyright 2017 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+exports.CONSTANTS = CONSTANTS;
+exports.Deferred = Deferred;
+exports.ErrorFactory = ErrorFactory;
+exports.FirebaseError = FirebaseError;
+exports.Sha1 = Sha1;
+exports.assert = assert;
+exports.assertionError = assertionError;
+exports.async = async;
+exports.base64 = base64;
+exports.base64Decode = base64Decode;
+exports.base64Encode = base64Encode;
+exports.clone = clone;
+exports.contains = contains;
+exports.createSubscribe = createSubscribe;
+exports.decode = decode;
+exports.deepCopy = deepCopy;
+exports.deepExtend = deepExtend;
+exports.errorPrefix = errorPrefix;
+exports.every = every;
+exports.extend = extend;
+exports.findKey = findKey;
+exports.findValue = findValue;
+exports.forEach = forEach;
+exports.getAnyKey = getAnyKey;
+exports.getCount = getCount;
+exports.getUA = getUA;
+exports.getValues = getValues;
+exports.isAdmin = isAdmin;
+exports.isEmpty = isEmpty;
+exports.isMobileCordova = isMobileCordova;
+exports.isNodeSdk = isNodeSdk;
+exports.isNonNullObject = isNonNullObject;
+exports.isReactNative = isReactNative;
+exports.isValidFormat = isValidFormat;
+exports.isValidTimestamp = isValidTimestamp;
+exports.issuedAtTime = issuedAtTime;
+exports.jsonEval = jsonEval;
+exports.map = map;
+exports.patchCapture = patchCapture;
+exports.patchProperty = patchProperty;
+exports.querystring = querystring;
+exports.querystringDecode = querystringDecode;
+exports.safeGet = safeGet;
+exports.stringLength = stringLength;
+exports.stringToByteArray = stringToByteArray$1;
+exports.stringify = stringify;
+exports.validateArgCount = validateArgCount;
+exports.validateCallback = validateCallback;
+exports.validateContextObject = validateContextObject;
+exports.validateNamespace = validateNamespace;
+//# sourceMappingURL=index.cjs.js.map
+
 
 /***/ }),
 
@@ -2554,7 +8118,7 @@ var defaultTheme = Object(_createMuiTheme__WEBPACK_IMPORTED_MODULE_0__["default"
 /*!*****************************************************************************************************!*\
   !*** C:/Users/charl/Documents/projects/copoetry/node_modules/@material-ui/core/esm/styles/index.js ***!
   \*****************************************************************************************************/
-/*! exports provided: createMuiTheme, createStyles, makeStyles, MuiThemeProvider, styled, useTheme, withStyles, withTheme, hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, easing, duration, formatMs, isString, isNumber */
+/*! exports provided: hexToRgb, rgbToHex, hslToRgb, decomposeColor, recomposeColor, getContrastRatio, getLuminance, emphasize, fade, darken, lighten, createMuiTheme, createStyles, makeStyles, MuiThemeProvider, styled, easing, duration, formatMs, isString, isNumber, useTheme, withStyles, withTheme */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4998,6 +10562,22 @@ module.exports = function create(P, D) {
 
 /***/ }),
 
+/***/ "../../node_modules/core-js/library/fn/object/define-properties.js":
+/*!**************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/core-js/library/fn/object/define-properties.js ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.define-properties */ "../../node_modules/core-js/library/modules/es6.object.define-properties.js");
+var $Object = __webpack_require__(/*! ../../modules/_core */ "../../node_modules/core-js/library/modules/_core.js").Object;
+module.exports = function defineProperties(T, D) {
+  return $Object.defineProperties(T, D);
+};
+
+
+/***/ }),
+
 /***/ "../../node_modules/core-js/library/fn/object/define-property.js":
 /*!************************************************************************************************************!*\
   !*** C:/Users/charl/Documents/projects/copoetry/node_modules/core-js/library/fn/object/define-property.js ***!
@@ -5010,6 +10590,19 @@ var $Object = __webpack_require__(/*! ../../modules/_core */ "../../node_modules
 module.exports = function defineProperty(it, key, desc) {
   return $Object.defineProperty(it, key, desc);
 };
+
+
+/***/ }),
+
+/***/ "../../node_modules/core-js/library/fn/object/freeze.js":
+/*!***************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/core-js/library/fn/object/freeze.js ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es6.object.freeze */ "../../node_modules/core-js/library/modules/es6.object.freeze.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "../../node_modules/core-js/library/modules/_core.js").Object.freeze;
 
 
 /***/ }),
@@ -7664,6 +13257,20 @@ $export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create 
 
 /***/ }),
 
+/***/ "../../node_modules/core-js/library/modules/es6.object.define-properties.js":
+/*!***********************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/core-js/library/modules/es6.object.define-properties.js ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "../../node_modules/core-js/library/modules/_export.js");
+// 19.1.2.3 / 15.2.3.7 Object.defineProperties(O, Properties)
+$export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "../../node_modules/core-js/library/modules/_descriptors.js"), 'Object', { defineProperties: __webpack_require__(/*! ./_object-dps */ "../../node_modules/core-js/library/modules/_object-dps.js") });
+
+
+/***/ }),
+
 /***/ "../../node_modules/core-js/library/modules/es6.object.define-property.js":
 /*!*********************************************************************************************************************!*\
   !*** C:/Users/charl/Documents/projects/copoetry/node_modules/core-js/library/modules/es6.object.define-property.js ***!
@@ -7674,6 +13281,26 @@ $export($export.S, 'Object', { create: __webpack_require__(/*! ./_object-create 
 var $export = __webpack_require__(/*! ./_export */ "../../node_modules/core-js/library/modules/_export.js");
 // 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
 $export($export.S + $export.F * !__webpack_require__(/*! ./_descriptors */ "../../node_modules/core-js/library/modules/_descriptors.js"), 'Object', { defineProperty: __webpack_require__(/*! ./_object-dp */ "../../node_modules/core-js/library/modules/_object-dp.js").f });
+
+
+/***/ }),
+
+/***/ "../../node_modules/core-js/library/modules/es6.object.freeze.js":
+/*!************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/core-js/library/modules/es6.object.freeze.js ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.5 Object.freeze(O)
+var isObject = __webpack_require__(/*! ./_is-object */ "../../node_modules/core-js/library/modules/_is-object.js");
+var meta = __webpack_require__(/*! ./_meta */ "../../node_modules/core-js/library/modules/_meta.js").onFreeze;
+
+__webpack_require__(/*! ./_object-sap */ "../../node_modules/core-js/library/modules/_object-sap.js")('freeze', function ($freeze) {
+  return function freeze(it) {
+    return $freeze && isObject(it) ? $freeze(meta(it)) : it;
+  };
+});
 
 
 /***/ }),
@@ -9235,6 +14862,44 @@ var deepmerge_1 = deepmerge;
 return deepmerge_1;
 
 })));
+
+
+/***/ }),
+
+/***/ "../../node_modules/firebase/app/dist/index.cjs.js":
+/*!**********************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/firebase/app/dist/index.cjs.js ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+__webpack_require__(/*! @firebase/polyfill */ "../../node_modules/@firebase/polyfill/dist/index.esm.js");
+var firebase = _interopDefault(__webpack_require__(/*! @firebase/app */ "../../node_modules/@firebase/app/dist/index.cjs.js"));
+
+/**
+ * @license
+ * Copyright 2018 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+module.exports = firebase;
+//# sourceMappingURL=index.cjs.js.map
 
 
 /***/ }),
@@ -12458,6 +18123,63 @@ var index = create();
 
 /***/ }),
 
+/***/ "../../node_modules/memoize-one/dist/memoize-one.esm.js":
+/*!***************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/memoize-one/dist/memoize-one.esm.js ***!
+  \***************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function areInputsEqual(newInputs, lastInputs) {
+  if (newInputs.length !== lastInputs.length) {
+    return false;
+  }
+
+  for (var i = 0; i < newInputs.length; i++) {
+    if (newInputs[i] !== lastInputs[i]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function index (resultFn, isEqual) {
+  if (isEqual === void 0) {
+    isEqual = areInputsEqual;
+  }
+
+  var lastThis;
+  var lastArgs = [];
+  var lastResult;
+  var calledOnce = false;
+
+  var result = function result() {
+    for (var _len = arguments.length, newArgs = new Array(_len), _key = 0; _key < _len; _key++) {
+      newArgs[_key] = arguments[_key];
+    }
+
+    if (calledOnce && lastThis === this && isEqual(newArgs, lastArgs)) {
+      return lastResult;
+    }
+
+    lastResult = resultFn.apply(this, newArgs);
+    calledOnce = true;
+    lastThis = this;
+    lastArgs = newArgs;
+    return lastResult;
+  };
+
+  return result;
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+
+
+/***/ }),
+
 /***/ "../../node_modules/next-server/dist/lib/amp.js":
 /*!*******************************************************************************************!*\
   !*** C:/Users/charl/Documents/projects/copoetry/node_modules/next-server/dist/lib/amp.js ***!
@@ -15650,6 +21372,494 @@ module.exports = (__webpack_require__(/*! dll-reference dll_36df6281f2710816b948
 
 /***/ }),
 
+/***/ "../../node_modules/process/browser.js":
+/*!**********************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/process/browser.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// shim for using process in browser
+var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout () {
+    throw new Error('clearTimeout has not been defined');
+}
+(function () {
+    try {
+        if (typeof setTimeout === 'function') {
+            cachedSetTimeout = setTimeout;
+        } else {
+            cachedSetTimeout = defaultSetTimout;
+        }
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') {
+            cachedClearTimeout = clearTimeout;
+        } else {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ())
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch(e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+
+
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) {
+        //normal enviroments in sane situations
+        return clearTimeout(marker);
+    }
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+
+
+
+}
+var queue = [];
+var draining = false;
+var currentQueue;
+var queueIndex = -1;
+
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
+    draining = false;
+    if (currentQueue.length) {
+        queue = currentQueue.concat(queue);
+    } else {
+        queueIndex = -1;
+    }
+    if (queue.length) {
+        drainQueue();
+    }
+}
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    var timeout = runTimeout(cleanUpNextTick);
+    draining = true;
+
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        while (++queueIndex < len) {
+            if (currentQueue) {
+                currentQueue[queueIndex].run();
+            }
+        }
+        queueIndex = -1;
+        len = queue.length;
+    }
+    currentQueue = null;
+    draining = false;
+    runClearTimeout(timeout);
+}
+
+process.nextTick = function (fun) {
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+    }
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) {
+        runTimeout(drainQueue);
+    }
+};
+
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function () {
+    this.fun.apply(null, this.array);
+};
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
+
+
+/***/ }),
+
+/***/ "../../node_modules/promise-polyfill/lib/polyfill.js":
+/*!************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/promise-polyfill/lib/polyfill.js ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(setImmediate, global) {
+
+/**
+ * @this {Promise}
+ */
+function finallyConstructor(callback) {
+  var constructor = this.constructor;
+  return this.then(
+    function(value) {
+      return constructor.resolve(callback()).then(function() {
+        return value;
+      });
+    },
+    function(reason) {
+      return constructor.resolve(callback()).then(function() {
+        return constructor.reject(reason);
+      });
+    }
+  );
+}
+
+// Store setTimeout reference so promise-polyfill will be unaffected by
+// other code modifying setTimeout (like sinon.useFakeTimers())
+var setTimeoutFunc = setTimeout;
+
+function noop() {}
+
+// Polyfill for Function.prototype.bind
+function bind(fn, thisArg) {
+  return function() {
+    fn.apply(thisArg, arguments);
+  };
+}
+
+/**
+ * @constructor
+ * @param {Function} fn
+ */
+function Promise(fn) {
+  if (!(this instanceof Promise))
+    throw new TypeError('Promises must be constructed via new');
+  if (typeof fn !== 'function') throw new TypeError('not a function');
+  /** @type {!number} */
+  this._state = 0;
+  /** @type {!boolean} */
+  this._handled = false;
+  /** @type {Promise|undefined} */
+  this._value = undefined;
+  /** @type {!Array<!Function>} */
+  this._deferreds = [];
+
+  doResolve(fn, this);
+}
+
+function handle(self, deferred) {
+  while (self._state === 3) {
+    self = self._value;
+  }
+  if (self._state === 0) {
+    self._deferreds.push(deferred);
+    return;
+  }
+  self._handled = true;
+  Promise._immediateFn(function() {
+    var cb = self._state === 1 ? deferred.onFulfilled : deferred.onRejected;
+    if (cb === null) {
+      (self._state === 1 ? resolve : reject)(deferred.promise, self._value);
+      return;
+    }
+    var ret;
+    try {
+      ret = cb(self._value);
+    } catch (e) {
+      reject(deferred.promise, e);
+      return;
+    }
+    resolve(deferred.promise, ret);
+  });
+}
+
+function resolve(self, newValue) {
+  try {
+    // Promise Resolution Procedure: https://github.com/promises-aplus/promises-spec#the-promise-resolution-procedure
+    if (newValue === self)
+      throw new TypeError('A promise cannot be resolved with itself.');
+    if (
+      newValue &&
+      (typeof newValue === 'object' || typeof newValue === 'function')
+    ) {
+      var then = newValue.then;
+      if (newValue instanceof Promise) {
+        self._state = 3;
+        self._value = newValue;
+        finale(self);
+        return;
+      } else if (typeof then === 'function') {
+        doResolve(bind(then, newValue), self);
+        return;
+      }
+    }
+    self._state = 1;
+    self._value = newValue;
+    finale(self);
+  } catch (e) {
+    reject(self, e);
+  }
+}
+
+function reject(self, newValue) {
+  self._state = 2;
+  self._value = newValue;
+  finale(self);
+}
+
+function finale(self) {
+  if (self._state === 2 && self._deferreds.length === 0) {
+    Promise._immediateFn(function() {
+      if (!self._handled) {
+        Promise._unhandledRejectionFn(self._value);
+      }
+    });
+  }
+
+  for (var i = 0, len = self._deferreds.length; i < len; i++) {
+    handle(self, self._deferreds[i]);
+  }
+  self._deferreds = null;
+}
+
+/**
+ * @constructor
+ */
+function Handler(onFulfilled, onRejected, promise) {
+  this.onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : null;
+  this.onRejected = typeof onRejected === 'function' ? onRejected : null;
+  this.promise = promise;
+}
+
+/**
+ * Take a potentially misbehaving resolver function and make sure
+ * onFulfilled and onRejected are only called once.
+ *
+ * Makes no guarantees about asynchrony.
+ */
+function doResolve(fn, self) {
+  var done = false;
+  try {
+    fn(
+      function(value) {
+        if (done) return;
+        done = true;
+        resolve(self, value);
+      },
+      function(reason) {
+        if (done) return;
+        done = true;
+        reject(self, reason);
+      }
+    );
+  } catch (ex) {
+    if (done) return;
+    done = true;
+    reject(self, ex);
+  }
+}
+
+Promise.prototype['catch'] = function(onRejected) {
+  return this.then(null, onRejected);
+};
+
+Promise.prototype.then = function(onFulfilled, onRejected) {
+  // @ts-ignore
+  var prom = new this.constructor(noop);
+
+  handle(this, new Handler(onFulfilled, onRejected, prom));
+  return prom;
+};
+
+Promise.prototype['finally'] = finallyConstructor;
+
+Promise.all = function(arr) {
+  return new Promise(function(resolve, reject) {
+    if (!arr || typeof arr.length === 'undefined')
+      throw new TypeError('Promise.all accepts an array');
+    var args = Array.prototype.slice.call(arr);
+    if (args.length === 0) return resolve([]);
+    var remaining = args.length;
+
+    function res(i, val) {
+      try {
+        if (val && (typeof val === 'object' || typeof val === 'function')) {
+          var then = val.then;
+          if (typeof then === 'function') {
+            then.call(
+              val,
+              function(val) {
+                res(i, val);
+              },
+              reject
+            );
+            return;
+          }
+        }
+        args[i] = val;
+        if (--remaining === 0) {
+          resolve(args);
+        }
+      } catch (ex) {
+        reject(ex);
+      }
+    }
+
+    for (var i = 0; i < args.length; i++) {
+      res(i, args[i]);
+    }
+  });
+};
+
+Promise.resolve = function(value) {
+  if (value && typeof value === 'object' && value.constructor === Promise) {
+    return value;
+  }
+
+  return new Promise(function(resolve) {
+    resolve(value);
+  });
+};
+
+Promise.reject = function(value) {
+  return new Promise(function(resolve, reject) {
+    reject(value);
+  });
+};
+
+Promise.race = function(values) {
+  return new Promise(function(resolve, reject) {
+    for (var i = 0, len = values.length; i < len; i++) {
+      values[i].then(resolve, reject);
+    }
+  });
+};
+
+// Use polyfill for setImmediate for performance gains
+Promise._immediateFn =
+  (typeof setImmediate === 'function' &&
+    function(fn) {
+      setImmediate(fn);
+    }) ||
+  function(fn) {
+    setTimeoutFunc(fn, 0);
+  };
+
+Promise._unhandledRejectionFn = function _unhandledRejectionFn(err) {
+  if (typeof console !== 'undefined' && console) {
+    console.warn('Possible Unhandled Promise Rejection:', err); // eslint-disable-line no-console
+  }
+};
+
+/** @suppress {undefinedVars} */
+var globalNS = (function() {
+  // the only reliable means to get the global object is
+  // `Function('return this')()`
+  // However, this causes CSP violations in Chrome apps.
+  if (typeof self !== 'undefined') {
+    return self;
+  }
+  if (typeof window !== 'undefined') {
+    return window;
+  }
+  if (typeof global !== 'undefined') {
+    return global;
+  }
+  throw new Error('unable to locate global object');
+})();
+
+if (!('Promise' in globalNS)) {
+  globalNS['Promise'] = Promise;
+} else if (!globalNS.Promise.prototype['finally']) {
+  globalNS.Promise.prototype['finally'] = finallyConstructor;
+}
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../timers-browserify/main.js */ "../../node_modules/timers-browserify/main.js").setImmediate, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "../../node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
 /***/ "../../node_modules/prop-types/checkPropTypes.js":
 /*!*************************************************************************************************************!*\
   !*** delegated ../../node_modules/prop-types/checkPropTypes.js from dll-reference dll_36df6281f2710816b948 ***!
@@ -16507,6 +22717,17 @@ var objectKeys = Object.keys || function (obj) {
 exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "../../node_modules/querystring-es3/decode.js");
 exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "../../node_modules/querystring-es3/encode.js");
 
+
+/***/ }),
+
+/***/ "../../node_modules/react-dom/index.js":
+/*!***************************************************************************************************!*\
+  !*** delegated ../../node_modules/react-dom/index.js from dll-reference dll_36df6281f2710816b948 ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = (__webpack_require__(/*! dll-reference dll_36df6281f2710816b948 */ "dll-reference dll_36df6281f2710816b948"))("../../node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -17557,6 +23778,2904 @@ if (hadRuntime) {
 
 /***/ }),
 
+/***/ "../../node_modules/setimmediate/setImmediate.js":
+/*!********************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/setimmediate/setImmediate.js ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
+    "use strict";
+
+    if (global.setImmediate) {
+        return;
+    }
+
+    var nextHandle = 1; // Spec says greater than zero
+    var tasksByHandle = {};
+    var currentlyRunningATask = false;
+    var doc = global.document;
+    var registerImmediate;
+
+    function setImmediate(callback) {
+      // Callback can either be a function or a string
+      if (typeof callback !== "function") {
+        callback = new Function("" + callback);
+      }
+      // Copy function arguments
+      var args = new Array(arguments.length - 1);
+      for (var i = 0; i < args.length; i++) {
+          args[i] = arguments[i + 1];
+      }
+      // Store and register the task
+      var task = { callback: callback, args: args };
+      tasksByHandle[nextHandle] = task;
+      registerImmediate(nextHandle);
+      return nextHandle++;
+    }
+
+    function clearImmediate(handle) {
+        delete tasksByHandle[handle];
+    }
+
+    function run(task) {
+        var callback = task.callback;
+        var args = task.args;
+        switch (args.length) {
+        case 0:
+            callback();
+            break;
+        case 1:
+            callback(args[0]);
+            break;
+        case 2:
+            callback(args[0], args[1]);
+            break;
+        case 3:
+            callback(args[0], args[1], args[2]);
+            break;
+        default:
+            callback.apply(undefined, args);
+            break;
+        }
+    }
+
+    function runIfPresent(handle) {
+        // From the spec: "Wait until any invocations of this algorithm started before this one have completed."
+        // So if we're currently running a task, we'll need to delay this invocation.
+        if (currentlyRunningATask) {
+            // Delay by doing a setTimeout. setImmediate was tried instead, but in Firefox 7 it generated a
+            // "too much recursion" error.
+            setTimeout(runIfPresent, 0, handle);
+        } else {
+            var task = tasksByHandle[handle];
+            if (task) {
+                currentlyRunningATask = true;
+                try {
+                    run(task);
+                } finally {
+                    clearImmediate(handle);
+                    currentlyRunningATask = false;
+                }
+            }
+        }
+    }
+
+    function installNextTickImplementation() {
+        registerImmediate = function(handle) {
+            process.nextTick(function () { runIfPresent(handle); });
+        };
+    }
+
+    function canUsePostMessage() {
+        // The test against `importScripts` prevents this implementation from being installed inside a web worker,
+        // where `global.postMessage` means something completely different and can't be used for this purpose.
+        if (global.postMessage && !global.importScripts) {
+            var postMessageIsAsynchronous = true;
+            var oldOnMessage = global.onmessage;
+            global.onmessage = function() {
+                postMessageIsAsynchronous = false;
+            };
+            global.postMessage("", "*");
+            global.onmessage = oldOnMessage;
+            return postMessageIsAsynchronous;
+        }
+    }
+
+    function installPostMessageImplementation() {
+        // Installs an event handler on `global` for the `message` event: see
+        // * https://developer.mozilla.org/en/DOM/window.postMessage
+        // * http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#crossDocumentMessages
+
+        var messagePrefix = "setImmediate$" + Math.random() + "$";
+        var onGlobalMessage = function(event) {
+            if (event.source === global &&
+                typeof event.data === "string" &&
+                event.data.indexOf(messagePrefix) === 0) {
+                runIfPresent(+event.data.slice(messagePrefix.length));
+            }
+        };
+
+        if (global.addEventListener) {
+            global.addEventListener("message", onGlobalMessage, false);
+        } else {
+            global.attachEvent("onmessage", onGlobalMessage);
+        }
+
+        registerImmediate = function(handle) {
+            global.postMessage(messagePrefix + handle, "*");
+        };
+    }
+
+    function installMessageChannelImplementation() {
+        var channel = new MessageChannel();
+        channel.port1.onmessage = function(event) {
+            var handle = event.data;
+            runIfPresent(handle);
+        };
+
+        registerImmediate = function(handle) {
+            channel.port2.postMessage(handle);
+        };
+    }
+
+    function installReadyStateChangeImplementation() {
+        var html = doc.documentElement;
+        registerImmediate = function(handle) {
+            // Create a <script> element; its readystatechange event will be fired asynchronously once it is inserted
+            // into the document. Do so, thus queuing up the task. Remember to clean up once it's been called.
+            var script = doc.createElement("script");
+            script.onreadystatechange = function () {
+                runIfPresent(handle);
+                script.onreadystatechange = null;
+                html.removeChild(script);
+                script = null;
+            };
+            html.appendChild(script);
+        };
+    }
+
+    function installSetTimeoutImplementation() {
+        registerImmediate = function(handle) {
+            setTimeout(runIfPresent, 0, handle);
+        };
+    }
+
+    // If supported, we should attach to the prototype of global, since that is where setTimeout et al. live.
+    var attachTo = Object.getPrototypeOf && Object.getPrototypeOf(global);
+    attachTo = attachTo && attachTo.setTimeout ? attachTo : global;
+
+    // Don't get fooled by e.g. browserify environments.
+    if ({}.toString.call(global.process) === "[object process]") {
+        // For Node.js before 0.9
+        installNextTickImplementation();
+
+    } else if (canUsePostMessage()) {
+        // For non-IE10 modern browsers
+        installPostMessageImplementation();
+
+    } else if (global.MessageChannel) {
+        // For web workers, where supported
+        installMessageChannelImplementation();
+
+    } else if (doc && "onreadystatechange" in doc.createElement("script")) {
+        // For IE 6–8
+        installReadyStateChangeImplementation();
+
+    } else {
+        // For older browsers
+        installSetTimeoutImplementation();
+    }
+
+    attachTo.setImmediate = setImmediate;
+    attachTo.clearImmediate = clearImmediate;
+}(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "../../node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../process/browser.js */ "../../node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "../../node_modules/styled-components/dist/styled-components.browser.esm.js":
+/*!***********************************************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/styled-components/dist/styled-components.browser.esm.js ***!
+  \***********************************************************************************************************************/
+/*! exports provided: default, createGlobalStyle, css, isStyledComponent, keyframes, ServerStyleSheet, StyleSheetConsumer, StyleSheetContext, StyleSheetManager, ThemeConsumer, ThemeContext, ThemeProvider, withTheme, __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createGlobalStyle", function() { return createGlobalStyle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "css", function() { return css; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "isStyledComponent", function() { return isStyledComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "keyframes", function() { return keyframes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServerStyleSheet", function() { return ServerStyleSheet; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyleSheetConsumer", function() { return StyleSheetConsumer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyleSheetContext", function() { return StyleSheetContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StyleSheetManager", function() { return StyleSheetManager; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemeConsumer", function() { return ThemeConsumer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemeContext", function() { return ThemeContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ThemeProvider", function() { return ThemeProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "withTheme", function() { return withTheme; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS", function() { return __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS; });
+/* harmony import */ var stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! stylis/stylis.min */ "../../node_modules/stylis/stylis.min.js");
+/* harmony import */ var stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var stylis_rule_sheet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! stylis-rule-sheet */ "../../node_modules/stylis-rule-sheet/index.js");
+/* harmony import */ var stylis_rule_sheet__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(stylis_rule_sheet__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _emotion_unitless__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @emotion/unitless */ "../../node_modules/@emotion/unitless/dist/unitless.browser.esm.js");
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-is */ "../../node_modules/react-is/index.js");
+/* harmony import */ var react_is__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_is__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var memoize_one__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! memoize-one */ "../../node_modules/memoize-one/dist/memoize-one.esm.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! prop-types */ "../../node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-dom */ "../../node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @emotion/is-prop-valid */ "../../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js");
+
+
+
+
+
+
+
+
+
+
+// 
+
+var interleave = (function (strings, interpolations) {
+  var result = [strings[0]];
+
+  for (var i = 0, len = interpolations.length; i < len; i += 1) {
+    result.push(interpolations[i], strings[i + 1]);
+  }
+
+  return result;
+});
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
+  return typeof obj;
+} : function (obj) {
+  return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+};
+
+var classCallCheck = function (instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+};
+
+var createClass = function () {
+  function defineProperties(target, props) {
+    for (var i = 0; i < props.length; i++) {
+      var descriptor = props[i];
+      descriptor.enumerable = descriptor.enumerable || false;
+      descriptor.configurable = true;
+      if ("value" in descriptor) descriptor.writable = true;
+      Object.defineProperty(target, descriptor.key, descriptor);
+    }
+  }
+
+  return function (Constructor, protoProps, staticProps) {
+    if (protoProps) defineProperties(Constructor.prototype, protoProps);
+    if (staticProps) defineProperties(Constructor, staticProps);
+    return Constructor;
+  };
+}();
+
+var _extends = Object.assign || function (target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i];
+
+    for (var key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        target[key] = source[key];
+      }
+    }
+  }
+
+  return target;
+};
+
+var inherits = function (subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      enumerable: false,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+};
+
+var objectWithoutProperties = function (obj, keys) {
+  var target = {};
+
+  for (var i in obj) {
+    if (keys.indexOf(i) >= 0) continue;
+    if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
+    target[i] = obj[i];
+  }
+
+  return target;
+};
+
+var possibleConstructorReturn = function (self, call) {
+  if (!self) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return call && (typeof call === "object" || typeof call === "function") ? call : self;
+};
+
+// 
+var isPlainObject = (function (x) {
+  return (typeof x === 'undefined' ? 'undefined' : _typeof(x)) === 'object' && x.constructor === Object;
+});
+
+// 
+var EMPTY_ARRAY = Object.freeze([]);
+var EMPTY_OBJECT = Object.freeze({});
+
+// 
+function isFunction(test) {
+  return typeof test === 'function';
+}
+
+// 
+
+function getComponentName(target) {
+  return ( true ? typeof target === 'string' && target : undefined) || target.displayName || target.name || 'Component';
+}
+
+// 
+function isStatelessFunction(test) {
+  return typeof test === 'function' && !(test.prototype && test.prototype.isReactComponent);
+}
+
+// 
+function isStyledComponent(target) {
+  return target && typeof target.styledComponentId === 'string';
+}
+
+// 
+
+var SC_ATTR = typeof process !== 'undefined' && process.env.SC_ATTR || 'data-styled';
+
+var SC_VERSION_ATTR = 'data-styled-version';
+
+var SC_STREAM_ATTR = 'data-styled-streamed';
+
+var IS_BROWSER = typeof window !== 'undefined' && 'HTMLElement' in window;
+
+var DISABLE_SPEEDY = typeof SC_DISABLE_SPEEDY === 'boolean' && SC_DISABLE_SPEEDY || "development" !== 'production';
+
+// Shared empty execution context when generating static styles
+var STATIC_EXECUTION_CONTEXT = {};
+
+// 
+
+
+/**
+ * Parse errors.md and turn it into a simple hash of code: message
+ */
+var ERRORS =  true ? {
+  "1": "Cannot create styled-component for component: %s.\n\n",
+  "2": "Can't collect styles once you've consumed a `ServerStyleSheet`'s styles! `ServerStyleSheet` is a one off instance for each server-side render cycle.\n\n- Are you trying to reuse it across renders?\n- Are you accidentally calling collectStyles twice?\n\n",
+  "3": "Streaming SSR is only supported in a Node.js environment; Please do not try to call this method in the browser.\n\n",
+  "4": "The `StyleSheetManager` expects a valid target or sheet prop!\n\n- Does this error occur on the client and is your target falsy?\n- Does this error occur on the server and is the sheet falsy?\n\n",
+  "5": "The clone method cannot be used on the client!\n\n- Are you running in a client-like environment on the server?\n- Are you trying to run SSR on the client?\n\n",
+  "6": "Trying to insert a new style tag, but the given Node is unmounted!\n\n- Are you using a custom target that isn't mounted?\n- Does your document not have a valid head element?\n- Have you accidentally removed a style tag manually?\n\n",
+  "7": "ThemeProvider: Please return an object from your \"theme\" prop function, e.g.\n\n```js\ntheme={() => ({})}\n```\n\n",
+  "8": "ThemeProvider: Please make your \"theme\" prop an object.\n\n",
+  "9": "Missing document `<head>`\n\n",
+  "10": "Cannot find a StyleSheet instance. Usually this happens if there are multiple copies of styled-components loaded at once. Check out this issue for how to troubleshoot and fix the common cases where this situation can happen: https://github.com/styled-components/styled-components/issues/1941#issuecomment-417862021\n\n",
+  "11": "_This error was replaced with a dev-time warning, it will be deleted for v4 final._ [createGlobalStyle] received children which will not be rendered. Please use the component without passing children elements.\n\n",
+  "12": "It seems you are interpolating a keyframe declaration (%s) into an untagged string. This was supported in styled-components v3, but is not longer supported in v4 as keyframes are now injected on-demand. Please wrap your string in the css\\`\\` helper (see https://www.styled-components.com/docs/api#css), which ensures the styles are injected correctly.\n\n",
+  "13": "%s is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details.\n"
+} : undefined;
+
+/**
+ * super basic version of sprintf
+ */
+function format() {
+  var a = arguments.length <= 0 ? undefined : arguments[0];
+  var b = [];
+
+  for (var c = 1, len = arguments.length; c < len; c += 1) {
+    b.push(arguments.length <= c ? undefined : arguments[c]);
+  }
+
+  b.forEach(function (d) {
+    a = a.replace(/%[a-z]/, d);
+  });
+
+  return a;
+}
+
+/**
+ * Create an error file out of errors.md for development and a simple web link to the full errors
+ * in production mode.
+ */
+
+var StyledComponentsError = function (_Error) {
+  inherits(StyledComponentsError, _Error);
+
+  function StyledComponentsError(code) {
+    classCallCheck(this, StyledComponentsError);
+
+    for (var _len = arguments.length, interpolations = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+      interpolations[_key - 1] = arguments[_key];
+    }
+
+    if (false) { var _this; } else {
+      var _this = possibleConstructorReturn(this, _Error.call(this, format.apply(undefined, [ERRORS[code]].concat(interpolations)).trim()));
+    }
+    return possibleConstructorReturn(_this);
+  }
+
+  return StyledComponentsError;
+}(Error);
+
+// 
+var SC_COMPONENT_ID = /^[^\S\n]*?\/\* sc-component-id:\s*(\S+)\s+\*\//gm;
+
+var extractComps = (function (maybeCSS) {
+  var css = '' + (maybeCSS || ''); // Definitely a string, and a clone
+  var existingComponents = [];
+  css.replace(SC_COMPONENT_ID, function (match, componentId, matchIndex) {
+    existingComponents.push({ componentId: componentId, matchIndex: matchIndex });
+    return match;
+  });
+  return existingComponents.map(function (_ref, i) {
+    var componentId = _ref.componentId,
+        matchIndex = _ref.matchIndex;
+
+    var nextComp = existingComponents[i + 1];
+    var cssFromDOM = nextComp ? css.slice(matchIndex, nextComp.matchIndex) : css.slice(matchIndex);
+    return { componentId: componentId, cssFromDOM: cssFromDOM };
+  });
+});
+
+// 
+
+var COMMENT_REGEX = /^\s*\/\/.*$/gm;
+
+// NOTE: This stylis instance is only used to split rules from SSR'd style tags
+var stylisSplitter = new stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0___default.a({
+  global: false,
+  cascade: true,
+  keyframe: false,
+  prefix: false,
+  compress: false,
+  semicolon: true
+});
+
+var stylis = new stylis_stylis_min__WEBPACK_IMPORTED_MODULE_0___default.a({
+  global: false,
+  cascade: true,
+  keyframe: false,
+  prefix: true,
+  compress: false,
+  semicolon: false // NOTE: This means "autocomplete missing semicolons"
+});
+
+// Wrap `insertRulePlugin to build a list of rules,
+// and then make our own plugin to return the rules. This
+// makes it easier to hook into the existing SSR architecture
+
+var parsingRules = [];
+
+// eslint-disable-next-line consistent-return
+var returnRulesPlugin = function returnRulesPlugin(context) {
+  if (context === -2) {
+    var parsedRules = parsingRules;
+    parsingRules = [];
+    return parsedRules;
+  }
+};
+
+var parseRulesPlugin = stylis_rule_sheet__WEBPACK_IMPORTED_MODULE_1___default()(function (rule) {
+  parsingRules.push(rule);
+});
+
+var _componentId = void 0;
+var _selector = void 0;
+var _selectorRegexp = void 0;
+
+var selfReferenceReplacer = function selfReferenceReplacer(match, offset, string) {
+  if (
+  // the first self-ref is always untouched
+  offset > 0 &&
+  // there should be at least two self-refs to do a replacement (.b > .b)
+  string.slice(0, offset).indexOf(_selector) !== -1 &&
+  // no consecutive self refs (.b.b); that is a precedence boost and treated differently
+  string.slice(offset - _selector.length, offset) !== _selector) {
+    return '.' + _componentId;
+  }
+
+  return match;
+};
+
+/**
+ * When writing a style like
+ *
+ * & + & {
+ *   color: red;
+ * }
+ *
+ * The second ampersand should be a reference to the static component class. stylis
+ * has no knowledge of static class so we have to intelligently replace the base selector.
+ */
+var selfReferenceReplacementPlugin = function selfReferenceReplacementPlugin(context, _, selectors) {
+  if (context === 2 && selectors.length && selectors[0].lastIndexOf(_selector) > 0) {
+    // eslint-disable-next-line no-param-reassign
+    selectors[0] = selectors[0].replace(_selectorRegexp, selfReferenceReplacer);
+  }
+};
+
+stylis.use([selfReferenceReplacementPlugin, parseRulesPlugin, returnRulesPlugin]);
+stylisSplitter.use([parseRulesPlugin, returnRulesPlugin]);
+
+var splitByRules = function splitByRules(css) {
+  return stylisSplitter('', css);
+};
+
+function stringifyRules(rules, selector, prefix) {
+  var componentId = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : '&';
+
+  var flatCSS = rules.join('').replace(COMMENT_REGEX, ''); // replace JS comments
+
+  var cssStr = selector && prefix ? prefix + ' ' + selector + ' { ' + flatCSS + ' }' : flatCSS;
+
+  // stylis has no concept of state to be passed to plugins
+  // but since JS is single=threaded, we can rely on that to ensure
+  // these properties stay in sync with the current stylis run
+  _componentId = componentId;
+  _selector = selector;
+  _selectorRegexp = new RegExp('\\' + _selector + '\\b', 'g');
+
+  return stylis(prefix || !selector ? '' : selector, cssStr);
+}
+
+// 
+/* eslint-disable camelcase, no-undef */
+
+var getNonce = (function () {
+  return  true ? __webpack_require__.nc : undefined;
+});
+
+// 
+/* These are helpers for the StyleTags to keep track of the injected
+ * rule names for each (component) ID that they're keeping track of.
+ * They're crucial for detecting whether a name has already been
+ * injected.
+ * (This excludes rehydrated names) */
+
+/* adds a new ID:name pairing to a names dictionary */
+var addNameForId = function addNameForId(names, id, name) {
+  if (name) {
+    // eslint-disable-next-line no-param-reassign
+    var namesForId = names[id] || (names[id] = Object.create(null));
+    namesForId[name] = true;
+  }
+};
+
+/* resets an ID entirely by overwriting it in the dictionary */
+var resetIdNames = function resetIdNames(names, id) {
+  // eslint-disable-next-line no-param-reassign
+  names[id] = Object.create(null);
+};
+
+/* factory for a names dictionary checking the existance of an ID:name pairing */
+var hasNameForId = function hasNameForId(names) {
+  return function (id, name) {
+    return names[id] !== undefined && names[id][name];
+  };
+};
+
+/* stringifies names for the html/element output */
+var stringifyNames = function stringifyNames(names) {
+  var str = '';
+  // eslint-disable-next-line guard-for-in
+  for (var id in names) {
+    str += Object.keys(names[id]).join(' ') + ' ';
+  }
+  return str.trim();
+};
+
+/* clones the nested names dictionary */
+var cloneNames = function cloneNames(names) {
+  var clone = Object.create(null);
+  // eslint-disable-next-line guard-for-in
+  for (var id in names) {
+    clone[id] = _extends({}, names[id]);
+  }
+  return clone;
+};
+
+// 
+
+/* These are helpers that deal with the insertRule (aka speedy) API
+ * They are used in the StyleTags and specifically the speedy tag
+ */
+
+/* retrieve a sheet for a given style tag */
+var sheetForTag = function sheetForTag(tag) {
+  // $FlowFixMe
+  if (tag.sheet) return tag.sheet;
+
+  /* Firefox quirk requires us to step through all stylesheets to find one owned by the given tag */
+  var size = document.styleSheets.length;
+  for (var i = 0; i < size; i += 1) {
+    var sheet = document.styleSheets[i];
+    // $FlowFixMe
+    if (sheet.ownerNode === tag) return sheet;
+  }
+
+  /* we should always be able to find a tag */
+  throw new StyledComponentsError(10);
+};
+
+/* insert a rule safely and return whether it was actually injected */
+var safeInsertRule = function safeInsertRule(sheet, cssRule, index) {
+  /* abort early if cssRule string is falsy */
+  if (!cssRule) return false;
+
+  var maxIndex = sheet.cssRules.length;
+
+  try {
+    /* use insertRule and cap passed index with maxIndex (no of cssRules) */
+    sheet.insertRule(cssRule, index <= maxIndex ? index : maxIndex);
+  } catch (err) {
+    /* any error indicates an invalid rule */
+    return false;
+  }
+
+  return true;
+};
+
+/* deletes `size` rules starting from `removalIndex` */
+var deleteRules = function deleteRules(sheet, removalIndex, size) {
+  var lowerBound = removalIndex - size;
+  for (var i = removalIndex; i > lowerBound; i -= 1) {
+    sheet.deleteRule(i);
+  }
+};
+
+// 
+
+/* this marker separates component styles and is important for rehydration */
+var makeTextMarker = function makeTextMarker(id) {
+  return '\n/* sc-component-id: ' + id + ' */\n';
+};
+
+/* add up all numbers in array up until and including the index */
+var addUpUntilIndex = function addUpUntilIndex(sizes, index) {
+  var totalUpToIndex = 0;
+  for (var i = 0; i <= index; i += 1) {
+    totalUpToIndex += sizes[i];
+  }
+
+  return totalUpToIndex;
+};
+
+/* create a new style tag after lastEl */
+var makeStyleTag = function makeStyleTag(target, tagEl, insertBefore) {
+  var el = document.createElement('style');
+  el.setAttribute(SC_ATTR, '');
+  el.setAttribute(SC_VERSION_ATTR, "4.2.0");
+
+  var nonce = getNonce();
+  if (nonce) {
+    el.setAttribute('nonce', nonce);
+  }
+
+  /* Work around insertRule quirk in EdgeHTML */
+  el.appendChild(document.createTextNode(''));
+
+  if (target && !tagEl) {
+    /* Append to target when no previous element was passed */
+    target.appendChild(el);
+  } else {
+    if (!tagEl || !target || !tagEl.parentNode) {
+      throw new StyledComponentsError(6);
+    }
+
+    /* Insert new style tag after the previous one */
+    tagEl.parentNode.insertBefore(el, insertBefore ? tagEl : tagEl.nextSibling);
+  }
+
+  return el;
+};
+
+/* takes a css factory function and outputs an html styled tag factory */
+var wrapAsHtmlTag = function wrapAsHtmlTag(css, names) {
+  return function (additionalAttrs) {
+    var nonce = getNonce();
+    var attrs = [nonce && 'nonce="' + nonce + '"', SC_ATTR + '="' + stringifyNames(names) + '"', SC_VERSION_ATTR + '="' + "4.2.0" + '"', additionalAttrs];
+
+    var htmlAttr = attrs.filter(Boolean).join(' ');
+    return '<style ' + htmlAttr + '>' + css() + '</style>';
+  };
+};
+
+/* takes a css factory function and outputs an element factory */
+var wrapAsElement = function wrapAsElement(css, names) {
+  return function () {
+    var _props;
+
+    var props = (_props = {}, _props[SC_ATTR] = stringifyNames(names), _props[SC_VERSION_ATTR] = "4.2.0", _props);
+
+    var nonce = getNonce();
+    if (nonce) {
+      // $FlowFixMe
+      props.nonce = nonce;
+    }
+
+    // eslint-disable-next-line react/no-danger
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement('style', _extends({}, props, { dangerouslySetInnerHTML: { __html: css() } }));
+  };
+};
+
+var getIdsFromMarkersFactory = function getIdsFromMarkersFactory(markers) {
+  return function () {
+    return Object.keys(markers);
+  };
+};
+
+/* speedy tags utilise insertRule */
+var makeSpeedyTag = function makeSpeedyTag(el, getImportRuleTag) {
+  var names = Object.create(null);
+  var markers = Object.create(null);
+  var sizes = [];
+
+  var extractImport = getImportRuleTag !== undefined;
+  /* indicates whether getImportRuleTag was called */
+  var usedImportRuleTag = false;
+
+  var insertMarker = function insertMarker(id) {
+    var prev = markers[id];
+    if (prev !== undefined) {
+      return prev;
+    }
+
+    markers[id] = sizes.length;
+    sizes.push(0);
+    resetIdNames(names, id);
+
+    return markers[id];
+  };
+
+  var insertRules = function insertRules(id, cssRules, name) {
+    var marker = insertMarker(id);
+    var sheet = sheetForTag(el);
+    var insertIndex = addUpUntilIndex(sizes, marker);
+
+    var injectedRules = 0;
+    var importRules = [];
+    var cssRulesSize = cssRules.length;
+
+    for (var i = 0; i < cssRulesSize; i += 1) {
+      var cssRule = cssRules[i];
+      var mayHaveImport = extractImport; /* @import rules are reordered to appear first */
+      if (mayHaveImport && cssRule.indexOf('@import') !== -1) {
+        importRules.push(cssRule);
+      } else if (safeInsertRule(sheet, cssRule, insertIndex + injectedRules)) {
+        mayHaveImport = false;
+        injectedRules += 1;
+      }
+    }
+
+    if (extractImport && importRules.length > 0) {
+      usedImportRuleTag = true;
+      // $FlowFixMe
+      getImportRuleTag().insertRules(id + '-import', importRules);
+    }
+
+    sizes[marker] += injectedRules; /* add up no of injected rules */
+    addNameForId(names, id, name);
+  };
+
+  var removeRules = function removeRules(id) {
+    var marker = markers[id];
+    if (marker === undefined) return;
+
+    var size = sizes[marker];
+    var sheet = sheetForTag(el);
+    var removalIndex = addUpUntilIndex(sizes, marker) - 1;
+    deleteRules(sheet, removalIndex, size);
+    sizes[marker] = 0;
+    resetIdNames(names, id);
+
+    if (extractImport && usedImportRuleTag) {
+      // $FlowFixMe
+      getImportRuleTag().removeRules(id + '-import');
+    }
+  };
+
+  var css = function css() {
+    var _sheetForTag = sheetForTag(el),
+        cssRules = _sheetForTag.cssRules;
+
+    var str = '';
+
+    // eslint-disable-next-line guard-for-in
+    for (var id in markers) {
+      str += makeTextMarker(id);
+      var marker = markers[id];
+      var end = addUpUntilIndex(sizes, marker);
+      var size = sizes[marker];
+      for (var i = end - size; i < end; i += 1) {
+        var rule = cssRules[i];
+        if (rule !== undefined) {
+          str += rule.cssText;
+        }
+      }
+    }
+
+    return str;
+  };
+
+  return {
+    clone: function clone() {
+      throw new StyledComponentsError(5);
+    },
+
+    css: css,
+    getIds: getIdsFromMarkersFactory(markers),
+    hasNameForId: hasNameForId(names),
+    insertMarker: insertMarker,
+    insertRules: insertRules,
+    removeRules: removeRules,
+    sealed: false,
+    styleTag: el,
+    toElement: wrapAsElement(css, names),
+    toHTML: wrapAsHtmlTag(css, names)
+  };
+};
+
+var makeTextNode = function makeTextNode(id) {
+  return document.createTextNode(makeTextMarker(id));
+};
+
+var makeBrowserTag = function makeBrowserTag(el, getImportRuleTag) {
+  var names = Object.create(null);
+  var markers = Object.create(null);
+
+  var extractImport = getImportRuleTag !== undefined;
+
+  /* indicates whether getImportRuleTag was called */
+  var usedImportRuleTag = false;
+
+  var insertMarker = function insertMarker(id) {
+    var prev = markers[id];
+    if (prev !== undefined) {
+      return prev;
+    }
+
+    markers[id] = makeTextNode(id);
+    el.appendChild(markers[id]);
+    names[id] = Object.create(null);
+
+    return markers[id];
+  };
+
+  var insertRules = function insertRules(id, cssRules, name) {
+    var marker = insertMarker(id);
+    var importRules = [];
+    var cssRulesSize = cssRules.length;
+
+    for (var i = 0; i < cssRulesSize; i += 1) {
+      var rule = cssRules[i];
+      var mayHaveImport = extractImport;
+      if (mayHaveImport && rule.indexOf('@import') !== -1) {
+        importRules.push(rule);
+      } else {
+        mayHaveImport = false;
+        var separator = i === cssRulesSize - 1 ? '' : ' ';
+        marker.appendData('' + rule + separator);
+      }
+    }
+
+    addNameForId(names, id, name);
+
+    if (extractImport && importRules.length > 0) {
+      usedImportRuleTag = true;
+      // $FlowFixMe
+      getImportRuleTag().insertRules(id + '-import', importRules);
+    }
+  };
+
+  var removeRules = function removeRules(id) {
+    var marker = markers[id];
+    if (marker === undefined) return;
+
+    /* create new empty text node and replace the current one */
+    var newMarker = makeTextNode(id);
+    el.replaceChild(newMarker, marker);
+    markers[id] = newMarker;
+    resetIdNames(names, id);
+
+    if (extractImport && usedImportRuleTag) {
+      // $FlowFixMe
+      getImportRuleTag().removeRules(id + '-import');
+    }
+  };
+
+  var css = function css() {
+    var str = '';
+
+    // eslint-disable-next-line guard-for-in
+    for (var id in markers) {
+      str += markers[id].data;
+    }
+
+    return str;
+  };
+
+  return {
+    clone: function clone() {
+      throw new StyledComponentsError(5);
+    },
+
+    css: css,
+    getIds: getIdsFromMarkersFactory(markers),
+    hasNameForId: hasNameForId(names),
+    insertMarker: insertMarker,
+    insertRules: insertRules,
+    removeRules: removeRules,
+    sealed: false,
+    styleTag: el,
+    toElement: wrapAsElement(css, names),
+    toHTML: wrapAsHtmlTag(css, names)
+  };
+};
+
+var makeServerTag = function makeServerTag(namesArg, markersArg) {
+  var names = namesArg === undefined ? Object.create(null) : namesArg;
+  var markers = markersArg === undefined ? Object.create(null) : markersArg;
+
+  var insertMarker = function insertMarker(id) {
+    var prev = markers[id];
+    if (prev !== undefined) {
+      return prev;
+    }
+
+    return markers[id] = [''];
+  };
+
+  var insertRules = function insertRules(id, cssRules, name) {
+    var marker = insertMarker(id);
+    marker[0] += cssRules.join(' ');
+    addNameForId(names, id, name);
+  };
+
+  var removeRules = function removeRules(id) {
+    var marker = markers[id];
+    if (marker === undefined) return;
+    marker[0] = '';
+    resetIdNames(names, id);
+  };
+
+  var css = function css() {
+    var str = '';
+    // eslint-disable-next-line guard-for-in
+    for (var id in markers) {
+      var cssForId = markers[id][0];
+      if (cssForId) {
+        str += makeTextMarker(id) + cssForId;
+      }
+    }
+    return str;
+  };
+
+  var clone = function clone() {
+    var namesClone = cloneNames(names);
+    var markersClone = Object.create(null);
+
+    // eslint-disable-next-line guard-for-in
+    for (var id in markers) {
+      markersClone[id] = [markers[id][0]];
+    }
+
+    return makeServerTag(namesClone, markersClone);
+  };
+
+  var tag = {
+    clone: clone,
+    css: css,
+    getIds: getIdsFromMarkersFactory(markers),
+    hasNameForId: hasNameForId(names),
+    insertMarker: insertMarker,
+    insertRules: insertRules,
+    removeRules: removeRules,
+    sealed: false,
+    styleTag: null,
+    toElement: wrapAsElement(css, names),
+    toHTML: wrapAsHtmlTag(css, names)
+  };
+
+  return tag;
+};
+
+var makeTag = function makeTag(target, tagEl, forceServer, insertBefore, getImportRuleTag) {
+  if (IS_BROWSER && !forceServer) {
+    var el = makeStyleTag(target, tagEl, insertBefore);
+
+    if (DISABLE_SPEEDY) {
+      return makeBrowserTag(el, getImportRuleTag);
+    } else {
+      return makeSpeedyTag(el, getImportRuleTag);
+    }
+  }
+
+  return makeServerTag();
+};
+
+var rehydrate = function rehydrate(tag, els, extracted) {
+  /* add all extracted components to the new tag */
+  for (var i = 0, len = extracted.length; i < len; i += 1) {
+    var _extracted$i = extracted[i],
+        componentId = _extracted$i.componentId,
+        cssFromDOM = _extracted$i.cssFromDOM;
+
+    var cssRules = splitByRules(cssFromDOM);
+    tag.insertRules(componentId, cssRules);
+  }
+
+  /* remove old HTMLStyleElements, since they have been rehydrated */
+  for (var _i = 0, _len = els.length; _i < _len; _i += 1) {
+    var el = els[_i];
+    if (el.parentNode) {
+      el.parentNode.removeChild(el);
+    }
+  }
+};
+
+// 
+
+var SPLIT_REGEX = /\s+/;
+
+/* determine the maximum number of components before tags are sharded */
+var MAX_SIZE = void 0;
+if (IS_BROWSER) {
+  /* in speedy mode we can keep a lot more rules in a sheet before a slowdown can be expected */
+  MAX_SIZE = DISABLE_SPEEDY ? 40 : 1000;
+} else {
+  /* for servers we do not need to shard at all */
+  MAX_SIZE = -1;
+}
+
+var sheetRunningId = 0;
+var master = void 0;
+
+var StyleSheet = function () {
+
+  /* a map from ids to tags */
+
+  /* deferred rules for a given id */
+
+  /* this is used for not reinjecting rules via hasNameForId() */
+
+  /* when rules for an id are removed using remove() we have to ignore rehydratedNames for it */
+
+  /* a list of tags belonging to this StyleSheet */
+
+  /* a tag for import rules */
+
+  /* current capacity until a new tag must be created */
+
+  /* children (aka clones) of this StyleSheet inheriting all and future injections */
+
+  function StyleSheet() {
+    var _this = this;
+
+    var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : IS_BROWSER ? document.head : null;
+    var forceServer = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+    classCallCheck(this, StyleSheet);
+
+    this.getImportRuleTag = function () {
+      var importRuleTag = _this.importRuleTag;
+
+      if (importRuleTag !== undefined) {
+        return importRuleTag;
+      }
+
+      var firstTag = _this.tags[0];
+      var insertBefore = true;
+
+      return _this.importRuleTag = makeTag(_this.target, firstTag ? firstTag.styleTag : null, _this.forceServer, insertBefore);
+    };
+
+    sheetRunningId += 1;
+    this.id = sheetRunningId;
+    this.forceServer = forceServer;
+    this.target = forceServer ? null : target;
+    this.tagMap = {};
+    this.deferred = {};
+    this.rehydratedNames = {};
+    this.ignoreRehydratedNames = {};
+    this.tags = [];
+    this.capacity = 1;
+    this.clones = [];
+  }
+
+  /* rehydrate all SSR'd style tags */
+
+
+  StyleSheet.prototype.rehydrate = function rehydrate$$1() {
+    if (!IS_BROWSER || this.forceServer) return this;
+
+    var els = [];
+    var extracted = [];
+    var isStreamed = false;
+
+    /* retrieve all of our SSR style elements from the DOM */
+    var nodes = document.querySelectorAll('style[' + SC_ATTR + '][' + SC_VERSION_ATTR + '="' + "4.2.0" + '"]');
+
+    var nodesSize = nodes.length;
+
+    /* abort rehydration if no previous style tags were found */
+    if (!nodesSize) return this;
+
+    for (var i = 0; i < nodesSize; i += 1) {
+      var el = nodes[i];
+
+      /* check if style tag is a streamed tag */
+      if (!isStreamed) isStreamed = !!el.getAttribute(SC_STREAM_ATTR);
+
+      /* retrieve all component names */
+      var elNames = (el.getAttribute(SC_ATTR) || '').trim().split(SPLIT_REGEX);
+      var elNamesSize = elNames.length;
+      for (var j = 0, name; j < elNamesSize; j += 1) {
+        name = elNames[j];
+        /* add rehydrated name to sheet to avoid re-adding styles */
+        this.rehydratedNames[name] = true;
+      }
+
+      /* extract all components and their CSS */
+      extracted.push.apply(extracted, extractComps(el.textContent));
+
+      /* store original HTMLStyleElement */
+      els.push(el);
+    }
+
+    /* abort rehydration if nothing was extracted */
+    var extractedSize = extracted.length;
+    if (!extractedSize) return this;
+
+    /* create a tag to be used for rehydration */
+    var tag = this.makeTag(null);
+
+    rehydrate(tag, els, extracted);
+
+    /* reset capacity and adjust MAX_SIZE by the initial size of the rehydration */
+    this.capacity = Math.max(1, MAX_SIZE - extractedSize);
+    this.tags.push(tag);
+
+    /* retrieve all component ids */
+    for (var _j = 0; _j < extractedSize; _j += 1) {
+      this.tagMap[extracted[_j].componentId] = tag;
+    }
+
+    return this;
+  };
+
+  /* retrieve a "master" instance of StyleSheet which is typically used when no other is available
+   * The master StyleSheet is targeted by createGlobalStyle, keyframes, and components outside of any
+    * StyleSheetManager's context */
+
+
+  /* reset the internal "master" instance */
+  StyleSheet.reset = function reset() {
+    var forceServer = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+
+    master = new StyleSheet(undefined, forceServer).rehydrate();
+  };
+
+  /* adds "children" to the StyleSheet that inherit all of the parents' rules
+   * while their own rules do not affect the parent */
+
+
+  StyleSheet.prototype.clone = function clone() {
+    var sheet = new StyleSheet(this.target, this.forceServer);
+
+    /* add to clone array */
+    this.clones.push(sheet);
+
+    /* clone all tags */
+    sheet.tags = this.tags.map(function (tag) {
+      var ids = tag.getIds();
+      var newTag = tag.clone();
+
+      /* reconstruct tagMap */
+      for (var i = 0; i < ids.length; i += 1) {
+        sheet.tagMap[ids[i]] = newTag;
+      }
+
+      return newTag;
+    });
+
+    /* clone other maps */
+    sheet.rehydratedNames = _extends({}, this.rehydratedNames);
+    sheet.deferred = _extends({}, this.deferred);
+
+    return sheet;
+  };
+
+  /* force StyleSheet to create a new tag on the next injection */
+
+
+  StyleSheet.prototype.sealAllTags = function sealAllTags() {
+    this.capacity = 1;
+
+    this.tags.forEach(function (tag) {
+      // eslint-disable-next-line no-param-reassign
+      tag.sealed = true;
+    });
+  };
+
+  StyleSheet.prototype.makeTag = function makeTag$$1(tag) {
+    var lastEl = tag ? tag.styleTag : null;
+    var insertBefore = false;
+
+    return makeTag(this.target, lastEl, this.forceServer, insertBefore, this.getImportRuleTag);
+  };
+
+  /* get a tag for a given componentId, assign the componentId to one, or shard */
+  StyleSheet.prototype.getTagForId = function getTagForId(id) {
+    /* simply return a tag, when the componentId was already assigned one */
+    var prev = this.tagMap[id];
+    if (prev !== undefined && !prev.sealed) {
+      return prev;
+    }
+
+    var tag = this.tags[this.tags.length - 1];
+
+    /* shard (create a new tag) if the tag is exhausted (See MAX_SIZE) */
+    this.capacity -= 1;
+
+    if (this.capacity === 0) {
+      this.capacity = MAX_SIZE;
+      tag = this.makeTag(tag);
+      this.tags.push(tag);
+    }
+
+    return this.tagMap[id] = tag;
+  };
+
+  /* mainly for createGlobalStyle to check for its id */
+
+
+  StyleSheet.prototype.hasId = function hasId(id) {
+    return this.tagMap[id] !== undefined;
+  };
+
+  /* caching layer checking id+name to already have a corresponding tag and injected rules */
+
+
+  StyleSheet.prototype.hasNameForId = function hasNameForId(id, name) {
+    /* exception for rehydrated names which are checked separately */
+    if (this.ignoreRehydratedNames[id] === undefined && this.rehydratedNames[name]) {
+      return true;
+    }
+
+    var tag = this.tagMap[id];
+    return tag !== undefined && tag.hasNameForId(id, name);
+  };
+
+  /* registers a componentId and registers it on its tag */
+
+
+  StyleSheet.prototype.deferredInject = function deferredInject(id, cssRules) {
+    /* don't inject when the id is already registered */
+    if (this.tagMap[id] !== undefined) return;
+
+    var clones = this.clones;
+
+    for (var i = 0; i < clones.length; i += 1) {
+      clones[i].deferredInject(id, cssRules);
+    }
+
+    this.getTagForId(id).insertMarker(id);
+    this.deferred[id] = cssRules;
+  };
+
+  /* injects rules for a given id with a name that will need to be cached */
+
+
+  StyleSheet.prototype.inject = function inject(id, cssRules, name) {
+    var clones = this.clones;
+
+
+    for (var i = 0; i < clones.length; i += 1) {
+      clones[i].inject(id, cssRules, name);
+    }
+
+    var tag = this.getTagForId(id);
+
+    /* add deferred rules for component */
+    if (this.deferred[id] !== undefined) {
+      // Combine passed cssRules with previously deferred CSS rules
+      // NOTE: We cannot mutate the deferred array itself as all clones
+      // do the same (see clones[i].inject)
+      var rules = this.deferred[id].concat(cssRules);
+      tag.insertRules(id, rules, name);
+
+      this.deferred[id] = undefined;
+    } else {
+      tag.insertRules(id, cssRules, name);
+    }
+  };
+
+  /* removes all rules for a given id, which doesn't remove its marker but resets it */
+
+
+  StyleSheet.prototype.remove = function remove(id) {
+    var tag = this.tagMap[id];
+    if (tag === undefined) return;
+
+    var clones = this.clones;
+
+    for (var i = 0; i < clones.length; i += 1) {
+      clones[i].remove(id);
+    }
+
+    /* remove all rules from the tag */
+    tag.removeRules(id);
+
+    /* ignore possible rehydrated names */
+    this.ignoreRehydratedNames[id] = true;
+
+    /* delete possible deferred rules */
+    this.deferred[id] = undefined;
+  };
+
+  StyleSheet.prototype.toHTML = function toHTML() {
+    return this.tags.map(function (tag) {
+      return tag.toHTML();
+    }).join('');
+  };
+
+  StyleSheet.prototype.toReactElements = function toReactElements() {
+    var id = this.id;
+
+
+    return this.tags.map(function (tag, i) {
+      var key = 'sc-' + id + '-' + i;
+      return Object(react__WEBPACK_IMPORTED_MODULE_2__["cloneElement"])(tag.toElement(), { key: key });
+    });
+  };
+
+  createClass(StyleSheet, null, [{
+    key: 'master',
+    get: function get$$1() {
+      return master || (master = new StyleSheet().rehydrate());
+    }
+
+    /* NOTE: This is just for backwards-compatibility with jest-styled-components */
+
+  }, {
+    key: 'instance',
+    get: function get$$1() {
+      return StyleSheet.master;
+    }
+  }]);
+  return StyleSheet;
+}();
+
+// 
+
+var Keyframes = function () {
+  function Keyframes(name, rules) {
+    var _this = this;
+
+    classCallCheck(this, Keyframes);
+
+    this.inject = function (styleSheet) {
+      if (!styleSheet.hasNameForId(_this.id, _this.name)) {
+        styleSheet.inject(_this.id, _this.rules, _this.name);
+      }
+    };
+
+    this.toString = function () {
+      throw new StyledComponentsError(12, String(_this.name));
+    };
+
+    this.name = name;
+    this.rules = rules;
+
+    this.id = 'sc-keyframes-' + name;
+  }
+
+  Keyframes.prototype.getName = function getName() {
+    return this.name;
+  };
+
+  return Keyframes;
+}();
+
+// 
+
+/**
+ * inlined version of
+ * https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/core/hyphenateStyleName.js
+ */
+
+var uppercasePattern = /([A-Z])/g;
+var msPattern = /^ms-/;
+
+/**
+ * Hyphenates a camelcased CSS property name, for example:
+ *
+ *   > hyphenateStyleName('backgroundColor')
+ *   < "background-color"
+ *   > hyphenateStyleName('MozTransition')
+ *   < "-moz-transition"
+ *   > hyphenateStyleName('msTransition')
+ *   < "-ms-transition"
+ *
+ * As Modernizr suggests (http://modernizr.com/docs/#prefixed), an `ms` prefix
+ * is converted to `-ms-`.
+ *
+ * @param {string} string
+ * @return {string}
+ */
+function hyphenateStyleName(string) {
+  return string.replace(uppercasePattern, '-$1').toLowerCase().replace(msPattern, '-ms-');
+}
+
+// 
+
+// Taken from https://github.com/facebook/react/blob/b87aabdfe1b7461e7331abb3601d9e6bb27544bc/packages/react-dom/src/shared/dangerousStyleValue.js
+function addUnitIfNeeded(name, value) {
+  // https://github.com/amilajack/eslint-plugin-flowtype-errors/issues/133
+  // $FlowFixMe
+  if (value == null || typeof value === 'boolean' || value === '') {
+    return '';
+  }
+
+  if (typeof value === 'number' && value !== 0 && !(name in _emotion_unitless__WEBPACK_IMPORTED_MODULE_3__["default"])) {
+    return value + 'px'; // Presumes implicit 'px' suffix for unitless numbers
+  }
+
+  return String(value).trim();
+}
+
+// 
+
+/**
+ * It's falsish not falsy because 0 is allowed.
+ */
+var isFalsish = function isFalsish(chunk) {
+  return chunk === undefined || chunk === null || chunk === false || chunk === '';
+};
+
+var objToCss = function objToCss(obj, prevKey) {
+  var css = Object.keys(obj).filter(function (key) {
+    return !isFalsish(obj[key]);
+  }).map(function (key) {
+    if (isPlainObject(obj[key])) return objToCss(obj[key], key);
+    return hyphenateStyleName(key) + ': ' + addUnitIfNeeded(key, obj[key]) + ';';
+  }).join(' ');
+  return prevKey ? prevKey + ' {\n  ' + css + '\n}' : css;
+};
+
+function flatten(chunk, executionContext, styleSheet) {
+  if (Array.isArray(chunk)) {
+    var ruleSet = [];
+
+    for (var i = 0, len = chunk.length, result; i < len; i += 1) {
+      result = flatten(chunk[i], executionContext, styleSheet);
+
+      if (result === null) continue;else if (Array.isArray(result)) ruleSet.push.apply(ruleSet, result);else ruleSet.push(result);
+    }
+
+    return ruleSet;
+  }
+
+  if (isFalsish(chunk)) {
+    return null;
+  }
+
+  /* Handle other components */
+  if (isStyledComponent(chunk)) {
+    return '.' + chunk.styledComponentId;
+  }
+
+  /* Either execute or defer the function */
+  if (isFunction(chunk)) {
+    if (isStatelessFunction(chunk) && executionContext) {
+      var _result = chunk(executionContext);
+
+      if ( true && Object(react_is__WEBPACK_IMPORTED_MODULE_4__["isElement"])(_result)) {
+        // eslint-disable-next-line no-console
+        console.warn(getComponentName(chunk) + ' is not a styled component and cannot be referred to via component selector. See https://www.styled-components.com/docs/advanced#referring-to-other-components for more details.');
+      }
+
+      return flatten(_result, executionContext, styleSheet);
+    } else return chunk;
+  }
+
+  if (chunk instanceof Keyframes) {
+    if (styleSheet) {
+      chunk.inject(styleSheet);
+      return chunk.getName();
+    } else return chunk;
+  }
+
+  /* Handle objects */
+  return isPlainObject(chunk) ? objToCss(chunk) : chunk.toString();
+}
+
+// 
+
+function css(styles) {
+  for (var _len = arguments.length, interpolations = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    interpolations[_key - 1] = arguments[_key];
+  }
+
+  if (isFunction(styles) || isPlainObject(styles)) {
+    // $FlowFixMe
+    return flatten(interleave(EMPTY_ARRAY, [styles].concat(interpolations)));
+  }
+
+  // $FlowFixMe
+  return flatten(interleave(styles, interpolations));
+}
+
+// 
+
+function constructWithOptions(componentConstructor, tag) {
+  var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : EMPTY_OBJECT;
+
+  if (!Object(react_is__WEBPACK_IMPORTED_MODULE_4__["isValidElementType"])(tag)) {
+    throw new StyledComponentsError(1, String(tag));
+  }
+
+  /* This is callable directly as a template function */
+  // $FlowFixMe: Not typed to avoid destructuring arguments
+  var templateFunction = function templateFunction() {
+    return componentConstructor(tag, options, css.apply(undefined, arguments));
+  };
+
+  /* If config methods are called, wrap up a new template function and merge options */
+  templateFunction.withConfig = function (config) {
+    return constructWithOptions(componentConstructor, tag, _extends({}, options, config));
+  };
+
+  /* Modify/inject new props at runtime */
+  templateFunction.attrs = function (attrs) {
+    return constructWithOptions(componentConstructor, tag, _extends({}, options, {
+      attrs: Array.prototype.concat(options.attrs, attrs).filter(Boolean)
+    }));
+  };
+
+  return templateFunction;
+}
+
+// 
+// Source: https://github.com/garycourt/murmurhash-js/blob/master/murmurhash2_gc.js
+function murmurhash(c) {
+  for (var e = c.length | 0, a = e | 0, d = 0, b; e >= 4;) {
+    b = c.charCodeAt(d) & 255 | (c.charCodeAt(++d) & 255) << 8 | (c.charCodeAt(++d) & 255) << 16 | (c.charCodeAt(++d) & 255) << 24, b = 1540483477 * (b & 65535) + ((1540483477 * (b >>> 16) & 65535) << 16), b ^= b >>> 24, b = 1540483477 * (b & 65535) + ((1540483477 * (b >>> 16) & 65535) << 16), a = 1540483477 * (a & 65535) + ((1540483477 * (a >>> 16) & 65535) << 16) ^ b, e -= 4, ++d;
+  }
+  switch (e) {
+    case 3:
+      a ^= (c.charCodeAt(d + 2) & 255) << 16;
+    case 2:
+      a ^= (c.charCodeAt(d + 1) & 255) << 8;
+    case 1:
+      a ^= c.charCodeAt(d) & 255, a = 1540483477 * (a & 65535) + ((1540483477 * (a >>> 16) & 65535) << 16);
+  }
+  a ^= a >>> 13;
+  a = 1540483477 * (a & 65535) + ((1540483477 * (a >>> 16) & 65535) << 16);
+  return (a ^ a >>> 15) >>> 0;
+}
+
+// 
+/* eslint-disable no-bitwise */
+
+/* This is the "capacity" of our alphabet i.e. 2x26 for all letters plus their capitalised
+ * counterparts */
+var charsLength = 52;
+
+/* start at 75 for 'a' until 'z' (25) and then start at 65 for capitalised letters */
+var getAlphabeticChar = function getAlphabeticChar(code) {
+  return String.fromCharCode(code + (code > 25 ? 39 : 97));
+};
+
+/* input a number, usually a hash and convert it to base-52 */
+function generateAlphabeticName(code) {
+  var name = '';
+  var x = void 0;
+
+  /* get a char and divide by alphabet-length */
+  for (x = code; x > charsLength; x = Math.floor(x / charsLength)) {
+    name = getAlphabeticChar(x % charsLength) + name;
+  }
+
+  return getAlphabeticChar(x % charsLength) + name;
+}
+
+// 
+
+function hasFunctionObjectKey(obj) {
+  // eslint-disable-next-line guard-for-in, no-restricted-syntax
+  for (var key in obj) {
+    if (isFunction(obj[key])) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function isStaticRules(rules, attrs) {
+  for (var i = 0; i < rules.length; i += 1) {
+    var rule = rules[i];
+
+    // recursive case
+    if (Array.isArray(rule) && !isStaticRules(rule, attrs)) {
+      return false;
+    } else if (isFunction(rule) && !isStyledComponent(rule)) {
+      // functions are allowed to be static if they're just being
+      // used to get the classname of a nested styled component
+      return false;
+    }
+  }
+
+  if (attrs.some(function (x) {
+    return isFunction(x) || hasFunctionObjectKey(x);
+  })) return false;
+
+  return true;
+}
+
+// 
+
+var isHMREnabled =  true && module.hot;
+
+/* combines hashStr (murmurhash) and nameGenerator for convenience */
+var hasher = function hasher(str) {
+  return generateAlphabeticName(murmurhash(str));
+};
+
+/*
+ ComponentStyle is all the CSS-specific stuff, not
+ the React-specific stuff.
+ */
+
+var ComponentStyle = function () {
+  function ComponentStyle(rules, attrs, componentId) {
+    classCallCheck(this, ComponentStyle);
+
+    this.rules = rules;
+    this.isStatic = !isHMREnabled && isStaticRules(rules, attrs);
+    this.componentId = componentId;
+
+    if (!StyleSheet.master.hasId(componentId)) {
+      StyleSheet.master.deferredInject(componentId, []);
+    }
+  }
+
+  /*
+     * Flattens a rule set into valid CSS
+     * Hashes it, wraps the whole chunk in a .hash1234 {}
+     * Returns the hash to be injected on render()
+     * */
+
+
+  ComponentStyle.prototype.generateAndInjectStyles = function generateAndInjectStyles(executionContext, styleSheet) {
+    var isStatic = this.isStatic,
+        componentId = this.componentId,
+        lastClassName = this.lastClassName;
+
+    if (IS_BROWSER && isStatic && typeof lastClassName === 'string' && styleSheet.hasNameForId(componentId, lastClassName)) {
+      return lastClassName;
+    }
+
+    var flatCSS = flatten(this.rules, executionContext, styleSheet);
+    var name = hasher(this.componentId + flatCSS.join(''));
+    if (!styleSheet.hasNameForId(componentId, name)) {
+      styleSheet.inject(this.componentId, stringifyRules(flatCSS, '.' + name, undefined, componentId), name);
+    }
+
+    this.lastClassName = name;
+    return name;
+  };
+
+  ComponentStyle.generateName = function generateName(str) {
+    return hasher(str);
+  };
+
+  return ComponentStyle;
+}();
+
+// 
+
+var LIMIT = 200;
+
+var createWarnTooManyClasses = (function (displayName) {
+  var generatedClasses = {};
+  var warningSeen = false;
+
+  return function (className) {
+    if (!warningSeen) {
+      generatedClasses[className] = true;
+      if (Object.keys(generatedClasses).length >= LIMIT) {
+        // Unable to find latestRule in test environment.
+        /* eslint-disable no-console, prefer-template */
+        console.warn('Over ' + LIMIT + ' classes were generated for component ' + displayName + '. \n' + 'Consider using the attrs method, together with a style object for frequently changed styles.\n' + 'Example:\n' + '  const Component = styled.div.attrs({\n' + '    style: ({ background }) => ({\n' + '      background,\n' + '    }),\n' + '  })`width: 100%;`\n\n' + '  <Component />');
+        warningSeen = true;
+        generatedClasses = {};
+      }
+    }
+  };
+});
+
+// 
+
+var determineTheme = (function (props, fallbackTheme) {
+  var defaultProps = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : EMPTY_OBJECT;
+
+  // Props should take precedence over ThemeProvider, which should take precedence over
+  // defaultProps, but React automatically puts defaultProps on props.
+
+  /* eslint-disable react/prop-types, flowtype-errors/show-errors */
+  var isDefaultTheme = defaultProps ? props.theme === defaultProps.theme : false;
+  var theme = props.theme && !isDefaultTheme ? props.theme : fallbackTheme || defaultProps.theme;
+  /* eslint-enable */
+
+  return theme;
+});
+
+// 
+var escapeRegex = /[[\].#*$><+~=|^:(),"'`-]+/g;
+var dashesAtEnds = /(^-|-$)/g;
+
+/**
+ * TODO: Explore using CSS.escape when it becomes more available
+ * in evergreen browsers.
+ */
+function escape(str) {
+  return str
+  // Replace all possible CSS selectors
+  .replace(escapeRegex, '-')
+
+  // Remove extraneous hyphens at the start and end
+  .replace(dashesAtEnds, '');
+}
+
+// 
+
+function isTag(target) {
+  return typeof target === 'string' && ( true ? target.charAt(0) === target.charAt(0).toLowerCase() : undefined);
+}
+
+// 
+
+function generateDisplayName(target) {
+  // $FlowFixMe
+  return isTag(target) ? 'styled.' + target : 'Styled(' + getComponentName(target) + ')';
+}
+
+var _TYPE_STATICS;
+
+var REACT_STATICS = {
+  childContextTypes: true,
+  contextTypes: true,
+  defaultProps: true,
+  displayName: true,
+  getDerivedStateFromProps: true,
+  propTypes: true,
+  type: true
+};
+
+var KNOWN_STATICS = {
+  name: true,
+  length: true,
+  prototype: true,
+  caller: true,
+  callee: true,
+  arguments: true,
+  arity: true
+};
+
+var TYPE_STATICS = (_TYPE_STATICS = {}, _TYPE_STATICS[react_is__WEBPACK_IMPORTED_MODULE_4__["ForwardRef"]] = {
+  $$typeof: true,
+  render: true
+}, _TYPE_STATICS);
+
+var defineProperty$1 = Object.defineProperty,
+    getOwnPropertyNames = Object.getOwnPropertyNames,
+    _Object$getOwnPropert = Object.getOwnPropertySymbols,
+    getOwnPropertySymbols = _Object$getOwnPropert === undefined ? function () {
+  return [];
+} : _Object$getOwnPropert,
+    getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor,
+    getPrototypeOf = Object.getPrototypeOf,
+    objectPrototype = Object.prototype;
+var arrayPrototype = Array.prototype;
+
+
+function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+  if (typeof sourceComponent !== 'string') {
+    // don't hoist over string (html) components
+
+    var inheritedComponent = getPrototypeOf(sourceComponent);
+
+    if (inheritedComponent && inheritedComponent !== objectPrototype) {
+      hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+    }
+
+    var keys = arrayPrototype.concat(getOwnPropertyNames(sourceComponent),
+    // $FlowFixMe
+    getOwnPropertySymbols(sourceComponent));
+
+    var targetStatics = TYPE_STATICS[targetComponent.$$typeof] || REACT_STATICS;
+
+    var sourceStatics = TYPE_STATICS[sourceComponent.$$typeof] || REACT_STATICS;
+
+    var i = keys.length;
+    var descriptor = void 0;
+    var key = void 0;
+
+    // eslint-disable-next-line no-plusplus
+    while (i--) {
+      key = keys[i];
+
+      if (
+      // $FlowFixMe
+      !KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) &&
+      // $FlowFixMe
+      !(targetStatics && targetStatics[key])) {
+        descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+
+        if (descriptor) {
+          try {
+            // Avoid failures from read-only properties
+            defineProperty$1(targetComponent, key, descriptor);
+          } catch (e) {
+            /* fail silently */
+          }
+        }
+      }
+    }
+
+    return targetComponent;
+  }
+
+  return targetComponent;
+}
+
+// 
+function isDerivedReactComponent(fn) {
+  return !!(fn && fn.prototype && fn.prototype.isReactComponent);
+}
+
+// 
+// Helper to call a given function, only once
+var once = (function (cb) {
+  var called = false;
+
+  return function () {
+    if (!called) {
+      called = true;
+      cb.apply(undefined, arguments);
+    }
+  };
+});
+
+// 
+
+var ThemeContext = Object(react__WEBPACK_IMPORTED_MODULE_2__["createContext"])();
+
+var ThemeConsumer = ThemeContext.Consumer;
+
+/**
+ * Provide a theme to an entire react component tree via context
+ */
+
+var ThemeProvider = function (_Component) {
+  inherits(ThemeProvider, _Component);
+
+  function ThemeProvider(props) {
+    classCallCheck(this, ThemeProvider);
+
+    var _this = possibleConstructorReturn(this, _Component.call(this, props));
+
+    _this.getContext = Object(memoize_one__WEBPACK_IMPORTED_MODULE_5__["default"])(_this.getContext.bind(_this));
+    _this.renderInner = _this.renderInner.bind(_this);
+    return _this;
+  }
+
+  ThemeProvider.prototype.render = function render() {
+    if (!this.props.children) return null;
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+      ThemeContext.Consumer,
+      null,
+      this.renderInner
+    );
+  };
+
+  ThemeProvider.prototype.renderInner = function renderInner(outerTheme) {
+    var context = this.getContext(this.props.theme, outerTheme);
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+      ThemeContext.Provider,
+      { value: context },
+      react__WEBPACK_IMPORTED_MODULE_2___default.a.Children.only(this.props.children)
+    );
+  };
+
+  /**
+   * Get the theme from the props, supporting both (outerTheme) => {}
+   * as well as object notation
+   */
+
+
+  ThemeProvider.prototype.getTheme = function getTheme(theme, outerTheme) {
+    if (isFunction(theme)) {
+      var mergedTheme = theme(outerTheme);
+
+      if ( true && (mergedTheme === null || Array.isArray(mergedTheme) || (typeof mergedTheme === 'undefined' ? 'undefined' : _typeof(mergedTheme)) !== 'object')) {
+        throw new StyledComponentsError(7);
+      }
+
+      return mergedTheme;
+    }
+
+    if (theme === null || Array.isArray(theme) || (typeof theme === 'undefined' ? 'undefined' : _typeof(theme)) !== 'object') {
+      throw new StyledComponentsError(8);
+    }
+
+    return _extends({}, outerTheme, theme);
+  };
+
+  ThemeProvider.prototype.getContext = function getContext(theme, outerTheme) {
+    return this.getTheme(theme, outerTheme);
+  };
+
+  return ThemeProvider;
+}(react__WEBPACK_IMPORTED_MODULE_2__["Component"]);
+
+// 
+
+var CLOSING_TAG_R = /^\s*<\/[a-z]/i;
+
+var ServerStyleSheet = function () {
+  function ServerStyleSheet() {
+    classCallCheck(this, ServerStyleSheet);
+
+    /* The master sheet might be reset, so keep a reference here */
+    this.masterSheet = StyleSheet.master;
+    this.instance = this.masterSheet.clone();
+    this.sealed = false;
+  }
+
+  /**
+   * Mark the ServerStyleSheet as being fully emitted and manually GC it from the
+   * StyleSheet singleton.
+   */
+
+
+  ServerStyleSheet.prototype.seal = function seal() {
+    if (!this.sealed) {
+      /* Remove sealed StyleSheets from the master sheet */
+      var index = this.masterSheet.clones.indexOf(this.instance);
+      this.masterSheet.clones.splice(index, 1);
+      this.sealed = true;
+    }
+  };
+
+  ServerStyleSheet.prototype.collectStyles = function collectStyles(children) {
+    if (this.sealed) {
+      throw new StyledComponentsError(2);
+    }
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+      StyleSheetManager,
+      { sheet: this.instance },
+      children
+    );
+  };
+
+  ServerStyleSheet.prototype.getStyleTags = function getStyleTags() {
+    this.seal();
+    return this.instance.toHTML();
+  };
+
+  ServerStyleSheet.prototype.getStyleElement = function getStyleElement() {
+    this.seal();
+    return this.instance.toReactElements();
+  };
+
+  ServerStyleSheet.prototype.interleaveWithNodeStream = function interleaveWithNodeStream(readableStream) {
+    var _this = this;
+
+    {
+      throw new StyledComponentsError(3);
+    }
+
+    /* the tag index keeps track of which tags have already been emitted */
+    var instance = this.instance;
+
+    var instanceTagIndex = 0;
+
+    var streamAttr = SC_STREAM_ATTR + '="true"';
+
+    var transformer = new stream.Transform({
+      transform: function appendStyleChunks(chunk, /* encoding */_, callback) {
+        var tags = instance.tags;
+
+        var html = '';
+
+        /* retrieve html for each new style tag */
+        for (; instanceTagIndex < tags.length; instanceTagIndex += 1) {
+          var tag = tags[instanceTagIndex];
+          html += tag.toHTML(streamAttr);
+        }
+
+        /* force our StyleSheets to emit entirely new tags */
+        instance.sealAllTags();
+
+        var renderedHtml = chunk.toString();
+
+        /* prepend style html to chunk, unless the start of the chunk is a closing tag in which case append right after that */
+        if (CLOSING_TAG_R.test(renderedHtml)) {
+          var endOfClosingTag = renderedHtml.indexOf('>');
+
+          this.push(renderedHtml.slice(0, endOfClosingTag + 1) + html + renderedHtml.slice(endOfClosingTag + 1));
+        } else this.push(html + renderedHtml);
+
+        callback();
+      }
+    });
+
+    readableStream.on('end', function () {
+      return _this.seal();
+    });
+
+    readableStream.on('error', function (err) {
+      _this.seal();
+
+      // forward the error to the transform stream
+      transformer.emit('error', err);
+    });
+
+    return readableStream.pipe(transformer);
+  };
+
+  return ServerStyleSheet;
+}();
+
+// 
+
+var StyleSheetContext = Object(react__WEBPACK_IMPORTED_MODULE_2__["createContext"])();
+var StyleSheetConsumer = StyleSheetContext.Consumer;
+
+var StyleSheetManager = function (_Component) {
+  inherits(StyleSheetManager, _Component);
+
+  function StyleSheetManager(props) {
+    classCallCheck(this, StyleSheetManager);
+
+    var _this = possibleConstructorReturn(this, _Component.call(this, props));
+
+    _this.getContext = Object(memoize_one__WEBPACK_IMPORTED_MODULE_5__["default"])(_this.getContext);
+    return _this;
+  }
+
+  StyleSheetManager.prototype.getContext = function getContext(sheet, target) {
+    if (sheet) {
+      return sheet;
+    } else if (target) {
+      return new StyleSheet(target);
+    } else {
+      throw new StyledComponentsError(4);
+    }
+  };
+
+  StyleSheetManager.prototype.render = function render() {
+    var _props = this.props,
+        children = _props.children,
+        sheet = _props.sheet,
+        target = _props.target;
+
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+      StyleSheetContext.Provider,
+      { value: this.getContext(sheet, target) },
+       true ? react__WEBPACK_IMPORTED_MODULE_2___default.a.Children.only(children) : undefined
+    );
+  };
+
+  return StyleSheetManager;
+}(react__WEBPACK_IMPORTED_MODULE_2__["Component"]);
+ true ? StyleSheetManager.propTypes = {
+  sheet: prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.instanceOf(StyleSheet), prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.instanceOf(ServerStyleSheet)]),
+
+  target: prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.shape({
+    appendChild: prop_types__WEBPACK_IMPORTED_MODULE_6___default.a.func.isRequired
+  })
+} : undefined;
+
+// 
+
+var didWarnAboutClassNameUsage = new Set();
+
+var classNameUsageCheckInjector = (function (target) {
+  var elementClassName = '';
+
+  var targetCDM = target.componentDidMount;
+
+  // eslint-disable-next-line no-param-reassign
+  target.componentDidMount = function componentDidMount() {
+    if (typeof targetCDM === 'function') {
+      targetCDM.call(this);
+    }
+
+    var forwardTarget = this.props.forwardedComponent.target;
+
+    if (target.props && target.props.suppressClassNameWarning || target.attrs && target.attrs.suppressClassNameWarning || didWarnAboutClassNameUsage.has(forwardTarget)) {
+      return;
+    }
+
+    didWarnAboutClassNameUsage.add(forwardTarget);
+
+    var classNames = elementClassName.replace(/\s+/g, ' ').trim().split(' ');
+    // eslint-disable-next-line react/no-find-dom-node
+    var node = react_dom__WEBPACK_IMPORTED_MODULE_7___default.a.findDOMNode(this);
+    var selector = classNames.map(function (s) {
+      return '.' + s;
+    }).join('');
+
+    if (node && node.nodeType === 1 && !classNames.every(function (className) {
+      return node.classList && node.classList.contains(className);
+    }) && !node.querySelector(selector)) {
+      // eslint-disable-next-line no-console
+      console.warn('It looks like you\'ve wrapped styled() around your React component (' + getComponentName(forwardTarget) + '), but the className prop is not being passed down to a child. No styles will be rendered unless className is composed within your React component.');
+    }
+  };
+
+  var prevRenderInner = target.renderInner;
+
+  // eslint-disable-next-line no-param-reassign
+  target.renderInner = function renderInner() {
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    var element = prevRenderInner.apply(this, args);
+
+    elementClassName = element.props.className;
+
+    return element;
+  };
+});
+
+// 
+
+var identifiers = {};
+
+/* We depend on components having unique IDs */
+function generateId(_ComponentStyle, _displayName, parentComponentId) {
+  var displayName = typeof _displayName !== 'string' ? 'sc' : escape(_displayName);
+
+  /**
+   * This ensures uniqueness if two components happen to share
+   * the same displayName.
+   */
+  var nr = (identifiers[displayName] || 0) + 1;
+  identifiers[displayName] = nr;
+
+  var componentId = displayName + '-' + _ComponentStyle.generateName(displayName + nr);
+
+  return parentComponentId ? parentComponentId + '-' + componentId : componentId;
+}
+
+// $FlowFixMe
+
+var StyledComponent = function (_Component) {
+  inherits(StyledComponent, _Component);
+
+  function StyledComponent() {
+    classCallCheck(this, StyledComponent);
+
+    var _this = possibleConstructorReturn(this, _Component.call(this));
+
+    _this.attrs = {};
+
+    _this.renderOuter = _this.renderOuter.bind(_this);
+    _this.renderInner = _this.renderInner.bind(_this);
+
+    if (true) {
+      _this.warnInnerRef = once(function (displayName) {
+        return (
+          // eslint-disable-next-line no-console
+          console.warn('The "innerRef" API has been removed in styled-components v4 in favor of React 16 ref forwarding, use "ref" instead like a typical component. "innerRef" was detected on component "' + displayName + '".')
+        );
+      });
+
+      _this.warnAttrsFnObjectKeyDeprecated = once(function (key, displayName) {
+        return (
+          // eslint-disable-next-line no-console
+          console.warn('Functions as object-form attrs({}) keys are now deprecated and will be removed in a future version of styled-components. Switch to the new attrs(props => ({})) syntax instead for easier and more powerful composition. The attrs key in question is "' + key + '" on component "' + displayName + '".')
+        );
+      });
+
+      _this.warnNonStyledComponentAttrsObjectKey = once(function (key, displayName) {
+        return (
+          // eslint-disable-next-line no-console
+          console.warn('It looks like you\'ve used a non styled-component as the value for the "' + key + '" prop in an object-form attrs constructor of "' + displayName + '".\n' + 'You should use the new function-form attrs constructor which avoids this issue: attrs(props => ({ yourStuff }))\n' + "To continue using the deprecated object syntax, you'll need to wrap your component prop in a function to make it available inside the styled component (you'll still get the deprecation warning though.)\n" + ('For example, { ' + key + ': () => InnerComponent } instead of { ' + key + ': InnerComponent }'))
+        );
+      });
+    }
+
+    if ( true && IS_BROWSER) {
+      classNameUsageCheckInjector(_this);
+    }
+    return _this;
+  }
+
+  StyledComponent.prototype.render = function render() {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+      StyleSheetConsumer,
+      null,
+      this.renderOuter
+    );
+  };
+
+  StyledComponent.prototype.renderOuter = function renderOuter() {
+    var styleSheet = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : StyleSheet.master;
+
+    this.styleSheet = styleSheet;
+
+    // No need to subscribe a static component to theme changes, it won't change anything
+    if (this.props.forwardedComponent.componentStyle.isStatic) return this.renderInner();
+
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+      ThemeConsumer,
+      null,
+      this.renderInner
+    );
+  };
+
+  StyledComponent.prototype.renderInner = function renderInner(theme) {
+    var _props$forwardedCompo = this.props.forwardedComponent,
+        componentStyle = _props$forwardedCompo.componentStyle,
+        defaultProps = _props$forwardedCompo.defaultProps,
+        displayName = _props$forwardedCompo.displayName,
+        foldedComponentIds = _props$forwardedCompo.foldedComponentIds,
+        styledComponentId = _props$forwardedCompo.styledComponentId,
+        target = _props$forwardedCompo.target;
+
+
+    var generatedClassName = void 0;
+    if (componentStyle.isStatic) {
+      generatedClassName = this.generateAndInjectStyles(EMPTY_OBJECT, this.props);
+    } else if (theme !== undefined) {
+      generatedClassName = this.generateAndInjectStyles(determineTheme(this.props, theme, defaultProps), this.props);
+    } else {
+      generatedClassName = this.generateAndInjectStyles(this.props.theme || EMPTY_OBJECT, this.props);
+    }
+
+    var elementToBeCreated = this.props.as || this.attrs.as || target;
+    var isTargetTag = isTag(elementToBeCreated);
+
+    var propsForElement = {};
+    var computedProps = _extends({}, this.attrs, this.props);
+
+    var key = void 0;
+    // eslint-disable-next-line guard-for-in
+    for (key in computedProps) {
+      if ( true && key === 'innerRef' && isTargetTag) {
+        this.warnInnerRef(displayName);
+      }
+
+      if (key === 'forwardedComponent' || key === 'as' || key === 'suppressClassNameWarning') {
+        continue;
+      } else if (key === 'forwardedRef') propsForElement.ref = computedProps[key];else if (!isTargetTag || Object(_emotion_is_prop_valid__WEBPACK_IMPORTED_MODULE_8__["default"])(key)) {
+        // Don't pass through non HTML tags through to HTML elements
+        propsForElement[key] = computedProps[key];
+      }
+    }
+
+    if (this.props.style && this.attrs.style) {
+      propsForElement.style = _extends({}, this.attrs.style, this.props.style);
+    }
+
+    propsForElement.className = Array.prototype.concat(foldedComponentIds, this.props.className, styledComponentId, this.attrs.className, generatedClassName).filter(Boolean).join(' ');
+
+    return Object(react__WEBPACK_IMPORTED_MODULE_2__["createElement"])(elementToBeCreated, propsForElement);
+  };
+
+  StyledComponent.prototype.buildExecutionContext = function buildExecutionContext(theme, props, attrs) {
+    var _this2 = this;
+
+    var context = _extends({}, props, { theme: theme });
+
+    if (!attrs.length) return context;
+
+    this.attrs = {};
+
+    attrs.forEach(function (attrDef) {
+      var resolvedAttrDef = attrDef;
+      var attrDefWasFn = false;
+      var attr = void 0;
+      var key = void 0;
+
+      if (isFunction(resolvedAttrDef)) {
+        // $FlowFixMe
+        resolvedAttrDef = resolvedAttrDef(context);
+        attrDefWasFn = true;
+      }
+
+      /* eslint-disable guard-for-in */
+      // $FlowFixMe
+      for (key in resolvedAttrDef) {
+        attr = resolvedAttrDef[key];
+
+        if (!attrDefWasFn) {
+          if (isFunction(attr) && !isDerivedReactComponent(attr) && !isStyledComponent(attr)) {
+            if (true) {
+              _this2.warnAttrsFnObjectKeyDeprecated(key, props.forwardedComponent.displayName);
+            }
+
+            attr = attr(context);
+
+            if ( true && react__WEBPACK_IMPORTED_MODULE_2___default.a.isValidElement(attr)) {
+              _this2.warnNonStyledComponentAttrsObjectKey(key, props.forwardedComponent.displayName);
+            }
+          }
+        }
+
+        _this2.attrs[key] = attr;
+        context[key] = attr;
+      }
+      /* eslint-enable */
+    });
+
+    return context;
+  };
+
+  StyledComponent.prototype.generateAndInjectStyles = function generateAndInjectStyles(theme, props) {
+    var _props$forwardedCompo2 = props.forwardedComponent,
+        attrs = _props$forwardedCompo2.attrs,
+        componentStyle = _props$forwardedCompo2.componentStyle,
+        warnTooManyClasses = _props$forwardedCompo2.warnTooManyClasses;
+
+    // statically styled-components don't need to build an execution context object,
+    // and shouldn't be increasing the number of class names
+
+    if (componentStyle.isStatic && !attrs.length) {
+      return componentStyle.generateAndInjectStyles(EMPTY_OBJECT, this.styleSheet);
+    }
+
+    var className = componentStyle.generateAndInjectStyles(this.buildExecutionContext(theme, props, attrs), this.styleSheet);
+
+    if ( true && warnTooManyClasses) warnTooManyClasses(className);
+
+    return className;
+  };
+
+  return StyledComponent;
+}(react__WEBPACK_IMPORTED_MODULE_2__["Component"]);
+
+function createStyledComponent(target, options, rules) {
+  var isTargetStyledComp = isStyledComponent(target);
+  var isClass = !isTag(target);
+
+  var _options$displayName = options.displayName,
+      displayName = _options$displayName === undefined ? generateDisplayName(target) : _options$displayName,
+      _options$componentId = options.componentId,
+      componentId = _options$componentId === undefined ? generateId(ComponentStyle, options.displayName, options.parentComponentId) : _options$componentId,
+      _options$ParentCompon = options.ParentComponent,
+      ParentComponent = _options$ParentCompon === undefined ? StyledComponent : _options$ParentCompon,
+      _options$attrs = options.attrs,
+      attrs = _options$attrs === undefined ? EMPTY_ARRAY : _options$attrs;
+
+
+  var styledComponentId = options.displayName && options.componentId ? escape(options.displayName) + '-' + options.componentId : options.componentId || componentId;
+
+  // fold the underlying StyledComponent attrs up (implicit extend)
+  var finalAttrs =
+  // $FlowFixMe
+  isTargetStyledComp && target.attrs ? Array.prototype.concat(target.attrs, attrs).filter(Boolean) : attrs;
+
+  var componentStyle = new ComponentStyle(isTargetStyledComp ? // fold the underlying StyledComponent rules up (implicit extend)
+  // $FlowFixMe
+  target.componentStyle.rules.concat(rules) : rules, finalAttrs, styledComponentId);
+
+  /**
+   * forwardRef creates a new interim component, which we'll take advantage of
+   * instead of extending ParentComponent to create _another_ interim class
+   */
+  var WrappedStyledComponent = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function (props, ref) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(ParentComponent, _extends({}, props, { forwardedComponent: WrappedStyledComponent, forwardedRef: ref }));
+  });
+
+  // $FlowFixMe
+  WrappedStyledComponent.attrs = finalAttrs;
+  // $FlowFixMe
+  WrappedStyledComponent.componentStyle = componentStyle;
+  WrappedStyledComponent.displayName = displayName;
+
+  // $FlowFixMe
+  WrappedStyledComponent.foldedComponentIds = isTargetStyledComp ? // $FlowFixMe
+  Array.prototype.concat(target.foldedComponentIds, target.styledComponentId) : EMPTY_ARRAY;
+
+  // $FlowFixMe
+  WrappedStyledComponent.styledComponentId = styledComponentId;
+
+  // fold the underlying StyledComponent target up since we folded the styles
+  // $FlowFixMe
+  WrappedStyledComponent.target = isTargetStyledComp ? target.target : target;
+
+  // $FlowFixMe
+  WrappedStyledComponent.withComponent = function withComponent(tag) {
+    var previousComponentId = options.componentId,
+        optionsToCopy = objectWithoutProperties(options, ['componentId']);
+
+
+    var newComponentId = previousComponentId && previousComponentId + '-' + (isTag(tag) ? tag : escape(getComponentName(tag)));
+
+    var newOptions = _extends({}, optionsToCopy, {
+      attrs: finalAttrs,
+      componentId: newComponentId,
+      ParentComponent: ParentComponent
+    });
+
+    return createStyledComponent(tag, newOptions, rules);
+  };
+
+  if (true) {
+    // $FlowFixMe
+    WrappedStyledComponent.warnTooManyClasses = createWarnTooManyClasses(displayName);
+  }
+
+  // $FlowFixMe
+  WrappedStyledComponent.toString = function () {
+    return '.' + WrappedStyledComponent.styledComponentId;
+  };
+
+  if (isClass) {
+    hoistNonReactStatics(WrappedStyledComponent, target, {
+      // all SC-specific things should not be hoisted
+      attrs: true,
+      componentStyle: true,
+      displayName: true,
+      foldedComponentIds: true,
+      styledComponentId: true,
+      target: true,
+      withComponent: true
+    });
+  }
+
+  return WrappedStyledComponent;
+}
+
+// 
+// Thanks to ReactDOMFactories for this handy list!
+
+var domElements = ['a', 'abbr', 'address', 'area', 'article', 'aside', 'audio', 'b', 'base', 'bdi', 'bdo', 'big', 'blockquote', 'body', 'br', 'button', 'canvas', 'caption', 'cite', 'code', 'col', 'colgroup', 'data', 'datalist', 'dd', 'del', 'details', 'dfn', 'dialog', 'div', 'dl', 'dt', 'em', 'embed', 'fieldset', 'figcaption', 'figure', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'head', 'header', 'hgroup', 'hr', 'html', 'i', 'iframe', 'img', 'input', 'ins', 'kbd', 'keygen', 'label', 'legend', 'li', 'link', 'main', 'map', 'mark', 'marquee', 'menu', 'menuitem', 'meta', 'meter', 'nav', 'noscript', 'object', 'ol', 'optgroup', 'option', 'output', 'p', 'param', 'picture', 'pre', 'progress', 'q', 'rp', 'rt', 'ruby', 's', 'samp', 'script', 'section', 'select', 'small', 'source', 'span', 'strong', 'style', 'sub', 'summary', 'sup', 'table', 'tbody', 'td', 'textarea', 'tfoot', 'th', 'thead', 'time', 'title', 'tr', 'track', 'u', 'ul', 'var', 'video', 'wbr',
+
+// SVG
+'circle', 'clipPath', 'defs', 'ellipse', 'foreignObject', 'g', 'image', 'line', 'linearGradient', 'marker', 'mask', 'path', 'pattern', 'polygon', 'polyline', 'radialGradient', 'rect', 'stop', 'svg', 'text', 'tspan'];
+
+// 
+
+var styled = function styled(tag) {
+  return constructWithOptions(createStyledComponent, tag);
+};
+
+// Shorthands for all valid HTML Elements
+domElements.forEach(function (domElement) {
+  styled[domElement] = styled(domElement);
+});
+
+// 
+
+var GlobalStyle = function () {
+  function GlobalStyle(rules, componentId) {
+    classCallCheck(this, GlobalStyle);
+
+    this.rules = rules;
+    this.componentId = componentId;
+    this.isStatic = isStaticRules(rules, EMPTY_ARRAY);
+
+    if (!StyleSheet.master.hasId(componentId)) {
+      StyleSheet.master.deferredInject(componentId, []);
+    }
+  }
+
+  GlobalStyle.prototype.createStyles = function createStyles(executionContext, styleSheet) {
+    var flatCSS = flatten(this.rules, executionContext, styleSheet);
+    var css = stringifyRules(flatCSS, '');
+
+    styleSheet.inject(this.componentId, css);
+  };
+
+  GlobalStyle.prototype.removeStyles = function removeStyles(styleSheet) {
+    var componentId = this.componentId;
+
+    if (styleSheet.hasId(componentId)) {
+      styleSheet.remove(componentId);
+    }
+  };
+
+  // TODO: overwrite in-place instead of remove+create?
+
+
+  GlobalStyle.prototype.renderStyles = function renderStyles(executionContext, styleSheet) {
+    this.removeStyles(styleSheet);
+    this.createStyles(executionContext, styleSheet);
+  };
+
+  return GlobalStyle;
+}();
+
+// 
+
+// place our cache into shared context so it'll persist between HMRs
+if (IS_BROWSER) {
+  window.scCGSHMRCache = {};
+}
+
+function createGlobalStyle(strings) {
+  for (var _len = arguments.length, interpolations = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    interpolations[_key - 1] = arguments[_key];
+  }
+
+  var rules = css.apply(undefined, [strings].concat(interpolations));
+  var id = 'sc-global-' + murmurhash(JSON.stringify(rules));
+  var style = new GlobalStyle(rules, id);
+
+  var GlobalStyleComponent = function (_React$Component) {
+    inherits(GlobalStyleComponent, _React$Component);
+
+    function GlobalStyleComponent(props) {
+      classCallCheck(this, GlobalStyleComponent);
+
+      var _this = possibleConstructorReturn(this, _React$Component.call(this, props));
+
+      var _this$constructor = _this.constructor,
+          globalStyle = _this$constructor.globalStyle,
+          styledComponentId = _this$constructor.styledComponentId;
+
+
+      if (IS_BROWSER) {
+        window.scCGSHMRCache[styledComponentId] = (window.scCGSHMRCache[styledComponentId] || 0) + 1;
+      }
+
+      /**
+       * This fixes HMR compatibility. Don't ask me why, but this combination of
+       * caching the closure variables via statics and then persisting the statics in
+       * state works across HMR where no other combination did. ¯\_(ツ)_/¯
+       */
+      _this.state = {
+        globalStyle: globalStyle,
+        styledComponentId: styledComponentId
+      };
+      return _this;
+    }
+
+    GlobalStyleComponent.prototype.componentWillUnmount = function componentWillUnmount() {
+      if (window.scCGSHMRCache[this.state.styledComponentId]) {
+        window.scCGSHMRCache[this.state.styledComponentId] -= 1;
+      }
+      /**
+       * Depending on the order "render" is called this can cause the styles to be lost
+       * until the next render pass of the remaining instance, which may
+       * not be immediate.
+       */
+      if (window.scCGSHMRCache[this.state.styledComponentId] === 0) {
+        this.state.globalStyle.removeStyles(this.styleSheet);
+      }
+    };
+
+    GlobalStyleComponent.prototype.render = function render() {
+      var _this2 = this;
+
+      if ( true && react__WEBPACK_IMPORTED_MODULE_2___default.a.Children.count(this.props.children)) {
+        // eslint-disable-next-line no-console
+        console.warn('The global style component ' + this.state.styledComponentId + ' was given child JSX. createGlobalStyle does not render children.');
+      }
+
+      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+        StyleSheetConsumer,
+        null,
+        function (styleSheet) {
+          _this2.styleSheet = styleSheet || StyleSheet.master;
+
+          var globalStyle = _this2.state.globalStyle;
+
+
+          if (globalStyle.isStatic) {
+            globalStyle.renderStyles(STATIC_EXECUTION_CONTEXT, _this2.styleSheet);
+
+            return null;
+          } else {
+            return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+              ThemeConsumer,
+              null,
+              function (theme) {
+                // $FlowFixMe
+                var defaultProps = _this2.constructor.defaultProps;
+
+
+                var context = _extends({}, _this2.props);
+
+                if (typeof theme !== 'undefined') {
+                  context.theme = determineTheme(_this2.props, theme, defaultProps);
+                }
+
+                globalStyle.renderStyles(context, _this2.styleSheet);
+
+                return null;
+              }
+            );
+          }
+        }
+      );
+    };
+
+    return GlobalStyleComponent;
+  }(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
+
+  GlobalStyleComponent.globalStyle = style;
+  GlobalStyleComponent.styledComponentId = id;
+
+
+  return GlobalStyleComponent;
+}
+
+// 
+
+var replaceWhitespace = function replaceWhitespace(str) {
+  return str.replace(/\s|\\n/g, '');
+};
+
+function keyframes(strings) {
+  /* Warning if you've used keyframes on React Native */
+  if ( true && typeof navigator !== 'undefined' && navigator.product === 'ReactNative') {
+    // eslint-disable-next-line no-console
+    console.warn('`keyframes` cannot be used on ReactNative, only on the web. To do animation in ReactNative please use Animated.');
+  }
+
+  for (var _len = arguments.length, interpolations = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    interpolations[_key - 1] = arguments[_key];
+  }
+
+  var rules = css.apply(undefined, [strings].concat(interpolations));
+
+  var name = generateAlphabeticName(murmurhash(replaceWhitespace(JSON.stringify(rules))));
+
+  return new Keyframes(name, stringifyRules(rules, name, '@keyframes'));
+}
+
+// 
+
+var withTheme = (function (Component$$1) {
+  var WithTheme = react__WEBPACK_IMPORTED_MODULE_2___default.a.forwardRef(function (props, ref) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
+      ThemeConsumer,
+      null,
+      function (theme) {
+        // $FlowFixMe
+        var defaultProps = Component$$1.defaultProps;
+
+        var themeProp = determineTheme(props, theme, defaultProps);
+
+        if ( true && themeProp === undefined) {
+          // eslint-disable-next-line no-console
+          console.warn('[withTheme] You are not using a ThemeProvider nor passing a theme prop or a theme in defaultProps in component class "' + getComponentName(Component$$1) + '"');
+        }
+
+        return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Component$$1, _extends({}, props, { theme: themeProp, ref: ref }));
+      }
+    );
+  });
+
+  hoistNonReactStatics(WithTheme, Component$$1);
+
+  WithTheme.displayName = 'WithTheme(' + getComponentName(Component$$1) + ')';
+
+  return WithTheme;
+});
+
+// 
+
+/* eslint-disable */
+var __DO_NOT_USE_OR_YOU_WILL_BE_HAUNTED_BY_SPOOKY_GHOSTS = {
+  StyleSheet: StyleSheet
+};
+
+// 
+
+/* Warning if you've imported this file on React Native */
+if ( true && typeof navigator !== 'undefined' && navigator.product === 'ReactNative') {
+  // eslint-disable-next-line no-console
+  console.warn("It looks like you've imported 'styled-components' on React Native.\n" + "Perhaps you're looking to import 'styled-components/native'?\n" + 'Read more about this at https://www.styled-components.com/docs/basics#react-native');
+}
+
+/* Warning if there are several instances of styled-components */
+if ( true && typeof window !== 'undefined' && typeof navigator !== 'undefined' && typeof navigator.userAgent === 'string' && navigator.userAgent.indexOf('Node.js') === -1 && navigator.userAgent.indexOf('jsdom') === -1) {
+  window['__styled-components-init__'] = window['__styled-components-init__'] || 0;
+
+  if (window['__styled-components-init__'] === 1) {
+    // eslint-disable-next-line no-console
+    console.warn("It looks like there are several instances of 'styled-components' initialized in this application. " + 'This may cause dynamic styles not rendering properly, errors happening during rehydration process ' + 'and makes your application bigger without a good reason.\n\n' + 'See https://s-c.sh/2BAXzed for more info.');
+  }
+
+  window['__styled-components-init__'] += 1;
+}
+
+//
+
+/* harmony default export */ __webpack_exports__["default"] = (styled);
+
+//# sourceMappingURL=styled-components.browser.esm.js.map
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../process/browser.js */ "../../node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "../../node_modules/stylis-rule-sheet/index.js":
+/*!******************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/stylis-rule-sheet/index.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(function (factory) {
+	 true ? (module['exports'] = factory()) :
+		undefined
+}(function () {
+
+	'use strict'
+
+	return function (insertRule) {
+		var delimiter = '/*|*/'
+		var needle = delimiter+'}'
+
+		function toSheet (block) {
+			if (block)
+				try {
+					insertRule(block + '}')
+				} catch (e) {}
+		}
+
+		return function ruleSheet (context, content, selectors, parents, line, column, length, ns, depth, at) {
+			switch (context) {
+				// property
+				case 1:
+					// @import
+					if (depth === 0 && content.charCodeAt(0) === 64)
+						return insertRule(content+';'), ''
+					break
+				// selector
+				case 2:
+					if (ns === 0)
+						return content + delimiter
+					break
+				// at-rule
+				case 3:
+					switch (ns) {
+						// @font-face, @page
+						case 102:
+						case 112:
+							return insertRule(selectors[0]+content), ''
+						default:
+							return content + (at === 0 ? delimiter : '')
+					}
+				case -2:
+					content.split(needle).forEach(toSheet)
+			}
+		}
+	}
+}))
+
+
+/***/ }),
+
+/***/ "../../node_modules/stylis/stylis.min.js":
+/*!************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/stylis/stylis.min.js ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+!function(e){ true?module.exports=e(null):undefined}(function e(a){"use strict";var r=/^\0+/g,c=/[\0\r\f]/g,s=/: */g,t=/zoo|gra/,i=/([,: ])(transform)/g,f=/,+\s*(?![^(]*[)])/g,n=/ +\s*(?![^(]*[)])/g,l=/ *[\0] */g,o=/,\r+?/g,h=/([\t\r\n ])*\f?&/g,u=/:global\(((?:[^\(\)\[\]]*|\[.*\]|\([^\(\)]*\))*)\)/g,d=/\W+/g,b=/@(k\w+)\s*(\S*)\s*/,p=/::(place)/g,k=/:(read-only)/g,g=/\s+(?=[{\];=:>])/g,A=/([[}=:>])\s+/g,C=/(\{[^{]+?);(?=\})/g,w=/\s{2,}/g,v=/([^\(])(:+) */g,m=/[svh]\w+-[tblr]{2}/,x=/\(\s*(.*)\s*\)/g,$=/([\s\S]*?);/g,y=/-self|flex-/g,O=/[^]*?(:[rp][el]a[\w-]+)[^]*/,j=/stretch|:\s*\w+\-(?:conte|avail)/,z=/([^-])(image-set\()/,N="-webkit-",S="-moz-",F="-ms-",W=59,q=125,B=123,D=40,E=41,G=91,H=93,I=10,J=13,K=9,L=64,M=32,P=38,Q=45,R=95,T=42,U=44,V=58,X=39,Y=34,Z=47,_=62,ee=43,ae=126,re=0,ce=12,se=11,te=107,ie=109,fe=115,ne=112,le=111,oe=105,he=99,ue=100,de=112,be=1,pe=1,ke=0,ge=1,Ae=1,Ce=1,we=0,ve=0,me=0,xe=[],$e=[],ye=0,Oe=null,je=-2,ze=-1,Ne=0,Se=1,Fe=2,We=3,qe=0,Be=1,De="",Ee="",Ge="";function He(e,a,s,t,i){for(var f,n,o=0,h=0,u=0,d=0,g=0,A=0,C=0,w=0,m=0,$=0,y=0,O=0,j=0,z=0,R=0,we=0,$e=0,Oe=0,je=0,ze=s.length,Je=ze-1,Re="",Te="",Ue="",Ve="",Xe="",Ye="";R<ze;){if(C=s.charCodeAt(R),R===Je)if(h+d+u+o!==0){if(0!==h)C=h===Z?I:Z;d=u=o=0,ze++,Je++}if(h+d+u+o===0){if(R===Je){if(we>0)Te=Te.replace(c,"");if(Te.trim().length>0){switch(C){case M:case K:case W:case J:case I:break;default:Te+=s.charAt(R)}C=W}}if(1===$e)switch(C){case B:case q:case W:case Y:case X:case D:case E:case U:$e=0;case K:case J:case I:case M:break;default:for($e=0,je=R,g=C,R--,C=W;je<ze;)switch(s.charCodeAt(je++)){case I:case J:case W:++R,C=g,je=ze;break;case V:if(we>0)++R,C=g;case B:je=ze}}switch(C){case B:for(g=(Te=Te.trim()).charCodeAt(0),y=1,je=++R;R<ze;){switch(C=s.charCodeAt(R)){case B:y++;break;case q:y--;break;case Z:switch(A=s.charCodeAt(R+1)){case T:case Z:R=Qe(A,R,Je,s)}break;case G:C++;case D:C++;case Y:case X:for(;R++<Je&&s.charCodeAt(R)!==C;);}if(0===y)break;R++}if(Ue=s.substring(je,R),g===re)g=(Te=Te.replace(r,"").trim()).charCodeAt(0);switch(g){case L:if(we>0)Te=Te.replace(c,"");switch(A=Te.charCodeAt(1)){case ue:case ie:case fe:case Q:f=a;break;default:f=xe}if(je=(Ue=He(a,f,Ue,A,i+1)).length,me>0&&0===je)je=Te.length;if(ye>0)if(f=Ie(xe,Te,Oe),n=Pe(We,Ue,f,a,pe,be,je,A,i,t),Te=f.join(""),void 0!==n)if(0===(je=(Ue=n.trim()).length))A=0,Ue="";if(je>0)switch(A){case fe:Te=Te.replace(x,Me);case ue:case ie:case Q:Ue=Te+"{"+Ue+"}";break;case te:if(Ue=(Te=Te.replace(b,"$1 $2"+(Be>0?De:"")))+"{"+Ue+"}",1===Ae||2===Ae&&Le("@"+Ue,3))Ue="@"+N+Ue+"@"+Ue;else Ue="@"+Ue;break;default:if(Ue=Te+Ue,t===de)Ve+=Ue,Ue=""}else Ue="";break;default:Ue=He(a,Ie(a,Te,Oe),Ue,t,i+1)}Xe+=Ue,O=0,$e=0,z=0,we=0,Oe=0,j=0,Te="",Ue="",C=s.charCodeAt(++R);break;case q:case W:if((je=(Te=(we>0?Te.replace(c,""):Te).trim()).length)>1){if(0===z)if((g=Te.charCodeAt(0))===Q||g>96&&g<123)je=(Te=Te.replace(" ",":")).length;if(ye>0)if(void 0!==(n=Pe(Se,Te,a,e,pe,be,Ve.length,t,i,t)))if(0===(je=(Te=n.trim()).length))Te="\0\0";switch(g=Te.charCodeAt(0),A=Te.charCodeAt(1),g){case re:break;case L:if(A===oe||A===he){Ye+=Te+s.charAt(R);break}default:if(Te.charCodeAt(je-1)===V)break;Ve+=Ke(Te,g,A,Te.charCodeAt(2))}}O=0,$e=0,z=0,we=0,Oe=0,Te="",C=s.charCodeAt(++R)}}switch(C){case J:case I:if(h+d+u+o+ve===0)switch($){case E:case X:case Y:case L:case ae:case _:case T:case ee:case Z:case Q:case V:case U:case W:case B:case q:break;default:if(z>0)$e=1}if(h===Z)h=0;else if(ge+O===0&&t!==te&&Te.length>0)we=1,Te+="\0";if(ye*qe>0)Pe(Ne,Te,a,e,pe,be,Ve.length,t,i,t);be=1,pe++;break;case W:case q:if(h+d+u+o===0){be++;break}default:switch(be++,Re=s.charAt(R),C){case K:case M:if(d+o+h===0)switch(w){case U:case V:case K:case M:Re="";break;default:if(C!==M)Re=" "}break;case re:Re="\\0";break;case ce:Re="\\f";break;case se:Re="\\v";break;case P:if(d+h+o===0&&ge>0)Oe=1,we=1,Re="\f"+Re;break;case 108:if(d+h+o+ke===0&&z>0)switch(R-z){case 2:if(w===ne&&s.charCodeAt(R-3)===V)ke=w;case 8:if(m===le)ke=m}break;case V:if(d+h+o===0)z=R;break;case U:if(h+u+d+o===0)we=1,Re+="\r";break;case Y:case X:if(0===h)d=d===C?0:0===d?C:d;break;case G:if(d+h+u===0)o++;break;case H:if(d+h+u===0)o--;break;case E:if(d+h+o===0)u--;break;case D:if(d+h+o===0){if(0===O)switch(2*w+3*m){case 533:break;default:y=0,O=1}u++}break;case L:if(h+u+d+o+z+j===0)j=1;break;case T:case Z:if(d+o+u>0)break;switch(h){case 0:switch(2*C+3*s.charCodeAt(R+1)){case 235:h=Z;break;case 220:je=R,h=T}break;case T:if(C===Z&&w===T&&je+2!==R){if(33===s.charCodeAt(je+2))Ve+=s.substring(je,R+1);Re="",h=0}}}if(0===h){if(ge+d+o+j===0&&t!==te&&C!==W)switch(C){case U:case ae:case _:case ee:case E:case D:if(0===O){switch(w){case K:case M:case I:case J:Re+="\0";break;default:Re="\0"+Re+(C===U?"":"\0")}we=1}else switch(C){case D:if(z+7===R&&108===w)z=0;O=++y;break;case E:if(0==(O=--y))we=1,Re+="\0"}break;case K:case M:switch(w){case re:case B:case q:case W:case U:case ce:case K:case M:case I:case J:break;default:if(0===O)we=1,Re+="\0"}}if(Te+=Re,C!==M&&C!==K)$=C}}m=w,w=C,R++}if(je=Ve.length,me>0)if(0===je&&0===Xe.length&&0===a[0].length==false)if(t!==ie||1===a.length&&(ge>0?Ee:Ge)===a[0])je=a.join(",").length+2;if(je>0){if(f=0===ge&&t!==te?function(e){for(var a,r,s=0,t=e.length,i=Array(t);s<t;++s){for(var f=e[s].split(l),n="",o=0,h=0,u=0,d=0,b=f.length;o<b;++o){if(0===(h=(r=f[o]).length)&&b>1)continue;if(u=n.charCodeAt(n.length-1),d=r.charCodeAt(0),a="",0!==o)switch(u){case T:case ae:case _:case ee:case M:case D:break;default:a=" "}switch(d){case P:r=a+Ee;case ae:case _:case ee:case M:case E:case D:break;case G:r=a+r+Ee;break;case V:switch(2*r.charCodeAt(1)+3*r.charCodeAt(2)){case 530:if(Ce>0){r=a+r.substring(8,h-1);break}default:if(o<1||f[o-1].length<1)r=a+Ee+r}break;case U:a="";default:if(h>1&&r.indexOf(":")>0)r=a+r.replace(v,"$1"+Ee+"$2");else r=a+r+Ee}n+=r}i[s]=n.replace(c,"").trim()}return i}(a):a,ye>0)if(void 0!==(n=Pe(Fe,Ve,f,e,pe,be,je,t,i,t))&&0===(Ve=n).length)return Ye+Ve+Xe;if(Ve=f.join(",")+"{"+Ve+"}",Ae*ke!=0){if(2===Ae&&!Le(Ve,2))ke=0;switch(ke){case le:Ve=Ve.replace(k,":"+S+"$1")+Ve;break;case ne:Ve=Ve.replace(p,"::"+N+"input-$1")+Ve.replace(p,"::"+S+"$1")+Ve.replace(p,":"+F+"input-$1")+Ve}ke=0}}return Ye+Ve+Xe}function Ie(e,a,r){var c=a.trim().split(o),s=c,t=c.length,i=e.length;switch(i){case 0:case 1:for(var f=0,n=0===i?"":e[0]+" ";f<t;++f)s[f]=Je(n,s[f],r,i).trim();break;default:f=0;var l=0;for(s=[];f<t;++f)for(var h=0;h<i;++h)s[l++]=Je(e[h]+" ",c[f],r,i).trim()}return s}function Je(e,a,r,c){var s=a,t=s.charCodeAt(0);if(t<33)t=(s=s.trim()).charCodeAt(0);switch(t){case P:switch(ge+c){case 0:case 1:if(0===e.trim().length)break;default:return s.replace(h,"$1"+e.trim())}break;case V:switch(s.charCodeAt(1)){case 103:if(Ce>0&&ge>0)return s.replace(u,"$1").replace(h,"$1"+Ge);break;default:return e.trim()+s.replace(h,"$1"+e.trim())}default:if(r*ge>0&&s.indexOf("\f")>0)return s.replace(h,(e.charCodeAt(0)===V?"":"$1")+e.trim())}return e+s}function Ke(e,a,r,c){var l,o=0,h=e+";",u=2*a+3*r+4*c;if(944===u)return function(e){var a=e.length,r=e.indexOf(":",9)+1,c=e.substring(0,r).trim(),s=e.substring(r,a-1).trim();switch(e.charCodeAt(9)*Be){case 0:break;case Q:if(110!==e.charCodeAt(10))break;default:for(var t=s.split((s="",f)),i=0,r=0,a=t.length;i<a;r=0,++i){for(var l=t[i],o=l.split(n);l=o[r];){var h=l.charCodeAt(0);if(1===Be&&(h>L&&h<90||h>96&&h<123||h===R||h===Q&&l.charCodeAt(1)!==Q))switch(isNaN(parseFloat(l))+(-1!==l.indexOf("("))){case 1:switch(l){case"infinite":case"alternate":case"backwards":case"running":case"normal":case"forwards":case"both":case"none":case"linear":case"ease":case"ease-in":case"ease-out":case"ease-in-out":case"paused":case"reverse":case"alternate-reverse":case"inherit":case"initial":case"unset":case"step-start":case"step-end":break;default:l+=De}}o[r++]=l}s+=(0===i?"":",")+o.join(" ")}}if(s=c+s+";",1===Ae||2===Ae&&Le(s,1))return N+s+s;return s}(h);else if(0===Ae||2===Ae&&!Le(h,1))return h;switch(u){case 1015:return 97===h.charCodeAt(10)?N+h+h:h;case 951:return 116===h.charCodeAt(3)?N+h+h:h;case 963:return 110===h.charCodeAt(5)?N+h+h:h;case 1009:if(100!==h.charCodeAt(4))break;case 969:case 942:return N+h+h;case 978:return N+h+S+h+h;case 1019:case 983:return N+h+S+h+F+h+h;case 883:if(h.charCodeAt(8)===Q)return N+h+h;if(h.indexOf("image-set(",11)>0)return h.replace(z,"$1"+N+"$2")+h;return h;case 932:if(h.charCodeAt(4)===Q)switch(h.charCodeAt(5)){case 103:return N+"box-"+h.replace("-grow","")+N+h+F+h.replace("grow","positive")+h;case 115:return N+h+F+h.replace("shrink","negative")+h;case 98:return N+h+F+h.replace("basis","preferred-size")+h}return N+h+F+h+h;case 964:return N+h+F+"flex-"+h+h;case 1023:if(99!==h.charCodeAt(8))break;return l=h.substring(h.indexOf(":",15)).replace("flex-","").replace("space-between","justify"),N+"box-pack"+l+N+h+F+"flex-pack"+l+h;case 1005:return t.test(h)?h.replace(s,":"+N)+h.replace(s,":"+S)+h:h;case 1e3:switch(o=(l=h.substring(13).trim()).indexOf("-")+1,l.charCodeAt(0)+l.charCodeAt(o)){case 226:l=h.replace(m,"tb");break;case 232:l=h.replace(m,"tb-rl");break;case 220:l=h.replace(m,"lr");break;default:return h}return N+h+F+l+h;case 1017:if(-1===h.indexOf("sticky",9))return h;case 975:switch(o=(h=e).length-10,u=(l=(33===h.charCodeAt(o)?h.substring(0,o):h).substring(e.indexOf(":",7)+1).trim()).charCodeAt(0)+(0|l.charCodeAt(7))){case 203:if(l.charCodeAt(8)<111)break;case 115:h=h.replace(l,N+l)+";"+h;break;case 207:case 102:h=h.replace(l,N+(u>102?"inline-":"")+"box")+";"+h.replace(l,N+l)+";"+h.replace(l,F+l+"box")+";"+h}return h+";";case 938:if(h.charCodeAt(5)===Q)switch(h.charCodeAt(6)){case 105:return l=h.replace("-items",""),N+h+N+"box-"+l+F+"flex-"+l+h;case 115:return N+h+F+"flex-item-"+h.replace(y,"")+h;default:return N+h+F+"flex-line-pack"+h.replace("align-content","").replace(y,"")+h}break;case 973:case 989:if(h.charCodeAt(3)!==Q||122===h.charCodeAt(4))break;case 931:case 953:if(true===j.test(e))if(115===(l=e.substring(e.indexOf(":")+1)).charCodeAt(0))return Ke(e.replace("stretch","fill-available"),a,r,c).replace(":fill-available",":stretch");else return h.replace(l,N+l)+h.replace(l,S+l.replace("fill-",""))+h;break;case 962:if(h=N+h+(102===h.charCodeAt(5)?F+h:"")+h,r+c===211&&105===h.charCodeAt(13)&&h.indexOf("transform",10)>0)return h.substring(0,h.indexOf(";",27)+1).replace(i,"$1"+N+"$2")+h}return h}function Le(e,a){var r=e.indexOf(1===a?":":"{"),c=e.substring(0,3!==a?r:10),s=e.substring(r+1,e.length-1);return Oe(2!==a?c:c.replace(O,"$1"),s,a)}function Me(e,a){var r=Ke(a,a.charCodeAt(0),a.charCodeAt(1),a.charCodeAt(2));return r!==a+";"?r.replace($," or ($1)").substring(4):"("+a+")"}function Pe(e,a,r,c,s,t,i,f,n,l){for(var o,h=0,u=a;h<ye;++h)switch(o=$e[h].call(Te,e,u,r,c,s,t,i,f,n,l)){case void 0:case false:case true:case null:break;default:u=o}if(u!==a)return u}function Qe(e,a,r,c){for(var s=a+1;s<r;++s)switch(c.charCodeAt(s)){case Z:if(e===T)if(c.charCodeAt(s-1)===T&&a+2!==s)return s+1;break;case I:if(e===Z)return s+1}return s}function Re(e){for(var a in e){var r=e[a];switch(a){case"keyframe":Be=0|r;break;case"global":Ce=0|r;break;case"cascade":ge=0|r;break;case"compress":we=0|r;break;case"semicolon":ve=0|r;break;case"preserve":me=0|r;break;case"prefix":if(Oe=null,!r)Ae=0;else if("function"!=typeof r)Ae=1;else Ae=2,Oe=r}}return Re}function Te(a,r){if(void 0!==this&&this.constructor===Te)return e(a);var s=a,t=s.charCodeAt(0);if(t<33)t=(s=s.trim()).charCodeAt(0);if(Be>0)De=s.replace(d,t===G?"":"-");if(t=1,1===ge)Ge=s;else Ee=s;var i,f=[Ge];if(ye>0)if(void 0!==(i=Pe(ze,r,f,f,pe,be,0,0,0,0))&&"string"==typeof i)r=i;var n=He(xe,f,r,0,0);if(ye>0)if(void 0!==(i=Pe(je,n,f,f,pe,be,n.length,0,0,0))&&"string"!=typeof(n=i))t=0;return De="",Ge="",Ee="",ke=0,pe=1,be=1,we*t==0?n:n.replace(c,"").replace(g,"").replace(A,"$1").replace(C,"$1").replace(w," ")}if(Te.use=function e(a){switch(a){case void 0:case null:ye=$e.length=0;break;default:if("function"==typeof a)$e[ye++]=a;else if("object"==typeof a)for(var r=0,c=a.length;r<c;++r)e(a[r]);else qe=0|!!a}return e},Te.set=Re,void 0!==a)Re(a);return Te});
+//# sourceMappingURL=stylis.min.js.map
+
+/***/ }),
+
+/***/ "../../node_modules/timers-browserify/main.js":
+/*!*****************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/timers-browserify/main.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
+            (typeof self !== "undefined" && self) ||
+            window;
+var apply = Function.prototype.apply;
+
+// DOM APIs, for completeness
+
+exports.setTimeout = function() {
+  return new Timeout(apply.call(setTimeout, scope, arguments), clearTimeout);
+};
+exports.setInterval = function() {
+  return new Timeout(apply.call(setInterval, scope, arguments), clearInterval);
+};
+exports.clearTimeout =
+exports.clearInterval = function(timeout) {
+  if (timeout) {
+    timeout.close();
+  }
+};
+
+function Timeout(id, clearFn) {
+  this._id = id;
+  this._clearFn = clearFn;
+}
+Timeout.prototype.unref = Timeout.prototype.ref = function() {};
+Timeout.prototype.close = function() {
+  this._clearFn.call(scope, this._id);
+};
+
+// Does not start the time, just sets up the members needed.
+exports.enroll = function(item, msecs) {
+  clearTimeout(item._idleTimeoutId);
+  item._idleTimeout = msecs;
+};
+
+exports.unenroll = function(item) {
+  clearTimeout(item._idleTimeoutId);
+  item._idleTimeout = -1;
+};
+
+exports._unrefActive = exports.active = function(item) {
+  clearTimeout(item._idleTimeoutId);
+
+  var msecs = item._idleTimeout;
+  if (msecs >= 0) {
+    item._idleTimeoutId = setTimeout(function onTimeout() {
+      if (item._onTimeout)
+        item._onTimeout();
+    }, msecs);
+  }
+};
+
+// setimmediate attaches itself to the global object
+__webpack_require__(/*! setimmediate */ "../../node_modules/setimmediate/setImmediate.js");
+// On some exotic environments, it's not clear which object `setimmediate` was
+// able to install onto.  Search each possibility in the same order as the
+// `setimmediate` library.
+exports.setImmediate = (typeof self !== "undefined" && self.setImmediate) ||
+                       (typeof global !== "undefined" && global.setImmediate) ||
+                       (this && this.setImmediate);
+exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
+                         (typeof global !== "undefined" && global.clearImmediate) ||
+                         (this && this.clearImmediate);
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "../../node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
 /***/ "../../node_modules/tiny-warning/dist/tiny-warning.esm.js":
 /*!*****************************************************************************************************!*\
   !*** C:/Users/charl/Documents/projects/copoetry/node_modules/tiny-warning/dist/tiny-warning.esm.js ***!
@@ -18480,6 +27599,483 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "../../node_modules/whatwg-fetch/fetch.js":
+/*!*************************************************************************************!*\
+  !*** C:/Users/charl/Documents/projects/copoetry/node_modules/whatwg-fetch/fetch.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+(function(self) {
+  'use strict';
+
+  if (self.fetch) {
+    return
+  }
+
+  var support = {
+    searchParams: 'URLSearchParams' in self,
+    iterable: 'Symbol' in self && 'iterator' in Symbol,
+    blob: 'FileReader' in self && 'Blob' in self && (function() {
+      try {
+        new Blob()
+        return true
+      } catch(e) {
+        return false
+      }
+    })(),
+    formData: 'FormData' in self,
+    arrayBuffer: 'ArrayBuffer' in self
+  }
+
+  if (support.arrayBuffer) {
+    var viewClasses = [
+      '[object Int8Array]',
+      '[object Uint8Array]',
+      '[object Uint8ClampedArray]',
+      '[object Int16Array]',
+      '[object Uint16Array]',
+      '[object Int32Array]',
+      '[object Uint32Array]',
+      '[object Float32Array]',
+      '[object Float64Array]'
+    ]
+
+    var isDataView = function(obj) {
+      return obj && DataView.prototype.isPrototypeOf(obj)
+    }
+
+    var isArrayBufferView = ArrayBuffer.isView || function(obj) {
+      return obj && viewClasses.indexOf(Object.prototype.toString.call(obj)) > -1
+    }
+  }
+
+  function normalizeName(name) {
+    if (typeof name !== 'string') {
+      name = String(name)
+    }
+    if (/[^a-z0-9\-#$%&'*+.\^_`|~]/i.test(name)) {
+      throw new TypeError('Invalid character in header field name')
+    }
+    return name.toLowerCase()
+  }
+
+  function normalizeValue(value) {
+    if (typeof value !== 'string') {
+      value = String(value)
+    }
+    return value
+  }
+
+  // Build a destructive iterator for the value list
+  function iteratorFor(items) {
+    var iterator = {
+      next: function() {
+        var value = items.shift()
+        return {done: value === undefined, value: value}
+      }
+    }
+
+    if (support.iterable) {
+      iterator[Symbol.iterator] = function() {
+        return iterator
+      }
+    }
+
+    return iterator
+  }
+
+  function Headers(headers) {
+    this.map = {}
+
+    if (headers instanceof Headers) {
+      headers.forEach(function(value, name) {
+        this.append(name, value)
+      }, this)
+    } else if (Array.isArray(headers)) {
+      headers.forEach(function(header) {
+        this.append(header[0], header[1])
+      }, this)
+    } else if (headers) {
+      Object.getOwnPropertyNames(headers).forEach(function(name) {
+        this.append(name, headers[name])
+      }, this)
+    }
+  }
+
+  Headers.prototype.append = function(name, value) {
+    name = normalizeName(name)
+    value = normalizeValue(value)
+    var oldValue = this.map[name]
+    this.map[name] = oldValue ? oldValue+','+value : value
+  }
+
+  Headers.prototype['delete'] = function(name) {
+    delete this.map[normalizeName(name)]
+  }
+
+  Headers.prototype.get = function(name) {
+    name = normalizeName(name)
+    return this.has(name) ? this.map[name] : null
+  }
+
+  Headers.prototype.has = function(name) {
+    return this.map.hasOwnProperty(normalizeName(name))
+  }
+
+  Headers.prototype.set = function(name, value) {
+    this.map[normalizeName(name)] = normalizeValue(value)
+  }
+
+  Headers.prototype.forEach = function(callback, thisArg) {
+    for (var name in this.map) {
+      if (this.map.hasOwnProperty(name)) {
+        callback.call(thisArg, this.map[name], name, this)
+      }
+    }
+  }
+
+  Headers.prototype.keys = function() {
+    var items = []
+    this.forEach(function(value, name) { items.push(name) })
+    return iteratorFor(items)
+  }
+
+  Headers.prototype.values = function() {
+    var items = []
+    this.forEach(function(value) { items.push(value) })
+    return iteratorFor(items)
+  }
+
+  Headers.prototype.entries = function() {
+    var items = []
+    this.forEach(function(value, name) { items.push([name, value]) })
+    return iteratorFor(items)
+  }
+
+  if (support.iterable) {
+    Headers.prototype[Symbol.iterator] = Headers.prototype.entries
+  }
+
+  function consumed(body) {
+    if (body.bodyUsed) {
+      return Promise.reject(new TypeError('Already read'))
+    }
+    body.bodyUsed = true
+  }
+
+  function fileReaderReady(reader) {
+    return new Promise(function(resolve, reject) {
+      reader.onload = function() {
+        resolve(reader.result)
+      }
+      reader.onerror = function() {
+        reject(reader.error)
+      }
+    })
+  }
+
+  function readBlobAsArrayBuffer(blob) {
+    var reader = new FileReader()
+    var promise = fileReaderReady(reader)
+    reader.readAsArrayBuffer(blob)
+    return promise
+  }
+
+  function readBlobAsText(blob) {
+    var reader = new FileReader()
+    var promise = fileReaderReady(reader)
+    reader.readAsText(blob)
+    return promise
+  }
+
+  function readArrayBufferAsText(buf) {
+    var view = new Uint8Array(buf)
+    var chars = new Array(view.length)
+
+    for (var i = 0; i < view.length; i++) {
+      chars[i] = String.fromCharCode(view[i])
+    }
+    return chars.join('')
+  }
+
+  function bufferClone(buf) {
+    if (buf.slice) {
+      return buf.slice(0)
+    } else {
+      var view = new Uint8Array(buf.byteLength)
+      view.set(new Uint8Array(buf))
+      return view.buffer
+    }
+  }
+
+  function Body() {
+    this.bodyUsed = false
+
+    this._initBody = function(body) {
+      this._bodyInit = body
+      if (!body) {
+        this._bodyText = ''
+      } else if (typeof body === 'string') {
+        this._bodyText = body
+      } else if (support.blob && Blob.prototype.isPrototypeOf(body)) {
+        this._bodyBlob = body
+      } else if (support.formData && FormData.prototype.isPrototypeOf(body)) {
+        this._bodyFormData = body
+      } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
+        this._bodyText = body.toString()
+      } else if (support.arrayBuffer && support.blob && isDataView(body)) {
+        this._bodyArrayBuffer = bufferClone(body.buffer)
+        // IE 10-11 can't handle a DataView body.
+        this._bodyInit = new Blob([this._bodyArrayBuffer])
+      } else if (support.arrayBuffer && (ArrayBuffer.prototype.isPrototypeOf(body) || isArrayBufferView(body))) {
+        this._bodyArrayBuffer = bufferClone(body)
+      } else {
+        throw new Error('unsupported BodyInit type')
+      }
+
+      if (!this.headers.get('content-type')) {
+        if (typeof body === 'string') {
+          this.headers.set('content-type', 'text/plain;charset=UTF-8')
+        } else if (this._bodyBlob && this._bodyBlob.type) {
+          this.headers.set('content-type', this._bodyBlob.type)
+        } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
+          this.headers.set('content-type', 'application/x-www-form-urlencoded;charset=UTF-8')
+        }
+      }
+    }
+
+    if (support.blob) {
+      this.blob = function() {
+        var rejected = consumed(this)
+        if (rejected) {
+          return rejected
+        }
+
+        if (this._bodyBlob) {
+          return Promise.resolve(this._bodyBlob)
+        } else if (this._bodyArrayBuffer) {
+          return Promise.resolve(new Blob([this._bodyArrayBuffer]))
+        } else if (this._bodyFormData) {
+          throw new Error('could not read FormData body as blob')
+        } else {
+          return Promise.resolve(new Blob([this._bodyText]))
+        }
+      }
+
+      this.arrayBuffer = function() {
+        if (this._bodyArrayBuffer) {
+          return consumed(this) || Promise.resolve(this._bodyArrayBuffer)
+        } else {
+          return this.blob().then(readBlobAsArrayBuffer)
+        }
+      }
+    }
+
+    this.text = function() {
+      var rejected = consumed(this)
+      if (rejected) {
+        return rejected
+      }
+
+      if (this._bodyBlob) {
+        return readBlobAsText(this._bodyBlob)
+      } else if (this._bodyArrayBuffer) {
+        return Promise.resolve(readArrayBufferAsText(this._bodyArrayBuffer))
+      } else if (this._bodyFormData) {
+        throw new Error('could not read FormData body as text')
+      } else {
+        return Promise.resolve(this._bodyText)
+      }
+    }
+
+    if (support.formData) {
+      this.formData = function() {
+        return this.text().then(decode)
+      }
+    }
+
+    this.json = function() {
+      return this.text().then(JSON.parse)
+    }
+
+    return this
+  }
+
+  // HTTP methods whose capitalization should be normalized
+  var methods = ['DELETE', 'GET', 'HEAD', 'OPTIONS', 'POST', 'PUT']
+
+  function normalizeMethod(method) {
+    var upcased = method.toUpperCase()
+    return (methods.indexOf(upcased) > -1) ? upcased : method
+  }
+
+  function Request(input, options) {
+    options = options || {}
+    var body = options.body
+
+    if (input instanceof Request) {
+      if (input.bodyUsed) {
+        throw new TypeError('Already read')
+      }
+      this.url = input.url
+      this.credentials = input.credentials
+      if (!options.headers) {
+        this.headers = new Headers(input.headers)
+      }
+      this.method = input.method
+      this.mode = input.mode
+      if (!body && input._bodyInit != null) {
+        body = input._bodyInit
+        input.bodyUsed = true
+      }
+    } else {
+      this.url = String(input)
+    }
+
+    this.credentials = options.credentials || this.credentials || 'omit'
+    if (options.headers || !this.headers) {
+      this.headers = new Headers(options.headers)
+    }
+    this.method = normalizeMethod(options.method || this.method || 'GET')
+    this.mode = options.mode || this.mode || null
+    this.referrer = null
+
+    if ((this.method === 'GET' || this.method === 'HEAD') && body) {
+      throw new TypeError('Body not allowed for GET or HEAD requests')
+    }
+    this._initBody(body)
+  }
+
+  Request.prototype.clone = function() {
+    return new Request(this, { body: this._bodyInit })
+  }
+
+  function decode(body) {
+    var form = new FormData()
+    body.trim().split('&').forEach(function(bytes) {
+      if (bytes) {
+        var split = bytes.split('=')
+        var name = split.shift().replace(/\+/g, ' ')
+        var value = split.join('=').replace(/\+/g, ' ')
+        form.append(decodeURIComponent(name), decodeURIComponent(value))
+      }
+    })
+    return form
+  }
+
+  function parseHeaders(rawHeaders) {
+    var headers = new Headers()
+    // Replace instances of \r\n and \n followed by at least one space or horizontal tab with a space
+    // https://tools.ietf.org/html/rfc7230#section-3.2
+    var preProcessedHeaders = rawHeaders.replace(/\r?\n[\t ]+/g, ' ')
+    preProcessedHeaders.split(/\r?\n/).forEach(function(line) {
+      var parts = line.split(':')
+      var key = parts.shift().trim()
+      if (key) {
+        var value = parts.join(':').trim()
+        headers.append(key, value)
+      }
+    })
+    return headers
+  }
+
+  Body.call(Request.prototype)
+
+  function Response(bodyInit, options) {
+    if (!options) {
+      options = {}
+    }
+
+    this.type = 'default'
+    this.status = options.status === undefined ? 200 : options.status
+    this.ok = this.status >= 200 && this.status < 300
+    this.statusText = 'statusText' in options ? options.statusText : 'OK'
+    this.headers = new Headers(options.headers)
+    this.url = options.url || ''
+    this._initBody(bodyInit)
+  }
+
+  Body.call(Response.prototype)
+
+  Response.prototype.clone = function() {
+    return new Response(this._bodyInit, {
+      status: this.status,
+      statusText: this.statusText,
+      headers: new Headers(this.headers),
+      url: this.url
+    })
+  }
+
+  Response.error = function() {
+    var response = new Response(null, {status: 0, statusText: ''})
+    response.type = 'error'
+    return response
+  }
+
+  var redirectStatuses = [301, 302, 303, 307, 308]
+
+  Response.redirect = function(url, status) {
+    if (redirectStatuses.indexOf(status) === -1) {
+      throw new RangeError('Invalid status code')
+    }
+
+    return new Response(null, {status: status, headers: {location: url}})
+  }
+
+  self.Headers = Headers
+  self.Request = Request
+  self.Response = Response
+
+  self.fetch = function(input, init) {
+    return new Promise(function(resolve, reject) {
+      var request = new Request(input, init)
+      var xhr = new XMLHttpRequest()
+
+      xhr.onload = function() {
+        var options = {
+          status: xhr.status,
+          statusText: xhr.statusText,
+          headers: parseHeaders(xhr.getAllResponseHeaders() || '')
+        }
+        options.url = 'responseURL' in xhr ? xhr.responseURL : options.headers.get('X-Request-URL')
+        var body = 'response' in xhr ? xhr.response : xhr.responseText
+        resolve(new Response(body, options))
+      }
+
+      xhr.onerror = function() {
+        reject(new TypeError('Network request failed'))
+      }
+
+      xhr.ontimeout = function() {
+        reject(new TypeError('Network request failed'))
+      }
+
+      xhr.open(request.method, request.url, true)
+
+      if (request.credentials === 'include') {
+        xhr.withCredentials = true
+      } else if (request.credentials === 'omit') {
+        xhr.withCredentials = false
+      }
+
+      if ('responseType' in xhr && support.blob) {
+        xhr.responseType = 'blob'
+      }
+
+      request.headers.forEach(function(value, name) {
+        xhr.setRequestHeader(name, value)
+      })
+
+      xhr.send(typeof request._bodyInit === 'undefined' ? null : request._bodyInit)
+    })
+  }
+  self.fetch.polyfill = true
+})(typeof self !== 'undefined' ? self : this);
+
+
+/***/ }),
+
 /***/ "./pages/_app.tsx":
 /*!************************!*\
   !*** ./pages/_app.tsx ***!
@@ -18495,15 +28091,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "../../node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "../../node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "../../node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "../../node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/app */ "../../node_modules/next/app.js");
-/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "../../node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/styles */ "../../node_modules/@material-ui/styles/esm/index.js");
-/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "../../node_modules/@material-ui/core/esm/CssBaseline/index.js");
-/* harmony import */ var _src_theme__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/theme */ "./src/theme/index.ts");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral */ "../../node_modules/@babel/runtime-corejs2/helpers/esm/taggedTemplateLiteral.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/app */ "../../node_modules/next/app.js");
+/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "../../node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/styles */ "../../node_modules/@material-ui/styles/esm/index.js");
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "../../node_modules/@material-ui/core/esm/CssBaseline/index.js");
+/* harmony import */ var _src_theme__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../src/theme */ "./src/theme/index.ts");
+/* harmony import */ var _src_Firebase__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../src/Firebase */ "./src/Firebase/index.tsx");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! styled-components */ "../../node_modules/styled-components/dist/styled-components.browser.esm.js");
+
 
 
 
@@ -18512,11 +28112,28 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "C:\\Users\\charl\\Documents\\projects\\copoetry\\packages\\web\\pages\\_app.tsx";
 
+function _templateObject() {
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6__["default"])(["\n  body {\n    \n    font-family: 'Fira Mono', monospace !important;\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
 
 
 
 
 
+
+
+
+
+var GlobalStyles = Object(styled_components__WEBPACK_IMPORTED_MODULE_14__["createGlobalStyle"])(_templateObject());
+var themeStyled = {
+  main: "mediumseagreen"
+};
 
 var MyApp =
 /*#__PURE__*/
@@ -18545,51 +28162,144 @@ function (_App) {
       var _this$props = this.props,
           Component = _this$props.Component,
           pageProps = _this$props.pageProps;
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_7__["Container"], {
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_8__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 37
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_9___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 38
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 39
         },
         __self: this
-      }, "My page")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_material_ui_styles__WEBPACK_IMPORTED_MODULE_9__["ThemeProvider"], {
-        theme: _src_theme__WEBPACK_IMPORTED_MODULE_11__["default"],
+      }, "copoetry")), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_src_Firebase__WEBPACK_IMPORTED_MODULE_13__["FirebaseContext"].Provider, {
+        value: new _src_Firebase__WEBPACK_IMPORTED_MODULE_13__["Firebase"](),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 41
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(styled_components__WEBPACK_IMPORTED_MODULE_14__["ThemeProvider"], {
+        theme: themeStyled,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 42
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_styles__WEBPACK_IMPORTED_MODULE_10__["ThemeProvider"], {
+        theme: _src_theme__WEBPACK_IMPORTED_MODULE_12__["default"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 43
         },
         __self: this
-      }))));
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(GlobalStyles, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }))))));
     }
   }]);
 
   return MyApp;
-}(next_app__WEBPACK_IMPORTED_MODULE_7___default.a);
+}(next_app__WEBPACK_IMPORTED_MODULE_8___default.a);
 
 /* harmony default export */ __webpack_exports__["default"] = (MyApp);
+
+/***/ }),
+
+/***/ "./src/Firebase/context.ts":
+/*!*********************************!*\
+  !*** ./src/Firebase/context.ts ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "../../node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var FirebaseContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.createContext(null);
+/* harmony default export */ __webpack_exports__["default"] = (FirebaseContext);
+
+/***/ }),
+
+/***/ "./src/Firebase/firebase.tsx":
+/*!***********************************!*\
+  !*** ./src/Firebase/firebase.tsx ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "../../node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/app */ "../../node_modules/firebase/app/dist/index.cjs.js");
+/* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(firebase_app__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var config = {
+  apiKey: "AIzaSyBUcqxtHzVMkJGB4Fr7nH1dRBMPnCMVu24",
+  authDomain: "copoetry-a560a.firebaseapp.com",
+  databaseURL: "https://copoetry-a560a.firebaseio.com",
+  projectId: "copoetry-a560a",
+  storageBucket: "copoetry-a560a.appspot.com",
+  messagingSenderId: "1035607456245"
+};
+
+var Firebase = function Firebase() {
+  Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Firebase);
+
+  if (firebase_app__WEBPACK_IMPORTED_MODULE_1___default.a.apps.length === 0) {
+    firebase_app__WEBPACK_IMPORTED_MODULE_1___default.a.initializeApp(config);
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Firebase);
+
+/***/ }),
+
+/***/ "./src/Firebase/index.tsx":
+/*!********************************!*\
+  !*** ./src/Firebase/index.tsx ***!
+  \********************************/
+/*! exports provided: FirebaseContext, Firebase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./context */ "./src/Firebase/context.ts");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FirebaseContext", function() { return _context__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./firebase */ "./src/Firebase/firebase.tsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Firebase", function() { return _firebase__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
+
+
+
 
 /***/ }),
 

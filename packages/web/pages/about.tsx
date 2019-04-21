@@ -9,6 +9,6 @@ const Title = styled.h1`
 
 export default () => (
   <Layout>
-    <Title>Hello</Title>
+    <Title>About</Title>
   </Layout>
 );

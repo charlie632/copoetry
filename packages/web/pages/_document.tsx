@@ -1,6 +1,5 @@
 import * as React from "react";
 import Document, { Head, Main, NextScript } from "next/document";
-import { ServerStyleSheet } from "styled-components";
 import { ServerStyleSheets } from "@material-ui/styles";
 import flush from "styled-jsx/server";
 import theme from "../src/theme";
@@ -50,8 +49,8 @@ class MyDocument extends Document {
             content={theme.palette.primary.main}
           />
           <link
+            href="https://fonts.googleapis.com/css?family=Fira+Mono|Ubuntu+Mono"
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
           />
         </Head>
         <body>
