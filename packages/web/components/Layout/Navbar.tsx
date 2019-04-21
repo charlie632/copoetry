@@ -14,7 +14,7 @@ const Li = styled.li<LiProps>`
   list-style: none;
   font-size: ${remcalc(30)};
   text-decoration: ${(props: any) =>
-    props.active === "true" ? "overline" : "none"};
+    props.active === "true" ? "overline !important" : "none"};
   cursor: pointer;
   &:hover {
     text-decoration: underline;
