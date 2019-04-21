@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 import remcalc from "remcalc";
 import { useSpring, animated } from "react-spring";
 import { Button } from "../components/Layout/Button";
-
+import Link from "next/link";
 const Title = styled(animated.h1)`
   color: ${({ theme }) => theme.main};
   font-size: ${remcalc(30)};
@@ -29,7 +29,11 @@ export default () => {
         and it will be permanently added to our collection. No
         author's name at all. Completely annoynimous. Join the fun.
       </Body>
-      <Button>Click here to start</Button>
+      <Link href="/write">
+        <Button>
+          Click here to start
+      </Button>
+      </Link>
     </Layout>
   );
 };
