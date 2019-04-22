@@ -24,10 +24,10 @@ export default () => {
         copoetry is a new way to express yourself with the help of other
         annonymous writers. Just write one line of a new poem and it will be
         permanently added to our collection. No author's name at all. Completely
-        annoynimous. Join the fun.
+        annonymoud.
       </Body>
       <Link href="/write">
-        <Button>Click here to start</Button>
+        <Button>join the fun.</Button>
       </Link>
     </Layout>
   );

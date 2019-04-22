@@ -5,7 +5,7 @@ import { Title } from "../components/Layout/Title";
 
 export default () => (
   <Layout>
-    <Title>Hello</Title>
+    <Title>write</Title>
     <Write />
   </Layout>
 );

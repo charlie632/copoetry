@@ -1,44 +1,95 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
 import { FirebaseContext, Firebase } from "../../src/Firebase";
+import { Poem } from "../../interfaces";
 
-interface Poem {
-  name: string;
-}
+const PoemContext = React.createContext<Poem>(null);
+
 const Write: React.FC<any> = () => {
+  const poem = usePoemSubscription();
+  const userId = useSignIn();
+
+  if (poem === null) {
+    return (
+      <Grid container justify="center">
+        Loading...
+      </Grid>
+    );
+  }
+
+  return (
+    <PoemContext.Provider value={poem}>
+      <PoemHolder />
+    </PoemContext.Provider>
+  );
+};
+
+interface PoemProps {}
+const PoemHolder: React.FC<PoemProps> = () => {
+  const poem = React.useContext(PoemContext);
+  return (
+    <Grid container justify="center">
+      <Grid item xs={12} sm={7}>
+        <p style={{ textAlign: "center" }}>title: {poem.name}</p>
+      </Grid>
+    </Grid>
+  );
+};
+
+function useSignIn() {
   const firebase: Firebase = React.useContext(FirebaseContext) as Firebase;
-  const db = firebase.db as firebase.firestore.Firestore;
-  const [lastPoem, lastId] = useLastPoem(db);
+  const [userId, setUserId] = React.useState<string>(null);
 
   React.useEffect(() => {
-    if (lastId !== "") {
+    const unsuscribe = firebase.auth.onAuthStateChanged(
+      (user: firebase.User) => {
+        if (!user) {
+          firebase.signIn();
+        } else {
+          const isAnnonymous = user.isAnonymous;
+          if (!isAnnonymous) {
+            console.log("ERROR");
+          }
+          const uid = user.uid;
+          setUserId(uid);
+        }
+      }
+    );
+
+    return function() {
+      unsuscribe();
+    };
+  }, []);
+
+  return userId;
+}
+
+function usePoemSubscription() {
+  const firebase: Firebase = React.useContext(FirebaseContext) as Firebase;
+  const db = firebase.db as firebase.firestore.Firestore;
+  const poemId = useLastPoem(db);
+  const [poem, setPoem] = React.useState<Poem>(null);
+
+  React.useEffect(() => {
+    if (poemId !== null) {
       const unsubscribe = db
         .collection("Poems")
-        .doc(lastId)
+        .doc(poemId)
         .onSnapshot(doc => {
-          console.log(doc.data());
+          setPoem(doc.data() as Poem);
         });
 
       return function() {
         unsubscribe();
       };
     }
-  }, [lastId]);
+  }, [poemId]);
 
-  if (lastPoem === null) {
-    return (
-      <Grid container justify="center">
-        {" "}
-        Loading...
-      </Grid>
-    );
-  }
-
-  return <Grid container>Poem name: {lastPoem.name}</Grid>;
-};
+  return poem;
+}
 
 function useLastPoem(db: firebase.firestore.Firestore) {
-  const [lastPoem, setLastPoem] = React.useState<[Poem, string]>([null, ""]);
+  const [lastId, setLastId] = React.useState<string>(null);
   React.useEffect(() => {
     getLastPoem();
   }, []);
@@ -50,14 +101,13 @@ function useLastPoem(db: firebase.firestore.Firestore) {
       .limit(1)
       .get();
     if (!snap.empty) {
-      const docs = snap.docs.map(d => d.data());
-      if (docs.length > 0) {
-        setLastPoem([docs[0] as Poem, snap.docs[0].id]);
+      if (snap.docs.length > 0) {
+        setLastId(snap.docs[0].id);
       }
     }
   };
 
-  return lastPoem;
+  return lastId;
 }
 
 export default Write;
